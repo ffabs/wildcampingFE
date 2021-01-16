@@ -1,0 +1,57 @@
+.camping-preview {
+    background-color: white;
+    width: 600px;
+    margin: 10px;
+    display: flex;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+    .camping-preview-image {
+        width: 50%;
+        background-color: teal;
+        margin: 0px 20px 0px 0px;
+        border-radius: 4px;
+    }
+
+    .camping-preview-text {
+        display: flex;
+        flex-direction: column;
+        margin: 10px 0px 20px 0px;
+    }
+
+        .camping-preview-title {
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 33px;
+            margin-bottom: 20px;
+        }
+
+        .camping-preview-priceandbooking {
+            display: flex;
+            font-size: 18px;
+            line-height: 24px;
+        }
+            .camping-preview-price {
+                margin-right: 10px;
+            }
+            .camping-preview-booking{
+                font-weight: 800;
+            }
+
+        .camping-preview-icons {
+            margin: 20px 0px 20px 0px;
+            display: flex;
+        }
+        
+        .camping-preview-button {
+            background-color: #2F8C2D;
+            color: white;
+            border-radius: 10px;
+            padding: 7px;
+            font-weight: 700;
+            font-size: 24px;
+            width: 120px;
+            cursor: pointer;
+            text-align: center;
+        }
