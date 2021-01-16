@@ -3,6 +3,10 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.hide {
+  display: none;
+}
+
 a {
   text-decoration: none;
 }
@@ -34,11 +38,3 @@ a {
     margin-bottom: 20px;
     color: white;
   }
-
-.search-list {
-  background-color: #4e5564;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 50px 0px 50px 0px;
-}

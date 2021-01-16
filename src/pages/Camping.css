@@ -1,0 +1,40 @@
+.camping-page {
+    padding: 45px 30px;
+}
+
+    .camping-title {
+        font-size: 48px;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+
+    .camping-image {
+        height: 550px;
+    }
+
+    .camping-important {
+        background-color: #4268d8;
+        color: white;
+        width: 100%;
+        margin: 40px 0px;
+        text-align: center;
+    }
+        .camping-booking {
+            padding-top: 20px;
+        }
+            .camping-booking-text {
+                line-height: 24px;
+            }
+        .camping-price {
+            margin-top: 10px;
+            padding-bottom: 20px;
+        }
+    
+    .camping-map {
+        margin-bottom: 50px;
+    }
+
+    .camping-characteristics {
+        display: flex;
+        margin-bottom: 100px;
+    }

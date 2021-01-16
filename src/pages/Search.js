@@ -1,6 +1,7 @@
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import CampingPreview from '../components/CampingPreview';
+import './Search.css';
 
 function Search() {
   return ( 

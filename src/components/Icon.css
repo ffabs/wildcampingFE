@@ -1,5 +1,17 @@
-.icon{
+.icon-section {
+    display: flex;
+    align-items: center;
     margin-right: 20px;
-    font-size: 40px;
-    text-align: center;
 }
+
+    .icon{
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .details {
+        margin-left: 20px;
+        margin-right: 40px;
+        font-size: 24px;
+        font-weight: 400;
+    }

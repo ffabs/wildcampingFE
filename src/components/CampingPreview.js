@@ -14,9 +14,9 @@ function CampingPreview() {
                 <div className="camping-preview-booking">Booking required</div>
             </div>
             <div className="camping-preview-icons">
-                <Icon icon="fire"/>
-                <Icon icon="water"/>
-                <Icon icon="stars"/>
+                <Icon icon="fire" details="no"/>
+                <Icon icon="water" details="no"/>
+                <Icon icon="stars" details="no"/>
             </div>
             <a href="/camping">
               <div className="camping-preview-button">Details</div>
