@@ -1,6 +1,7 @@
 import homeBackground from '../images/home-background.png';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import {Link} from 'react-router-dom';
 import './Home.css';
 
 function Home() {
@@ -11,11 +12,11 @@ function Home() {
             <div className="home-background-text">
                 <p>Find the best <b>wild camping</b> experiences in the German deep Nature</p>
                 <div className="home-background-form">
-                    <a href="/search">
+                    <Link to="/search">
                         <div className="home-background-button">
                             Search
                         </div>
-                    </a>
+                    </Link>
                 </div>
             </div>
             <img src={homeBackground} className="home-background-image" alt="wild-camping" />

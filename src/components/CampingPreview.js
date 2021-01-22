@@ -2,6 +2,7 @@ import homeBackground from '../images/home-background.png';
 import Icon from './Icon';
 import '../App.css';
 import './CampingPreview.css';
+import {Link} from 'react-router-dom';
 
 function CampingPreview() {
   return (
@@ -18,9 +19,9 @@ function CampingPreview() {
                 <Icon icon="water" details="no"/>
                 <Icon icon="stars" details="no"/>
             </div>
-            <a href="/camping">
+            <Link to="/camping">
               <div className="camping-preview-button">Details</div>
-            </a>
+            </Link>
         </div>
     </div>
   );

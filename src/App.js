@@ -2,12 +2,12 @@ import Home from './pages/Home';
 import Search from './pages/Search';
 import Camping from './pages/Camping';
 import './App.css';
-import {BrowserRouter, Switch, Route, Redirect} from 'react-router-dom';
+import {HashRouter, Switch, Route, Redirect} from 'react-router-dom';
 import ScrollToTop from 'react-router-scroll-top';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <ScrollToTop>
         <Switch>
           <Route exact={true} path='/' render={() => (
@@ -24,7 +24,7 @@ function App() {
           )}/>
         </Switch>
       </ScrollToTop>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
