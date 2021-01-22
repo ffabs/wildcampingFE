@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import homeBackground from '../images/home-background.png';
 import Icon from './Icon';
 import '../App.css';
 import './CampingPreview.css';
