@@ -1,15 +1,16 @@
 .home-background {
-    position: relative;
     text-align: center;
 }
   
 .home-background-image {
+    min-height: 360px;
     width: 100%;
     margin-bottom: -3px;
 }
 
 .home-background-text {
     position: absolute;
+    margin-top: 30px;
     width: 100%;
     top: 25%;
     left: 50%;
@@ -42,8 +43,8 @@
 }
 
     .home-question {
-        margin: 90px 0px;
-        font-size: 48px;
+        margin: 90px 40px 90px 40px;
+        font-size: 40px;
         font-weight: 500;
     }
 
@@ -54,3 +55,25 @@
         font-size: 24px;
         font-weight: 400;
     }
+
+
+@media only screen and (max-width: 750px) {
+    
+    .home-background-text {
+        font-size: 20px;
+        width: 90%;
+        position: absolute;
+    }
+
+    .home-question {
+        margin: 40px;
+        font-size: 30px;
+    }
+
+    .home-paragraph {
+        font-size: 20px;
+        margin-bottom: 40px;
+        width: 70%;
+    }
+    
+}

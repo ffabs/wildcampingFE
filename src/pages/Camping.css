@@ -9,7 +9,8 @@
     }
 
     .camping-image {
-        height: 550px;
+        width: 80%;
+        min-height: 350px;
     }
 
     .camping-important {
@@ -36,5 +37,21 @@
 
     .camping-characteristics {
         display: flex;
+        flex-wrap: wrap;
         margin-bottom: 100px;
     }
+
+@media only screen and (max-width: 750px) {
+
+    .camping-title {
+        font-size: 30px;
+    }
+
+    .camping-booking-text {
+        line-height: 20px;
+    }
+
+    .camping-image {
+        width: 100%;
+    }
+}

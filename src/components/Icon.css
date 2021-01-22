@@ -15,3 +15,20 @@
         font-size: 24px;
         font-weight: 400;
     }
+
+@media only screen and (max-width: 750px) {
+
+    .details {
+        font-size: 20px;
+        margin: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 550px) {
+
+    .icon{
+        font-size: 25px;
+    }
+
+}

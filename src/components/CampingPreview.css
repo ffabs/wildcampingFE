@@ -9,7 +9,6 @@
 
     .camping-preview-image {
         width: 50%;
-        background-color: teal;
         margin: 0px 20px 0px 0px;
         border-radius: 4px;
     }
@@ -51,7 +50,66 @@
             padding: 7px;
             font-weight: 700;
             font-size: 24px;
-            width: 120px;
+            /* width: 120px; */
             cursor: pointer;
             text-align: center;
         }
+
+@media only screen and (max-width: 750px) {
+
+    .camping-preview {
+        width: 90%;
+    }
+
+}
+
+@media only screen and (max-width: 550px) {
+
+    .camping-preview-title {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .camping-preview-priceandbooking {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .camping-preview-button {
+        font-size: 15px;
+    }
+
+}
+
+@media only screen and (max-width: 450px) {
+
+    .camping-preview-title {
+        font-size: 15px;
+        line-height: 15px;
+    }
+
+    .camping-preview-priceandbooking {
+        font-size: 12px;
+        line-height: 13px;
+    }
+
+    .camping-preview-button {
+        font-size: 13px;
+        width: 80%;
+    }
+
+}
+
+@media only screen and (max-width: 370px) {
+
+    .camping-preview-title {
+        font-size: 13px;
+        line-height: 13px;
+    }
+
+    .camping-preview-priceandbooking {
+        font-size: 10px;
+        line-height: 11px;
+    }
+
+}
