@@ -12,7 +12,20 @@
         margin: 0 1rem;
     }
 
+    .pagination-text {
+        width: 80px;
+        text-align: center;
+    }
+
     .pagination-number-current {
         background: #00695c;
         color: white;
     }
+
+@media only screen and (max-width: 450px) {
+
+    .pagination-text {
+        display: none;
+    }
+
+}

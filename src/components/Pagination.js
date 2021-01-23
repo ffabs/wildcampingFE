@@ -14,17 +14,17 @@ class Pagination extends Component {
         
         return (
             <div className="pagination">
-                {currentPage !== 1 &&
+                {/* {currentPage !== 1 &&
                     <Link to="/search?page=1">
                         <div className="pagination-number">1</div>
                     </Link>
-                }
-                {currentPage > 3 &&
+                } */}
+                {currentPage > 1 &&
                     <Link to={"/search?page="+previousPage}>
-                        <div className="pagination-number">...</div> 
+                        <div className="pagination-number pagination-text">Previous</div> 
                     </Link>
                 }
-                {previousPage > 1 &&
+                {previousPage > 0 &&
                     <Link to={"/search?page="+previousPage}>
                         <div className="pagination-number">{previousPage}</div> 
                     </Link>
@@ -40,9 +40,9 @@ class Pagination extends Component {
                         <div className="pagination-number">3</div>
                     </Link>
                 }
-                {nextPage <= lastPage &&
+                {nextPage < lastPage &&
                     <Link to={"/search?page="+nextPage}>
-                        <div className="pagination-number">...</div> 
+                        <div className="pagination-number pagination-text">Next</div> 
                     </Link>
                 }
             </div>
