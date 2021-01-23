@@ -27,7 +27,7 @@ function Home() {
             <div className="home-paragraph">There are special areas, often in natual parks, where camping in the nature is fully legal.
             In some cases, these areas require a booking and cost about 10 euros per night.
             In other cases, they are free and in some other cases not even a booking is required.</div>
-            <div className="home-paragraph">Are you interested in having an wild experience in the Nature worry free? <a href="/search"> <u>Search</u> </a> now for available places!</div>
+            <div className="home-paragraph">Are you interested in having an wild experience in the Nature worry free? <Link to="/search"> <u>Search</u> </Link> now for available places!</div>
         </div>
         <Footer />
     </div>  
