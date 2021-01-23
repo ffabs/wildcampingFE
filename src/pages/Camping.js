@@ -5,12 +5,17 @@ import Icon from '../components/Icon';
 import './Camping.css';
 import {useLocation} from "react-router-dom";
 import Data from '../camping-data.json';
+import {Redirect} from 'react-router-dom';
 
 export default function Camping() {
 
   const search = useLocation().search;
-  const campingId = new URLSearchParams(search).get('name');
-
+  let campingId = new URLSearchParams(search).get('name');
+  if(!Data[campingId]){
+    return (
+      <Redirect to="/" />
+    ) 
+  } else {
   let image = Data[campingId]["pictures"]["pic1"];
   let name = Data[campingId]["name"]; 
   let price = Data[campingId]["price"]; 
@@ -20,12 +25,25 @@ export default function Camping() {
   let toilet = Data[campingId]["toilet"];
   let legal = Data[campingId]["legal"];
 
-  return ( 
-    <div>
+    return ( 
+      <div>
         <Header />
         <div className="camping-page">
           <div className="camping-title">{name}</div>
           <img src={image} className="camping-image" alt="wild-camping" />
+          <div>
+            additional data to add:
+            "website"
+            "contacts"
+            "region"
+            "address"
+            "coordinates"
+            "pictures"
+            "description"
+            "tents"
+            "accessibility"
+            "nights"
+          </div>
           <div className="camping-important">
             {bookingRequired === true &&
             <div className="camping-booking">
@@ -54,7 +72,7 @@ export default function Camping() {
           </div>
         </div>
         <Footer />
-    </div>  
-  );
-
+      </div>  
+    );
+  }
 }
