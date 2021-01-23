@@ -19,6 +19,11 @@ class Pagination extends Component {
                         <div className="pagination-number">1</div>
                     </Link>
                 }
+                {currentPage > 3 &&
+                    <Link to={"/search?page="+previousPage}>
+                        <div className="pagination-number">...</div> 
+                    </Link>
+                }
                 {previousPage > 1 &&
                     <Link to={"/search?page="+previousPage}>
                         <div className="pagination-number">{previousPage}</div> 
@@ -29,7 +34,17 @@ class Pagination extends Component {
                     <Link to={"/search?page="+nextPage}>
                         <div className="pagination-number">{nextPage}</div> 
                     </Link>
-                } 
+                }
+                {currentPage === 1 &&
+                    <Link to="/search?page=3">
+                        <div className="pagination-number">3</div>
+                    </Link>
+                }
+                {nextPage <= lastPage &&
+                    <Link to={"/search?page="+nextPage}>
+                        <div className="pagination-number">...</div> 
+                    </Link>
+                }
             </div>
         )
 
