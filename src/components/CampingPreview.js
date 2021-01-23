@@ -44,7 +44,7 @@ class CampingPreview extends Component {
                   <Icon icon="legal" details="no"/>
                 }
               </div>
-              <Link to="/camping">
+              <Link to={"/camping?name="+name}>
                 <div className="camping-preview-button">Details</div>
               </Link>
           </div>
