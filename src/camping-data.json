@@ -5,7 +5,10 @@
         "contacts": "http://www.trekking-eifel.de/de/jetzt-buchen/",
         "region": "North Rhine-Westphalia",
         "address": "",
-        "coordinates": "",
+        "coordinates": {
+            "latitude": "",
+            "longitude": ""
+        },
         "pictures": {
             "pic1": "http://www.trekking-eifel.de/cache/Naturlager_Huertgenwald-27-jpg-bb71529e00f61eb9d7ecf28f4d87afa4.jpeg",
             "pic2": "http://www.trekking-eifel.de/cache/Naturlager_Blankenheim_by_Nils_Noell-3-jpg-5b76b5fd3f2cc17496e42dec5dfdaf65.jpeg",

@@ -1,17 +1,35 @@
 .camping-page {
-    padding: 45px 30px;
+    padding: 10px 30px 45px 30px;
 }
 
     .camping-title {
         font-size: 48px;
         font-weight: 500;
+        margin-top: 40px;
         margin-bottom: 20px;
     }
 
-    .camping-image {
-        width: 80%;
-        min-height: 350px;
+    .camping-images {
+        display: flex;
+        margin-bottom: 30px;
     }
+
+        .camping-image {
+            width: 75%;
+            min-height: 200px;
+        }
+
+        .camping-images-preview {
+            display: flex;
+            flex-direction: column;
+        }
+
+            .camping-image-preview {
+                cursor: pointer;
+                margin-left: 5px;
+                margin-bottom: 5px;
+                width: 100%;
+            }
 
     .camping-important {
         background-color: #4268d8;
