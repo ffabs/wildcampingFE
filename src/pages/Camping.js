@@ -23,9 +23,9 @@ function Camping() {
           <div className="camping-map"> <Pin /> </div>
           <div className="camping-title">Characteristics</div>
           <div className="camping-characteristics">
+            <Icon icon="naturalPark" details="yes"/>
             <Icon icon="fire" details="yes"/>
-            <Icon icon="water" details="yes"/>
-            <Icon icon="stars" details="yes"/>
+            <Icon icon="toilet" details="yes"/>
           </div>
         </div>
         <Footer />

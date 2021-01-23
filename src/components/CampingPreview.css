@@ -44,13 +44,13 @@
         }
         
         .camping-preview-button {
-            background-color: #2F8C2D;
+            background-color: #00695c;
             color: white;
             border-radius: 10px;
             padding: 7px;
             font-weight: 700;
             font-size: 24px;
-            /* width: 120px; */
+            width: 120px;
             cursor: pointer;
             text-align: center;
         }

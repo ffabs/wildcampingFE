@@ -10,10 +10,14 @@ class CampingPreview extends Component {
   
   render() {
 
+    let image = Data[this.props.campingId]["pictures"]["pic1"];
     let name = Data[this.props.campingId]["name"]; 
     let price = Data[this.props.campingId]["price"]; 
     let bookingRequired = Data[this.props.campingId]["bookingRequired"];
-    let image = Data[this.props.campingId]["pictures"]["pic1"];
+    let naturalPark = Data[this.props.campingId]["naturalPark"];
+    let fire = Data[this.props.campingId]["fireAllowed"];
+    let toilet = Data[this.props.campingId]["toilet"];
+    let legal = Data[this.props.campingId]["legal"];
 
     return (
       <div className="camping-preview">
@@ -27,9 +31,18 @@ class CampingPreview extends Component {
                   }
               </div>
               <div className="camping-preview-icons">
+                { naturalPark === true &&
+                  <Icon icon="naturalPark" details="no"/>
+                }
+                { fire === true &&
                   <Icon icon="fire" details="no"/>
-                  <Icon icon="water" details="no"/>
-                  <Icon icon="stars" details="no"/>
+                }
+                { toilet === true &&
+                  <Icon icon="toilet" details="no"/>
+                }
+                { legal === true &&
+                  <Icon icon="legal" details="no"/>
+                }
               </div>
               <Link to="/camping">
                 <div className="camping-preview-button">Details</div>
