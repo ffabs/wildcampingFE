@@ -1,7 +1,7 @@
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Icon from '../components/Icon';
-import Pin from '../components/Pin';
+// import Pin from '../components/Pin';
 import './Camping.css';
 import {useLocation} from "react-router-dom";
 import Data from '../camping-data.json';
