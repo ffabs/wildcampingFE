@@ -1,5 +1,7 @@
 .camping-page {
     padding: 10px 30px 45px 30px;
+    display: flex;
+    flex-direction: column;
 }
 
     .camping-title {
@@ -9,26 +11,69 @@
         margin-bottom: 20px;
     }
 
-    .camping-images {
+    .camping-intro-section {
         display: flex;
-        margin-bottom: 30px;
     }
 
-        .camping-image {
-            width: 75%;
-            min-height: 200px;
+        .camping-images {
+            display: flex;
+            margin-bottom: 30px;
         }
-
-        .camping-images-preview {
+            .camping-images-preview {
+                display: flex;
+                flex-direction: column;
+            }
+                .camping-image-preview {
+                    cursor: pointer;
+                    margin-bottom: 5px;
+                    width: 50px;
+                }
+            .camping-image {
+                min-height: 200px;
+                margin-bottom: 5px;
+                margin-left: 5px;
+                width: 800px;
+            }
+        
+        .camping-info {
             display: flex;
             flex-direction: column;
+            margin: 0px 30px;
         }
-
-            .camping-image-preview {
-                cursor: pointer;
-                margin-left: 5px;
-                margin-bottom: 5px;
-                width: 100%;
+            .camping-info-title {
+                font-size: 30px;
+                font-weight: 500;
+                margin-bottom: 20px;
+            }
+            .camping-description {
+                margin-bottom: 10px;
+                line-height: 160%;
+                font-size: 24px;
+                font-weight: 400;
+            }
+            .camping-website {
+                margin-bottom: 10px;
+                line-height: 160%;
+                font-size: 24px;
+                font-weight: 400;
+            }
+            .camping-contacts {
+                margin-bottom: 10px;
+                line-height: 160%;
+                font-size: 24px;
+                font-weight: 400;
+            }
+            .camping-tents {
+                margin-bottom: 10px;
+                line-height: 160%;
+                font-size: 24px;
+                font-weight: 400;
+            }
+            .camping-nights {
+                margin-bottom: 10px;
+                line-height: 160%;
+                font-size: 24px;
+                font-weight: 400;
             }
 
     .camping-important {

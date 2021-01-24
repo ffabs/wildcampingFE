@@ -1,7 +1,7 @@
 {
     "Camping in the Eifel": {
         "name": "Camping in the Eifel",
-        "website": "www.trekking-eifel.de",
+        "website": "https://trekking-eifel.de/de/",
         "contacts": "http://www.trekking-eifel.de/de/jetzt-buchen/",
         "region": "North Rhine-Westphalia",
         "address": "",
@@ -15,7 +15,7 @@
             "pic3": "http://www.trekking-eifel.de/cache/Naturlager_Abgetaucht-7531-jpg-e2b50bbafd4368fc81e29c06a1983ca7.jpeg",
             "pic4": "http://www.trekking-eifel.de/cache/Naturlager_Hohes_Venn-37-jpg-79a0d9be135dbfc64bc1f26d0af4a6a6.jpeg"
         },
-        "description": "- wooden platform available and toilets   - you can see all the possible pins of the park to this experience but the exact one will be shared during the booking",
+        "description": "Wooden platform available and toilets. You can see all the possible pins of the park to this experience but the exact one will be shared during the booking.",
         "toilet": true,
         "price": 10,
         "bookingRequired": true,

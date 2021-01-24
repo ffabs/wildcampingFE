@@ -36,32 +36,56 @@ export default function Camping() {
   let pic3 = Data[campingId]["pictures"]["pic3"];
   let pic4 = Data[campingId]["pictures"]["pic4"];
   let description = Data[campingId]["description"];
-  let tents = Data[campingId]["tents"]["amount"] + Data[campingId]["tents"]["type"];
+  let tents = Data[campingId]["tents"]["amount"] + " " + Data[campingId]["tents"]["type"];
   let accessibility = Data[campingId]["accessibility"];
   let nights = Data[campingId]["nights"]["maxNights"];
+
+  let mainImage = pic1;
 
     return ( 
       <div>
         <Header />
         <div className="camping-page">
           <div className="camping-title">{name}</div>
-          <div className="camping-images">
-            <img src={pic1} className="camping-image" alt="wild-camping" />
-            <div className="camping-images-preview">
-              { pic2 &&
-                <img src={pic2} className="camping-image-preview" alt="wild-camping" />
+          <div className="camping-intro-section">
+            <div className="camping-images">
+              <div className="camping-images-preview">
+                { pic1 &&
+                  <img src={mainImage} className="camping-image-preview" alt="wild-camping" />
+                }
+                { pic2 &&
+                  <img src={pic2} className="camping-image-preview" alt="wild-camping" />
+                }
+                { pic3 &&
+                  <img src={pic3} className="camping-image-preview" alt="wild-camping" />
+                }
+                { pic4 &&
+                  <img src={pic4} className="camping-image-preview" alt="wild-camping" />
+                }
+              </div>
+              <img src={pic1} className="camping-image" alt="wild-camping" />
+            </div>
+            <div className="camping-info">
+              <div className="camping-info-title">General Information</div>
+              { description &&
+                <div className="camping-description">{description}</div>
               }
-              { pic3 &&
-                <img src={pic3} className="camping-image-preview" alt="wild-camping" />
+              { website &&
+                <div className="camping-website"><b>website: </b>
+                  <a href={website} target="_blank" rel="noopener noreferrer">
+                    {website}</a>
+                </div>
               }
-              { pic4 &&
-                <img src={pic4} className="camping-image-preview" alt="wild-camping" />
+              { contacts &&
+                <div className="camping-contacts"><b>contacts:</b> {contacts}</div>
+              }
+              { tents &&
+                <div className="camping-tents"><b>tents allowed:</b> {tents}</div>
+              }
+              { nights &&
+                <div className="camping-nights"><b>nights allowed:</b> {nights}</div>
               }
             </div>
-          </div>
-          <div> {description}
-            additional data to add:
-            "pictures"
           </div>
           <div className="camping-important">
             {bookingRequired === true &&
@@ -71,17 +95,20 @@ export default function Camping() {
             </div>
             }
             <div className="camping-price">Expected price: {price}€</div>
-          </div>
-          <div className="camping-title">Info</div>
-            <div>{website}</div>
-            <div>{contacts}</div>
-            <div>{tents}</div>
-            <div>{nights}</div>
+          </div>            
           <div className="camping-title">Location</div>
-            <div>Country: {region}</div>
-            <div>Address: {address}</div>
-            <div>Latitude: {latitude} Longitude: {longitude}</div>
-            <div>Accessibility: {accessibility}</div>
+            { region &&
+              <div>Country: {region}</div>
+            }
+            { address &&
+              <div>Address: {address}</div>
+            }
+            { latitude && longitude &&
+              <div>Latitude: {latitude} Longitude: {longitude}</div>
+            }
+            { accessibility &&
+              <div>Accessibility: {accessibility}</div>
+            }
           {/* <div className="camping-map"> <Pin /> </div> */}
           <div className="camping-title">Characteristics</div>
           <div className="camping-characteristics">
