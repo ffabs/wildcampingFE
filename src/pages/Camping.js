@@ -1,6 +1,7 @@
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Icon from '../components/Icon';
+import CampingImages from '../components/CampingImages';
 // import Pin from '../components/Pin';
 import './Camping.css';
 import {useLocation} from "react-router-dom";
@@ -16,6 +17,7 @@ export default function Camping() {
       <Redirect to="/" />
     ) 
   } else {
+
   let name = Data[campingId]["name"]; 
   let price = Data[campingId]["price"]; 
   let bookingRequired = Data[campingId]["bookingRequired"];
@@ -40,31 +42,18 @@ export default function Camping() {
   let accessibility = Data[campingId]["accessibility"];
   let nights = Data[campingId]["nights"]["maxNights"];
 
-  let mainImage = pic1;
-
     return ( 
       <div>
         <Header />
         <div className="camping-page">
           <div className="camping-title">{name}</div>
           <div className="camping-intro-section">
-            <div className="camping-images">
-              <div className="camping-images-preview">
-                { pic1 &&
-                  <img src={mainImage} className="camping-image-preview" alt="wild-camping" />
-                }
-                { pic2 &&
-                  <img src={pic2} className="camping-image-preview" alt="wild-camping" />
-                }
-                { pic3 &&
-                  <img src={pic3} className="camping-image-preview" alt="wild-camping" />
-                }
-                { pic4 &&
-                  <img src={pic4} className="camping-image-preview" alt="wild-camping" />
-                }
-              </div>
-              <img src={pic1} className="camping-image" alt="wild-camping" />
-            </div>
+            <CampingImages 
+              pic1 = {pic1}
+              pic2 = {pic2}
+              pic3 = {pic3}
+              pic4 = {pic4}
+            />
             <div className="camping-info">
               <div className="camping-info-title">General Information</div>
               { description &&

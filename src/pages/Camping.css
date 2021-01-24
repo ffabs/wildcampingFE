@@ -14,26 +14,6 @@
     .camping-intro-section {
         display: flex;
     }
-
-        .camping-images {
-            display: flex;
-            margin-bottom: 30px;
-        }
-            .camping-images-preview {
-                display: flex;
-                flex-direction: column;
-            }
-                .camping-image-preview {
-                    cursor: pointer;
-                    margin-bottom: 5px;
-                    width: 50px;
-                }
-            .camping-image {
-                min-height: 200px;
-                margin-bottom: 5px;
-                margin-left: 5px;
-                width: 800px;
-            }
         
         .camping-info {
             display: flex;
