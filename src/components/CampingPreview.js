@@ -12,7 +12,7 @@ class CampingPreview extends Component {
 
     let image = Data[this.props.campingId]["pictures"]["pic1"];
     let name = Data[this.props.campingId]["name"]; 
-    let price = Data[this.props.campingId]["price"]; 
+    let price = +Data[this.props.campingId]["price"] || 0; 
     let bookingRequired = Data[this.props.campingId]["bookingRequired"];
     let naturalPark = Data[this.props.campingId]["naturalPark"];
     let fire = Data[this.props.campingId]["fireAllowed"];
@@ -31,6 +31,12 @@ class CampingPreview extends Component {
                   }
               </div>
               <div className="camping-preview-icons">
+                { bookingRequired === true &&
+                  <Icon icon="booking" details="no"/>
+                }
+                { price === 0 &&
+                  <Icon icon="free" details="no"/>
+                }
                 { naturalPark === true &&
                   <Icon icon="naturalPark" details="no"/>
                 }

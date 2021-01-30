@@ -31,3 +31,11 @@
         width: 800px;
         border-radius: 4px;
     }
+
+@media only screen and (max-width: 1200px) {
+
+    .camping-image {
+        width: 90%;
+    }
+    
+}

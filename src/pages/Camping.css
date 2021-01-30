@@ -8,7 +8,7 @@
         font-size: 48px;
         font-weight: 500;
         margin-top: 40px;
-        margin-bottom: 20px;
+        margin-bottom: 35px;
     }
 
     .camping-intro-section {
@@ -25,76 +25,117 @@
                 font-weight: 500;
                 margin-bottom: 20px;
             }
-            .camping-description {
+            .camping-description, .camping-website, 
+            .camping-contacts, .camping-tents, 
+            .camping-nights, .camping-accessibility, .camping-price {
                 margin-bottom: 10px;
                 line-height: 160%;
                 font-size: 24px;
                 font-weight: 400;
             }
-            .camping-website {
-                margin-bottom: 10px;
-                line-height: 160%;
-                font-size: 24px;
-                font-weight: 400;
-            }
-            .camping-contacts {
-                margin-bottom: 10px;
-                line-height: 160%;
-                font-size: 24px;
-                font-weight: 400;
-            }
-            .camping-tents {
-                margin-bottom: 10px;
-                line-height: 160%;
-                font-size: 24px;
-                font-weight: 400;
-            }
-            .camping-nights {
-                margin-bottom: 10px;
-                line-height: 160%;
-                font-size: 24px;
-                font-weight: 400;
-            }
-
-    .camping-important {
-        background-color: #4268d8;
-        color: white;
-        width: 100%;
-        margin: 40px 0px;
-        text-align: center;
-    }
-        .camping-booking {
-            padding-top: 20px;
-        }
-            .camping-booking-text {
-                line-height: 24px;
-            }
-        .camping-price {
-            margin-top: 10px;
-            padding-bottom: 20px;
-        }
     
     .camping-map {
         margin-bottom: 50px;
     }
 
-    .camping-characteristics {
-        display: flex;
-        flex-wrap: wrap;
-        margin-bottom: 100px;
+    .camping-char-title {
+        font-size: 30px;
+        font-weight: 500;
+        margin-top: 30px;
+        margin-bottom: 20px;
     }
+        .camping-characteristics {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 60px;
+        }
+
+@media only screen and (max-width: 1200px) {
+
+    .camping-page {
+        padding: 10px 50px 45px 50px;
+    }
+
+    .camping-intro-section {
+        flex-direction: column;
+    }
+
+    .camping-info {
+        margin: 0px;
+        width: 90%;
+    }
+
+    .camping-characteristics {
+        margin-bottom: 30px;
+    }
+
+}
+
+@media only screen and (max-width: 750px) {
+
+    .camping-page {
+        padding: 5px 35px 45px 15px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .camping-info {
+        width: 100%;
+    }
+
+    .camping-title {
+        font-size: 40px;
+    }
+
+    .camping-description, .camping-website, 
+    .camping-contacts, .camping-tents, 
+    .camping-nights, .camping-accessibility, .camping-price {
+        font-size: 20px;
+    }
+
+}
 
 @media only screen and (max-width: 750px) {
 
     .camping-title {
+        font-size: 45px;
+    }
+
+    .camping-page {
+        padding: 5px 40px 45px 10px;
+    }
+
+    .camping-info-title, .camping-char-title  {
         font-size: 30px;
     }
 
-    .camping-booking-text {
-        line-height: 20px;
+    .camping-description, .camping-website, 
+    .camping-contacts, .camping-tents, 
+    .camping-nights, .camping-accessibility, .camping-price {
+        font-size: 20px;
     }
 
-    .camping-image {
-        width: 100%;
+}
+
+@media only screen and (max-width: 500px) {
+
+    .camping-title {
+        font-size: 25px;
+        margin-top: 25px;
     }
+
+    .camping-page {
+        padding: 5px 40px 45px 10px;
+    }
+
+    .camping-info-title, .camping-char-title  {
+        font-size: 20px;
+    }
+
+    .camping-description, .camping-website, 
+    .camping-contacts, .camping-tents, 
+    .camping-nights, .camping-accessibility, .camping-price {
+        font-size: 15px;
+    }
+
 }

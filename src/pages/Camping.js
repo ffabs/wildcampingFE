@@ -19,14 +19,12 @@ export default function Camping() {
   } else {
 
   let name = Data[campingId]["name"]; 
-  let price = Data[campingId]["price"]; 
+  let price = +Data[campingId]["price"] || 0; 
   let bookingRequired = Data[campingId]["bookingRequired"];
-  
   let naturalPark = Data[campingId]["naturalPark"];
   let fire = Data[campingId]["fireAllowed"];
   let toilet = Data[campingId]["toilet"];
   let legal = Data[campingId]["legal"];
-  
   let website = Data[campingId]["website"];
   let contacts = Data[campingId]["contacts"];
   let region = Data[campingId]["region"];
@@ -55,7 +53,7 @@ export default function Camping() {
               pic4 = {pic4}
             />
             <div className="camping-info">
-              <div className="camping-info-title">General Information</div>
+              <div className="camping-info-title">General information</div>
               { description &&
                 <div className="camping-description">{description}</div>
               }
@@ -74,18 +72,34 @@ export default function Camping() {
               { nights &&
                 <div className="camping-nights"><b>nights allowed:</b> {nights}</div>
               }
+              { accessibility &&
+                <div className="camping-accessibility"><b>accessibility:</b> {accessibility}</div>
+              }              
+              <div className="camping-price"><b>expected price:</b> {price}€</div>
+              <div className="camping-char-title">Main features</div>
+              <div className="camping-characteristics">
+                { bookingRequired === true &&
+                  <Icon icon="booking" details="yes"/>
+                }
+                { price === 0 &&
+                  <Icon icon="free" details="yes"/>
+                }
+                { naturalPark === true &&
+                  <Icon icon="naturalPark" details="yes"/>
+                }
+                { fire === true &&
+                  <Icon icon="fire" details="yes"/>
+                }
+                { toilet === true &&
+                  <Icon icon="toilet" details="yes"/>
+                }
+                { legal === true &&
+                  <Icon icon="legal" details="yes"/>
+                }
+              </div>
             </div>
-          </div>
-          <div className="camping-important">
-            {bookingRequired === true &&
-            <div className="camping-booking">
-              <div className="camping-booking-text">The booking is required for this place</div>
-              <div className="camping-booking-text">Phone: 123456789 Email: adsdsas@asd.com</div>
-            </div>
-            }
-            <div className="camping-price">Expected price: {price}€</div>
-          </div>            
-          <div className="camping-title">Location</div>
+          </div>       
+          <div className="camping-info-title">Location</div>
             { region &&
               <div>Country: {region}</div>
             }
@@ -95,25 +109,7 @@ export default function Camping() {
             { latitude && longitude &&
               <div>Latitude: {latitude} Longitude: {longitude}</div>
             }
-            { accessibility &&
-              <div>Accessibility: {accessibility}</div>
-            }
           {/* <div className="camping-map"> <Pin /> </div> */}
-          <div className="camping-title">Characteristics</div>
-          <div className="camping-characteristics">
-            { naturalPark === true &&
-              <Icon icon="naturalPark" details="yes"/>
-            }
-            { fire === true &&
-              <Icon icon="fire" details="yes"/>
-            }
-            { toilet === true &&
-              <Icon icon="toilet" details="yes"/>
-            }
-            { legal === true &&
-              <Icon icon="legal" details="yes"/>
-            }
-          </div>
         </div>
         <Footer />
       </div>  

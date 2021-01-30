@@ -13,6 +13,18 @@ class Icon extends Component {
         return (
 
             <div>
+                {this.props.icon === "booking" &&
+                    <div className="icon-section"> 
+                        <div className="icon">📤</div> 
+                        <div className={detailsCss}>Booking required</div>   
+                    </div>
+                }
+                {this.props.icon === "free" &&
+                    <div className="icon-section"> 
+                        <div className="icon">☮️</div> 
+                        <div className={detailsCss}>No money required</div>   
+                    </div>
+                }
                 {this.props.icon === "fire" &&
                     <div className="icon-section"> 
                         <div className="icon">🔥</div> 
@@ -34,7 +46,7 @@ class Icon extends Component {
                 {this.props.icon === "legal" &&
                     <div className="icon-section"> 
                         <div className="icon">👮</div> 
-                        <div className={detailsCss}>An official legal place to camp</div>   
+                        <div className={detailsCss}>Official camping place</div>   
                     </div>
                 }
                 {/* {this.props.icon === "bike" &&

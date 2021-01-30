@@ -20,15 +20,15 @@
 
     .details {
         font-size: 20px;
-        margin: 20px;
+        margin: 15px;
     }
 
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 500px) {
 
-    .icon{
-        font-size: 25px;
+    .details {
+        font-size: 15px;
     }
 
 }
