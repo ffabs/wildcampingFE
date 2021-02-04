@@ -2,7 +2,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Icon from '../components/Icon';
 import CampingImages from '../components/CampingImages';
-// import Pin from '../components/Pin';
+import MapPin from '../components/MapPin/MapPin';
 import './Camping.css';
 import {useLocation} from "react-router-dom";
 import Data from '../camping-data.json';
@@ -110,6 +110,7 @@ export default function Camping() {
               <div>Latitude: {latitude} Longitude: {longitude}</div>
             }
           {/* <div className="camping-map"> <Pin /> </div> */}
+            <MapPin latitude={latitude} longitude={longitude}/>
         </div>
         <Footer />
       </div>  
