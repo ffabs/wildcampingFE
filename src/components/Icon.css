@@ -23,12 +23,20 @@
         margin: 15px;
     }
 
+    .icon{
+        font-size: 30px;
+    }
+
 }
 
 @media only screen and (max-width: 500px) {
 
     .details {
         font-size: 15px;
+    }
+
+    .icon{
+        font-size: 25px;
     }
 
 }

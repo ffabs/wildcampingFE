@@ -41,6 +41,7 @@
         .camping-preview-icons {
             margin: 20px 0px 20px 0px;
             display: flex;
+            flex-wrap: wrap;
         }
         
         .camping-preview-button {
