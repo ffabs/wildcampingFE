@@ -52,7 +52,7 @@ export default function Camping() {
               pic4 = {pic4}
             />
             <div className="camping-info">
-              <div className="camping-info-title">General information</div>
+              <div className="camping-section-title">General information</div>
               { description &&
                 <div className="camping-description">{description}</div>
               }
@@ -98,25 +98,26 @@ export default function Camping() {
               </div>
             </div>
           </div>       
-          <div className="camping-info-title">Location</div>
-            { region &&
-              <div>Country: {region}</div>
-            }
-            { address &&
-              <div>Address: {address}</div>
-            }
-            { latitude && longitude &&
-              <div>Latitude: {latitude} Longitude: {longitude}</div>
-            }
-            <iframe 
-              title="map" 
-              width="600" 
-              height="450" 
-              frameborder="0" 
-              style={{ border: 0 }}
-              src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJm8AYjzaQokcRtSwOtsofR5w&key=AIzaSyDx8TjLXQy9CIDjVVVU2EH2LXibwQRNKxs" 
-              allowfullscreen 
-            />
+          <div className="camping-location-section">
+              <div className="camping-section-title">Location</div>
+              { region &&
+                <div className="camping-region"> <b>Country: </b> {region}</div>
+              }
+              { address &&
+                <div className="camping-address"> <b>Address: </b>{address}</div>
+              }
+              { latitude && longitude &&
+                <div className="camping-coordinates"><b>Latitude: </b> {latitude} <b>Longitude: </b>{longitude}</div>
+              }
+              <iframe 
+                className="camping-map"
+                title="map"
+                // frameborder="0" 
+                style={{ border: 0 }}
+                src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJm8AYjzaQokcRtSwOtsofR5w&key=AIzaSyDx8TjLXQy9CIDjVVVU2EH2LXibwQRNKxs" 
+                // allowfullscreen 
+              />
+            </div>
         </div>
         <Footer />
       </div>  
