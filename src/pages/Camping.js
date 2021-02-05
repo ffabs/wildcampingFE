@@ -108,6 +108,15 @@ export default function Camping() {
             { latitude && longitude &&
               <div>Latitude: {latitude} Longitude: {longitude}</div>
             }
+            <iframe 
+              title="map" 
+              width="600" 
+              height="450" 
+              frameborder="0" 
+              style={{ border: 0 }}
+              src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJm8AYjzaQokcRtSwOtsofR5w&key=AIzaSyDx8TjLXQy9CIDjVVVU2EH2LXibwQRNKxs" 
+              allowfullscreen 
+            />
         </div>
         <Footer />
       </div>  
