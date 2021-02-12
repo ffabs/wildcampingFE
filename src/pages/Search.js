@@ -1,53 +1,50 @@
+import React, { Component } from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import CampingPreview from '../components/CampingPreview';
 import './Search.css';
-import Data from '../camping-data.json';
+import CampingPreview from '../components/CampingPreview';
+import Location from '../components/Location';
+import Filters from '../components/Filters';
 import Pagination from '../components/Pagination';
-import {useLocation} from "react-router-dom";
 
-export default function Search(props) {
+class Search extends Component {
   
-    var campingIds = [];
-    for (var x in Data) {
-      campingIds.push(x);
-    }
-
-    const search = useLocation().search;
-    const page = +new URLSearchParams(search).get('page');
-    let itemsPerPage = 6;
-    let currentPage = page || 1;
-    let firstIndex = ( currentPage - 1 ) * itemsPerPage;
-    let lastPage = Math.ceil(campingIds.length / itemsPerPage);
-
+  render() {
+ 
     return ( 
       <div>
           <Header />
+          <div className="search-filtering">
+            <Location {...this.props}/>
+            <Filters {...this.props}/>
+          </div>
           <div className="search-list">
-            {campingIds[firstIndex] &&
-              <CampingPreview campingId={campingIds[firstIndex]} />
+            {this.props.camping1 &&
+              <CampingPreview campingId={this.props.camping1} />
             }
-            {campingIds[firstIndex+1] &&
-              <CampingPreview campingId={campingIds[firstIndex+1]} />
+            {this.props.camping2 &&
+              <CampingPreview campingId={this.props.camping2} />
             }
-            {campingIds[firstIndex+2] &&
-              <CampingPreview campingId={campingIds[firstIndex+2]} />
+            {this.props.camping3 &&
+              <CampingPreview campingId={this.props.camping3} />
             }
-            {campingIds[firstIndex+3] &&
-              <CampingPreview campingId={campingIds[firstIndex+3]} />
+            {this.props.camping4 &&
+              <CampingPreview campingId={this.props.camping4} />
             }
-            {campingIds[firstIndex+4] &&
-              <CampingPreview campingId={campingIds[firstIndex+4]} />
+            {this.props.camping5 &&
+              <CampingPreview campingId={this.props.camping5} />
             }
-            {campingIds[firstIndex+5] &&
-              <CampingPreview campingId={campingIds[firstIndex+5]} />
+            {this.props.camping6 &&
+              <CampingPreview campingId={this.props.camping6} />
             }
             <Pagination 
-              currentPage={currentPage}
-              lastPage={lastPage}
+              {...this.props}
             />
           </div>
           <Footer />
       </div>  
     );
 };
+}
+
+export default Search;

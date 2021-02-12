@@ -1,49 +1,42 @@
 import React, { Component } from 'react';
 import './Pagination.css';
 import '../App.css';
-import {Link} from 'react-router-dom';
 
 class Pagination extends Component {
 
     render() {
-
-        let currentPage = this.props.currentPage;
-        let nextPage = currentPage + 1;
-        let lastPage = this.props.lastPage;
-        let previousPage = currentPage - 1;
+        let currentPage = +this.props.currentPage;
+        let nextPage = +currentPage + 1;
+        let lastPage = +this.props.lastPage;
+        let previousPage = +currentPage - 1;
         
         return (
             <div className="pagination">
-                {/* {currentPage !== 1 &&
-                    <Link to="/search?page=1">
-                        <div className="pagination-number">1</div>
-                    </Link>
-                } */}
                 {currentPage > 1 &&
-                    <Link to={"/search?page="+previousPage}>
-                        <div className="pagination-number pagination-text">Previous</div> 
-                    </Link>
+                    <button onClick={this.props.updatePage} value={previousPage} className="pagination-number pagination-text">
+                        Previous
+                    </button>
                 }
                 {previousPage > 0 &&
-                    <Link to={"/search?page="+previousPage}>
-                        <div className="pagination-number">{previousPage}</div> 
-                    </Link>
+                    <button onClick={this.props.updatePage} value={previousPage} className="pagination-number">
+                        {previousPage}
+                    </button>
                 }
                 <div className="pagination-number pagination-number-current">{currentPage}</div>
                 {nextPage <= lastPage &&
-                    <Link to={"/search?page="+nextPage}>
-                        <div className="pagination-number">{nextPage}</div> 
-                    </Link>
+                    <button onClick={this.props.updatePage} value={nextPage} className="pagination-number">
+                        {nextPage}
+                    </button>
                 }
-                {currentPage === 1 &&
-                    <Link to="/search?page=3">
-                        <div className="pagination-number">3</div>
-                    </Link>
+                {currentPage === 1 && lastPage >= 3 &&
+                    <button onClick={this.props.updatePage} value="3" className="pagination-number">
+                        3
+                    </button>
                 }
                 {nextPage < lastPage &&
-                    <Link to={"/search?page="+nextPage}>
-                        <div className="pagination-number pagination-text">Next</div> 
-                    </Link>
+                    <button onClick={this.props.updatePage} value={nextPage}  className="pagination-number pagination-text">
+                        Next
+                    </button>
                 }
             </div>
         )
