@@ -38,6 +38,7 @@ export default function Camping() {
   let tents = Data[campingId]["tents"]["amount"] + " " + Data[campingId]["tents"]["type"];
   let accessibility = Data[campingId]["accessibility"];
   let nights = Data[campingId]["nights"]["maxNights"];
+  let googlemaps = Data[campingId]["googlemaps"];
 
     return ( 
       <div>
@@ -114,7 +115,7 @@ export default function Camping() {
                 title="map"
                 // frameborder="0" 
                 style={{ border: 0 }}
-                src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJm8AYjzaQokcRtSwOtsofR5w&key=AIzaSyDx8TjLXQy9CIDjVVVU2EH2LXibwQRNKxs" 
+                src={"https://www.google.com/maps/embed/v1/place?q=place_id:"+googlemaps+"&key=AIzaSyDx8TjLXQy9CIDjVVVU2EH2LXibwQRNKxs"} 
                 // allowfullscreen 
               />
             </div>
