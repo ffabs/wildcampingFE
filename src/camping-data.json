@@ -107,7 +107,7 @@
     "Drage - Wildes": {
         "name": "Drage - Wildes",
         "website": "https://www.wildes-sh.de/uebernachtungsplaetze/drage/",
-        "contacts": "The provider of the overnight accommodation, Ms. Ute Gröne, can be reached on 04881-7797.",
+        "contacts": "the provider of the overnight accommodation, Ms. Ute Gröne, can be reached at 04881-7797",
         "region": "Schleswig-Holstein",
         "address": "Holm 18 25878 Drage",
         "coordinates": {
@@ -116,18 +116,18 @@
         },
         "pictures": {
             "pic1": "https://www.wildes-sh.de/fileadmin/_processed_/csm_image_db214510d2.jpg",
-            "pic2": "https://www.wildes-sh.de/fileadmin/PDFs/UEbernachtungsplaetze/Lageplan_UE-Platz_Drage.pdf",
+            "pic2": "",
             "pic3": "",
             "pic4": ""
         },
-        "description": "This overnight place is offered privately and is located on a 2500 square meter orchard of a rest yard in Drage. There are benches and tables on the lawn and bicycles can be stored in a shed if necessary. A washroom with toilet as well as a shower are located in the house and can be reached through a separate   entrance from the outside.  The place to stay is only 1.5 kilometers from an attractive swimming area and a canoe insertion point on the Eider.",
+        "description": "This place is in a 2500 square meter orchard in Drage. There are benches and tables and bicycles can be stored in a shed if necessary. A washroom with toilet and a shower are in the house but can be reached from outside through a separate entrance. This place is only 1.5 kilometers away from a swimming area and a canoe insertion point on the Eider. Booking via phone is required.",
         "toilet": true,
         "price": 0,
         "bookingRequired": true,
         "legal": true,
         "tents": {
             "amount": 2,
-            "type": "3 people each"
+            "type": "with 3 people each"
         },
         "accessibility": "on foot or by bike",
         "naturalPark": false,
@@ -135,7 +135,8 @@
             "maxNight": true,
             "maxNights": 1
         },
-        "fireAllowed": false
+        "fireAllowed": false,
+        "googlemaps": "ChIJ29zpK_KDs0cRuZ6WTZkcxjM"
     },
 
     "Eidertal - Wildes": {
@@ -143,25 +144,25 @@
         "website": "https://www.wildes-sh.de/uebernachtungsplaetze/eidertal/",
         "contacts": "",
         "region": "Schleswig-Holstein",
-        "address": "This area is located in the Eider Valley near a railway embankment and a hiking trail and is surrounded by bushes",
+        "address": "53R3+C5 Reesdorf",
         "coordinates": {
             "latitude": 54.1911,
             "longitude": 10.0530
         },
         "pictures": {
             "pic1": "https://www.wildes-sh.de/fileadmin/bilder/Zelt-Ministerwanderung.jpg",
-            "pic2": "https://www.wildes-sh.de/fileadmin/user_upload/Karte_UEbernachtung_Eidertal.pdf",
+            "pic2": "https://lh5.googleusercontent.com/p/AF1QipOVvkleVUaND9p5A2xUjDP7DXIecj-xU2OaVK-E=w408-h306-k-no",
             "pic3": "",
             "pic4": ""
         },
-        "description": "This area is located in the Eider Valley near a railway embankment and a hiking trail and is surrounded by bushes. The vegetation and a small rise in the earth offer a little protection from the wind. The above-mentioned rules of conduct must be strictly observed on the overnight areas of the Nature Conservation Foundation. It is not necessary to register in advance to camp on the area. Sanitary rooms are not available.",
+        "description": "This area, located in the Eider Valley, is surrounded by bushes and it is near a railway and a hiking trail. The vegetation and a the uneven ground offer a protection from the wind. Sanitary rooms are not available. It is not necessary to register in advance to camp on the area.",
         "toilet": false,
         "price": 0,
         "bookingRequired": false,
         "legal": true,
         "tents": {
             "amount": 2,
-            "type": "3 people each"
+            "type": "with 3 people each"
         },
         "accessibility": "on foot or by bike",
         "naturalPark": false,
@@ -169,7 +170,8 @@
             "maxNight": true,
             "maxNights": 1
         },
-        "fireAllowed": false
+        "fireAllowed": false,
+        "googlemaps": "GhIJ-n5qvHQYS0ARyHa-nxobJEA"
     },
 
     "Enge-Sande - Wildes": {
@@ -177,25 +179,25 @@
         "website": "https://www.wildes-sh.de/uebernachtungsplaetze/enge-sande/",
         "contacts": "",
         "region": "Schleswig-Holstein",
-        "address": "Enger Straße 25917 Enge-Sande, OT Enge",
+        "address": "Schulstraße 1, 25917 Enge-Sande",
         "coordinates": {
             "latitude": 54.731667,
             "longitude": 8.974444
         },
         "pictures": {
             "pic1": "https://www.wildes-sh.de/fileadmin/user_upload/Enge-Sande-800x600.jpg",
-            "pic2": "https://www.wildes-sh.de/fileadmin/PDFs/UEbernachtungsplaetze/Lageplan_Enge-Sande.pdf",
+            "pic2": "https://lh5.googleusercontent.com/p/AF1QipPzbe9Ir2No4PiSOiJCmvnZ_qC8cg5PXIYILvuJ=w408-h306-k-no",
             "pic3": "",
             "pic4": ""
         },
-        "description": "The privately offered place is located in a wooded area on the edge of the Langenberger Forst state forest near the municipality of Enge-Sande. A farm road leads from Enger-Strasse up into the forest. The small clearing, surrounded by old and young trees with a view of arable land and the village, offers protection and enough space for 2-3 tents. About 100m away there is a small pond that usually has water. Camping in the clearing is also possible here if there is not enough space. Registration is not required, there are no sanitary rooms available. Grilling is not allowed.",
+        "description": "This place is located at the edge of the Langenberger Forst state forest near the municipality of Enge-Sande. A farm road leads from Enger-Strasse up into the forest. The small camping area, is surrounded by both old and young trees and has a view of arable land and of the village. About 100m away there is a small pond that usually has water. There are no sanitary rooms. Registration is not required.",
         "toilet": false,
         "price": 0,
         "bookingRequired": false,
         "legal": true,
         "tents": {
-            "amount": 3,
-            "type": "3 people each"
+            "amount": 2,
+            "type": "with 3 people each"
         },
         "accessibility": "on foot or by bike",
         "naturalPark": false,
@@ -203,7 +205,8 @@
             "maxNight": true,
             "maxNights": 1
         },
-        "fireAllowed": false
+        "fireAllowed": false,
+        "googlemaps": "ChIJmd92vW-ZtEcRV3io7pOusFE"
     },
 
     "Trappenkamp Adventure Forest - Wildes": {
@@ -211,161 +214,25 @@
         "website": "https://www.wildes-sh.de/uebernachtungsplaetze/erlebniswald-trappenkamp/",
         "contacts": "",
         "region": "Schleswig-Holstein",
-        "address": "",
+        "address": "26FQ+H3 Daldorf",
         "coordinates": {
             "latitude": 54.0239,
             "longitude": 10.2376
         },
         "pictures": {
-            "pic1": "https://www.wildes-sh.de/fileadmin/user_upload/Zeltplatz_EWT_Landesforsten.jpg",
-            "pic2": "https://www.wildes-sh.de/fileadmin/user_upload/Karte_UEbernachtung_Trappenkamp.pdf",
+            "pic1": "https://lh5.googleusercontent.com/p/AF1QipOavy0VNWtcFR_VKD-P3W5s8dZ7liKWARGwRyES=w408-h306-k-no",
+            "pic2": "https://www.wildes-sh.de/fileadmin/user_upload/Zeltplatz_EWT_Landesforsten.jpg",
             "pic3": "",
             "pic4": ""
         },
-        "description": "This is a place to stay in the publicly accessible area of ​​the Trappenkamp adventure forest offered by the state forests in the Wild Schleswig-Holstein project. The site can also be reached outside of the Trappenkamp Adventure Forest's opening times.",
+        "description": "This place is publicly accessible and located in the area of ​​the Trappenkamp adventure forest. The site is accessible also when the Trappenkamp Adventure Forest's is closed. No booking is required.",
         "toilet": false,
         "price": 0,
         "bookingRequired": false,
         "legal": true,
         "tents": {
             "amount": 2,
-            "type": "3 people each"
-        },
-        "accessibility": "on foot or by bike",
-        "naturalPark": false,
-        "nights": {
-            "maxNight": true,
-            "maxNights": 1
-        },
-        "fireAllowed": false
-    },
-
-    "Gieselau valley - Wildes": {
-        "name": "Gieselau valley - Wildes",
-        "website": "https://www.wildes-sh.de/uebernachtungsplaetze/gieselautal/",
-        "contacts": "",
-        "region": "Schleswig-Holstein",
-        "address": "",
-        "coordinates": {
-            "latitude": 54.133688,
-            "longitude": 9.292500
-        },
-        "pictures": {
-            "pic1": "https://www.wildes-sh.de/fileadmin/user_upload/Gieselautal-800x600.jpg",
-            "pic2": "https://www.wildes-sh.de/fileadmin/PDFs/UEbernachtungsflaeche_Albersdorf.pdf",
-            "pic3": "",
-            "pic4": ""
-        },
-        "description": "This is a place to stay in the publicly accessible area of ​​the Stone Age Park in Albersdorf ( www.steinzeitpark-dithmarschen.de ) offered by the community of Albersdorf in the Wild Schleswig-Holstein project . The replica of the large stone grave of Frestedt is also located here. This PDF (444 KB) shows more pictures of the overnight place. Registration is not required, there are no sanitary rooms available. Grilling is not allowed.",
-        "toilet": false,
-        "price": 0,
-        "bookingRequired": false,
-        "legal": true,
-        "tents": {
-            "amount": 2,
-            "type": "3 people each"
-        },
-        "accessibility": "on foot or by bike",
-        "naturalPark": false,
-        "nights": {
-            "maxNight": true,
-            "maxNights": 1
-        },
-        "fireAllowed": false
-    },
-
-    "Gruber See - Wildes": {
-        "name": "Gruber See - Wildes",
-        "website": "https://www.wildes-sh.de/uebernachtungsplaetze/gruber-see/",
-        "contacts": "For each stay will register in advance by phone (+494364471866) or email (post@meeresbrise.de)",
-        "region": "Schleswig-Holstein",
-        "address": "Fährkamp 6 23749 pit",
-        "coordinates": {
-            "latitude": 54.2409,
-            "longitude": 11.0339
-        },
-        "pictures": {
-            "pic1": "https://www.wildes-sh.de/fileadmin/_processed_/csm_1200px_ba1bed6ea9.jpg",
-            "pic2": "https://meeresbrise.de/de/",
-            "pic3": "",
-            "pic4": ""
-        },
-        "description": "The Oldenburger Graben crosses the Wagrien peninsula and serves to drain several former lakes. The Gruber Seewiesen are an area of ​​several hectares owned by the Schleswig-Holstein Nature Conservation Foundation that has been grazed extensively for several years. The associated bird watching station is only a few hundred meters from the farm. The Mühlenhof is located in the north of Grube directly on the Oldenburger Graben. The international long-distance cycle path and the Mönchsweg run along the farm. A windmill worked on the farm for several hundred years. On our farm we are happy to offer friendly people the opportunity to pitch their tent for one night. A longer stay is possible in accordance with WWOOF. For each stay will register in advance by phone (+494364471866) or email (post@meeresbrise.de) asked  Note: This place is only available for (bicycle) hikers!",
-        "toilet": false,
-        "price": 0,
-        "bookingRequired": true,
-        "legal": true,
-        "tents": {
-            "amount": 2,
-            "type": "3 people each"
-        },
-        "accessibility": "Note: This place is only available for (bicycle) hikers!",
-        "naturalPark": false,
-        "nights": {
-            "maxNight": true,
-            "maxNights": 1
-        },
-        "fireAllowed": false
-    },
-
-    "Hattstedt - Wildes": {
-        "name": "Hattstedt - Wildes",
-        "website": "https://www.wildes-sh.de/uebernachtungsplaetze/hattstedt/",
-        "contacts": "If you have any questions, please contact 0175 7494094 or just drop by.",
-        "region": "Schleswig-Holstein",
-        "address": "Wolfgang Paulsen Husumer Strasse 8 25856 Hattstedt",
-        "coordinates": {
-            "latitude": 54.5113,
-            "longitude": 9.0341
-        },
-        "pictures": {
-            "pic1": "https://www.wildes-sh.de/fileadmin/bilder/UE-Plaetze/Zeltplatz_Hattstedt_800x600.jpg",
-            "pic2": "https://www.wildes-sh.de/fileadmin/PDFs/UEbernachtungsplaetze/Lageplan_Hattstedt.pdf",
-            "pic3": "",
-            "pic4": ""
-        },
-        "description": "This campsite is offered privately and is located on the paddock of the Paulsen family's rest yard in Hattstedt-Feld, 4 km north of Husum, near the North Sea Cycle Route and the Schobüller Forest. A compost toilet, tap and fireplace are available and may be used.",
-        "toilet": true,
-        "price": 0,
-        "bookingRequired": false,
-        "legal": true,
-        "tents": {
-            "amount": 2,
-            "type": "3 people each"
-        },
-        "accessibility": "on foot or by bike",
-        "naturalPark": false,
-        "nights": {
-            "maxNight": true,
-            "maxNights": 1
-        },
-        "fireAllowed": true
-    },
-
-    "Hessenstein - Wildes": {
-        "name": "Hessenstein - Wildes",
-        "website": "https://www.wildes-sh.de/uebernachtungsplaetze/hessenstein/",
-        "contacts": "",
-        "region": "Schleswig-Holstein",
-        "address": "",
-        "coordinates": {
-            "latitude": 54.306603,
-            "longitude": 10.562755
-        },
-        "pictures": {
-            "pic1": "https://www.wildes-sh.de/fileadmin/user_upload/Hessenstein800x600.jpg",
-            "pic2": "https://www.wildes-sh.de/fileadmin/user_upload/Karte_UEbernachtung_Hessenstein.pdf",
-            "pic3": "",
-            "pic4": ""
-        },
-        "description": "Attention! Do not drive vehicles off-road! The trekking sites are aimed exclusively at hikers or cyclists. They are not intended as a parking space for vehicles! Please note the rules so that we don't have to close the square! This overnight accommodation is provided by the Nature Conservation Foundation in the Hessenstein Foundation State (Plön district). It is an open space near an alder quarry, right on the hiking trail. Attractions such as the Tower Hill Castle and the Ice Age Museum are nearby.",
-        "toilet": false,
-        "price": 0,
-        "bookingRequired": false,
-        "legal": true,
-        "tents": {
-            "amount": 2,
-            "type": "3 people each"
+            "type": "with 3 people each"
         },
         "accessibility": "on foot or by bike",
         "naturalPark": true,
@@ -373,7 +240,148 @@
             "maxNight": true,
             "maxNights": 1
         },
-        "fireAllowed": false
+        "fireAllowed": false,
+        "googlemaps": "GhIJ8dJNYhADS0ARBFYOLbJ5JEA"
+    },
+
+    "Gieselau valley - Wildes": {
+        "name": "Gieselau valley - Wildes",
+        "website": "https://www.wildes-sh.de/uebernachtungsplaetze/gieselautal/",
+        "contacts": "",
+        "region": "Schleswig-Holstein",
+        "address": "Horstenmoorweg, 25767 Albersdorf",
+        "coordinates": {
+            "latitude": 54.133688,
+            "longitude": 9.292500
+        },
+        "pictures": {
+            "pic1": "https://www.wildes-sh.de/fileadmin/user_upload/Gieselautal-800x600.jpg",
+            "pic2": "https://lh5.googleusercontent.com/p/AF1QipPyxfKIkzZDJESvBciRW5hgGfjnaKuPvkfZd_4w=w426-h240-k-no",
+            "pic3": "",
+            "pic4": ""
+        },
+        "description": "This place is publicly accessible and located in the area of ​​the Stone Age Park in Albersdorf. The replica of the large stone grave of Frestedt can also be found here. There are no sanitary rooms available. Registration is not required.",
+        "toilet": false,
+        "price": 0,
+        "bookingRequired": false,
+        "legal": true,
+        "tents": {
+            "amount": 2,
+            "type": "with 3 people each"
+        },
+        "accessibility": "on foot or by bike",
+        "naturalPark": false,
+        "nights": {
+            "maxNight": true,
+            "maxNights": 1
+        },
+        "fireAllowed": false,
+        "googlemaps": "EilIb3JzdGVubW9vcndlZywgMjU3NjcgQWxiZXJzZG9yZiwgR2VybWFueSIuKiwKFAoSCT8LQBKJk7NHEbuJet9t-PY0EhQKEgnN_iw4kZOzRxFQA1jGY4kkBA"
+    },
+
+    "Gruber See - Wildes": {
+        "name": "Gruber See - Wildes",
+        "website": "https://www.wildes-sh.de/uebernachtungsplaetze/gruber-see/",
+        "contacts": "phone (+494364471866) and email (post@meeresbrise.de). Contact in advance required.",
+        "region": "Schleswig-Holstein",
+        "address": "Fährkamp 6 23749 Grube",
+        "coordinates": {
+            "latitude": 54.2409,
+            "longitude": 11.0339
+        },
+        "pictures": {
+            "pic1": "https://www.wildes-sh.de/fileadmin/_processed_/csm_1200px_ba1bed6ea9.jpg",
+            "pic2": "",
+            "pic3": "",
+            "pic4": ""
+        },
+        "description": "This place is in a farm where the owners are happy to offer the opportunity to pitch a tent for one night. The Mönchsweg, the international long-distance cycle path from Bremen to the Baltic Sea island of Fehmarn, is just next to the farm. For each stay, registration by phone or email is required.",
+        "toilet": false,
+        "price": 0,
+        "bookingRequired": true,
+        "legal": true,
+        "tents": {
+            "amount": 2,
+            "type": "with 3 people each"
+        },
+        "accessibility": "This place is only available for bicycle travellers",
+        "naturalPark": false,
+        "nights": {
+            "maxNight": true,
+            "maxNights": 1
+        },
+        "fireAllowed": false,
+        "googlemaps": "ChIJ2ckzeKGBrUcRi3lA5vFuJhU"
+    },
+
+    "Hattstedt - Wildes": {
+        "name": "Hattstedt - Wildes",
+        "website": "https://www.wildes-sh.de/uebernachtungsplaetze/hattstedt/",
+        "contacts": "for any questions contact 0175 7494094 or just drop by",
+        "region": "Schleswig-Holstein",
+        "address": "Husumer Str. 8 25856 Hattstedt",
+        "coordinates": {
+            "latitude": 54.5113,
+            "longitude": 9.0341
+        },
+        "pictures": {
+            "pic1": "https://www.wildes-sh.de/fileadmin/bilder/UE-Plaetze/Zeltplatz_Hattstedt_800x600.jpg",
+            "pic2": "",
+            "pic3": "",
+            "pic4": ""
+        },
+        "description": "This is a private campsite located in a yard in Hattstedt-Feld, 4 km north of Husum, near the North Sea Cycle Route and the Schobüller Forest. A compost toilet, tap and fireplace are available and may be used.",
+        "toilet": true,
+        "price": 0,
+        "bookingRequired": false,
+        "legal": true,
+        "tents": {
+            "amount": 2,
+            "type": "with 3 people each"
+        },
+        "accessibility": "on foot or by bike",
+        "naturalPark": false,
+        "nights": {
+            "maxNight": true,
+            "maxNights": 1
+        },
+        "fireAllowed": true,
+        "googlemaps": "EihIdXN1bWVyIFN0ci4gOCwgMjU4NTYgSGF0dHN0ZWR0LCBHZXJtYW55IlASTgo0CjIJixSNY8GBtEcRHMba4J8xEEQaHgsQ7sHuoQEaFAoSCVHe2CqzibRHEWDp5gZniSQcDBAIKhQKEgk_a3-V6oG0RxGLU3y8Pon_ig"
+    },
+
+    "Hessenstein - Wildes": {
+        "name": "Hessenstein - Wildes",
+        "website": "https://www.wildes-sh.de/uebernachtungsplaetze/hessenstein/",
+        "contacts": "",
+        "region": "Schleswig-Holstein",
+        "address": "8H47+J4 Lütjenburg",
+        "coordinates": {
+            "latitude": 54.306603,
+            "longitude": 10.562755
+        },
+        "pictures": {
+            "pic1": "https://www.wildes-sh.de/fileadmin/user_upload/Hessenstein800x600.jpg",
+            "pic2": "https://lh5.googleusercontent.com/p/AF1QipMLEzaXg0HM0NLWi7ZJfU5fJq7kbg6z97tjgDYf=w507-h240-k-no",
+            "pic3": "",
+            "pic4": ""
+        },
+        "description": "This place is an open space near a old quarry, right on the hiking trail. It is provided by the Nature Conservation Foundation in the Hessenstein Foundation State. Attractions such as the Tower Hill Castle and the Ice Age Museum are nearby.",
+        "toilet": false,
+        "price": 0,
+        "bookingRequired": false,
+        "legal": true,
+        "tents": {
+            "amount": 2,
+            "type": "with 3 people each"
+        },
+        "accessibility": "on foot or by bike (the sites are aimed exclusively at hikers or cyclists, parking vehicles is not allowed)",
+        "naturalPark": true,
+        "nights": {
+            "maxNight": true,
+            "maxNights": 1
+        },
+        "fireAllowed": false,
+        "googlemaps": "GhIJCtejcD0nS0ARXI_C9SggJUA"
     },
 
     "Husby - Wildes": {
