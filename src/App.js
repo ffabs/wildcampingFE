@@ -23,7 +23,7 @@ class App extends Component {
         legal: 0,
         page: 1,
         lastPage: 7,
-        camping1: "Camping in the Eifel",
+        camping1: "Eifel Natural Park",
         camping2: "Barmstedt - Wildes",
         camping3: "Blomnath - Wildes",
         camping4: "Drage - Wildes",

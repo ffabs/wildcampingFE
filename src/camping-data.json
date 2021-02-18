@@ -1,8 +1,8 @@
 {
-    "Camping in the Eifel": {
-        "name": "Camping in the Eifel",
+    "Eifel Natural Park": {
+        "name": "Eifel Natural Park",
         "website": "https://trekking-eifel.de/de/",
-        "contacts": "http://www.trekking-eifel.de/de/jetzt-buchen/",
+        "contacts": "booking and advice center reachable by phone on 02441 994570 or directly at Nordeifel Tourismus GmbH",
         "region": "North Rhine-Westphalia",
         "address": "",
         "coordinates": {
@@ -10,9 +10,9 @@
             "longitude": ""
         },
         "pictures": {
-            "pic1": "http://www.trekking-eifel.de/cache/Naturlager_Abgetaucht-7531-jpg-e2b50bbafd4368fc81e29c06a1983ca7.jpeg",
-            "pic2": "http://www.trekking-eifel.de/cache/Naturlager_Huertgenwald-27-jpg-bb71529e00f61eb9d7ecf28f4d87afa4.jpeg",
-            "pic3": "http://www.trekking-eifel.de/cache/Naturlager_Blankenheim_by_Nils_Noell-3-jpg-5b76b5fd3f2cc17496e42dec5dfdaf65.jpeg",
+            "pic1": "https://www.trekking-eifel.de/cache/Naturlager_Abgetaucht-7531-jpg-e2b50bbafd4368fc81e29c06a1983ca7.jpeg",
+            "pic2": "https://www.trekking-eifel.de/cache/Naturlager_Huertgenwald-27-jpg-bb71529e00f61eb9d7ecf28f4d87afa4.jpeg",
+            "pic3": "https://www.trekking-eifel.de/cache/Naturlager_Blankenheim_by_Nils_Noell-3-jpg-5b76b5fd3f2cc17496e42dec5dfdaf65.jpeg",
             "pic4": "https://trekking-eifel.dasteam.de/fileadmin/Website/design/trekking-eifel/images/lageplan2020.jpg"
         },
         "description": "You can pitch your tent in the Eifel Natural Park, in North Rhine-Westphalia, legally. The park offers multiple natural camping locations and you can select yours during the booking phase. Each natural camp site is equipped with a composting toilet and offers space for up to two tents on a tent platform. All locations are only accessible on foot via hiking trails. You are on your own and you have to bring your own food. It is not possible to camp in winter, from November 1st until March 31st.",
@@ -24,7 +24,7 @@
             "amount": 2,
             "type": "small"
         },
-        "accessibility": "on foot",
+        "accessibility": "on foot via hiking trails",
         "naturalPark": true,
         "nights": {
             "maxNight": false,
@@ -37,7 +37,7 @@
     "Barmstedt - Wildes": {
         "name": "Barmstedt - Wildes",
         "website": "https://www.wildes-sh.de/uebernachtungsplaetze/barmstedt/",
-        "contacts": "04123/4519   Pre-registration is not necessary.    If you need information, the providers of this place to stay, Johanna Freese and Gerd Menzel",
+        "contacts": "04123/4519 (Johanna Freese and Gerd Menzel)",
         "region": "Schleswig-Holstein",
         "address": "Großendorfer Heide 1  25355 Barmstedt ",
         "coordinates": {
@@ -46,18 +46,18 @@
         },
         "pictures": {
             "pic1": "https://www.wildes-sh.de/fileadmin/bilder/UE-Plaetze/Bild_UEbernachtungsplatz_Barmstedt.jpg",
-            "pic2": "https://www.wildes-sh.de/fileadmin/PDFs/UEbernachtungsplaetze/Lageplan_UE-Platz_Barmstedt.pdf",
+            "pic2": "",
             "pic3": "",
             "pic4": ""
         },
-        "description": "This overnight place is kindly offered by private parties and is located a little outside of Barmstedt on a large, quiet and natural private property.",
+        "description": "This overnight place is kindly offered by private owners and is located a little outside of Barmstedt on a large, quiet and natural private property. Sanitary rooms are not available. Pre-registration is not necessary.",
         "toilet": false,
         "price": 0,
         "bookingRequired": false,
         "legal": true,
         "tents": {
             "amount": 2,
-            "type": "3 people each"
+            "type": "with 3 people each"
         },
         "accessibility": "on foot or by bike",
         "naturalPark": false,
@@ -65,33 +65,34 @@
             "maxNight": true,
             "maxNights": 1
         },
-        "fireAllowed": false
+        "fireAllowed": false,
+        "googlemaps": "ChIJXeluriLTs0cR2b-yVWlxaWg"
     },
 
     "Blomnath - Wildes": {
         "name": "Blomnath - Wildes",
         "website": "https://www.wildes-sh.de/uebernachtungsplaetze/blomnath/",
-        "contacts": "These areas are kindly offered by Ulrike and Jürgen Kaldewey from Seedorf. Please send inquiries about. this and all registrations for overnight stays under the starry tent to meierhof@kaldewey.de or by phone at 04556-388 .",
+        "contacts": "meierhof@kaldewey.de / 04556-388 (Ulrike and Jürgen Kaldewey)",
         "region": "Schleswig-Holstein",
-        "address": "Großendorfer Heide 1  25355 Barmstedt ",
+        "address": "2FHH+37 Seedorf, Germany",
         "coordinates": {
-            "latitude": 10.476915,
-            "longitude": 54.030132
+            "latitude": 54.030132,
+            "longitude": 10.476915
         },
         "pictures": {
-            "pic1": "https://www.wildes-sh.de/fileadmin/bilder/2014-08-27_Blomnath_Pferdekoppel_01.jpg",
-            "pic2": "https://www.wildes-sh.de/fileadmin/PDFs/UEbernachtungsplaetze_Blomnath.pdf",
+            "pic1": "https://lh5.googleusercontent.com/p/AF1QipOE1VBltpueJ7r0H57BIzSAnI8FujkVehA4cgHI=w408-h306-k-no",
+            "pic2": "https://www.wildes-sh.de/fileadmin/bilder/2014-08-27_Blomnath_Pferdekoppel_01.jpg",
             "pic3": "",
             "pic4": ""
         },
-        "description": "Immediately adjacent to the overnight accommodation in Blomnath is an area of ​​the Nature Conservation Foundation, part of the Greben mountain. Deer, rabbits, squirrels, dragonflies, hedgehogs, birds, frogs, countless moths and other insects live here - but surprisingly few mosquitoes!        Not far is the heather moor, an Eldorado of meadow birds and frogs. The variety of bird species such as the red-backed killer, stonechat, lapwing, curlew, common snipe, skylark, quail, meadow pipit, brownlet, cuckoo, whorl, blackcap, wagtail, linnet and pheasant is impressive.",
+        "description": "This area is near Blomnat, part ​​the Nature Conservation Foundation and offered by Ulrike and Jürgen Kaldewey from Seedorf. It is required to book for an overnight stay via email or phone.",
         "toilet": false,
         "price": 0,
         "bookingRequired": true,
         "legal": true,
         "tents": {
             "amount": 2,
-            "type": "3 people each"
+            "type": "with 3 people each"
         },
         "accessibility": "on foot or by bike",
         "naturalPark": false,
@@ -99,7 +100,8 @@
             "maxNight": true,
             "maxNights": 1
         },
-        "fireAllowed": false
+        "fireAllowed": false,
+        "googlemaps": "GhIJBoGVQ4uDSkARRbbz_dT0IkA"
     },
 
     "Drage - Wildes": {
