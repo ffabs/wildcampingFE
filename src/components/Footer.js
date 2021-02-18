@@ -4,9 +4,9 @@ import {Link} from 'react-router-dom';
 function Footer() {
   return (
     <div className="footer">
-        <a href="/">
+        <Link to="/">
             <div className="footer-element"> Homepage</div>
-        </a>
+        </Link>
         <Link to="/search">
             <div className="footer-element"> Searchpage</div>
         </Link>
