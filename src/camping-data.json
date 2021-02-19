@@ -844,18 +844,18 @@
         "website": "https://www.wildes-sh.de/uebernachtungsplaetze/winderatter-see/",
         "contacts": "",
         "region": "Schleswig-Holstein",
-        "address": "",
+        "address": "PHRQ+86 Ausacker",
         "coordinates": {
             "latitude": 54.7408,
             "longitude": 9.5881
         },
         "pictures": {
-            "pic1": "https://www.wildes-sh.de/fileadmin/user_upload/Winderatter_See.JPG",
-            "pic2": "https://www.wildes-sh.de/fileadmin/user_upload/Karte_Anfahrt-UEnernachtung_Winderatter_See.pdf",
-            "pic3": "https://www.wildes-sh.de/fileadmin/user_upload/Karte_UEbernachtung_Winderatter_See.pdf",
+            "pic1": "https://lh5.googleusercontent.com/p/AF1QipPEG6-vGJ2-hD2o9yVrgYiStH0sNrgoC5ty_Mxr=w408-h306-k-no",
+            "pic2": "https://www.wildes-sh.de/fileadmin/user_upload/Winderatter_See.JPG",
+            "pic3": "",
             "pic4": ""
         },
-        "description": "This overnight place is made available by the Schelswig-Holstein Nature Conservation Foundation. It is located in the picturesque foundation land on Lake Winderatter (Schleswig-Flensburg district) between fruit trees in a forestation. A stream, the Moorau , flows by nearby. The overnight place is west of the Winderatter See. Pastures and woods lie between the lake and the overnight stay.",
+        "description": "This place is available thanks to the Schelswig-Holstein Nature Conservation Foundation. It is located in a forest, between fruit trees. A stream, the Moorau, flows by nearby. The overnight place is west to the Winderatter lake. Pastures and woods are between the lake and the overnight stay.",
         "toilet": false,
         "price": 0,
         "bookingRequired": false,
@@ -871,33 +871,33 @@
             "maxNights": 1
         },
         "fireAllowed": false,
-        "googlemaps": ""
+        "googlemaps": "GhIJ5_up8dJeS0ARDAIrhxYtI0A"
     },
 
     "Camping in the Palatinate Forest": {
-        "name": "Camping in the Palatinate Forest",
+        "name": "Palatinate Forest",
         "website": "https://www.trekking-pfalz.de/de/trekking-plaetze/",
-        "contacts": "Oline booking: https://www.trekking-pfalz.de/buchung/online-buchen/? Onsite booking: https://www.trekking-pfalz.de/de/buchung/buchungsstellen/ general contacts: contact info@suedlicheweinstrasse.de or Tel .: 06341 940 400.",
+        "contacts": "info@suedlicheweinstrasse.de (email) 06341 940 400 (tel) - for oline booking: https://www.trekking-pfalz.de/buchung/online-buchen/? - for onsite booking: https://www.trekking-pfalz.de/de/buchung/buchungsstellen/",
         "region": "Rhineland-Palatinate",
-        "address": "After booking, you will receive the exact GPS data and directions to the desired location. There you can pitch your tent for one night and move on the next day - either to the next trekking site or to relax in the hotel. possibilities: https://www.trekking-pfalz.de/de/trekking-plaetze/uebersicht-der-plaetze/",
+        "address": "Franz-Hartmann-Straße 9, 67466 Lambrecht (after booking, you will receive the exact GPS data and directions to the desired location)",
         "coordinates": {
-            "latitude": 1,
-            "longitude": 2
+            "latitude": "",
+            "longitude": ""
         },
         "pictures": {
-            "pic1": "https://www.trekking-pfalz.de/fileadmin/_processed_/csm_Panoramabild_vom_Platz_7_Kalmit_2a72af254c.jpg",
-            "pic2": "https://www.trekking-pfalz.de/fileadmin/_processed_/csm_Marina_Waynetrain_Platz_1_2o_cdd3b7634f.jpg",
+            "pic1": "https://www.trekking-pfalz.de/fileadmin/_processed_/csm_Marina_Waynetrain_Platz_1_2o_cdd3b7634f.jpg",
+            "pic2": "https://www.trekking-pfalz.de/fileadmin/_processed_/csm_Panoramabild_vom_Platz_7_Kalmit_2a72af254c.jpg",
             "pic3": "https://www.trekking-pfalz.de/fileadmin/_processed_/csm_Til_Koshofer_Platz2_2o_bd33bbdb54.jpg",
-            "pic4": "https://www.trekking-pfalz.de/de/trekking-plaetze/uebersicht-der-plaetze/platz-2/"
+            "pic4": ""
         },
-        "description": "10 euros per tent (2-3 people) and night from April up to and including October In these places, which can be used from April up to and including October, overnight stays in the Palatinate Forest Nature Park are officially permitted for the first time. And you don't have to stray far from the familiar paths to have the feeling of being all alone with a fox and a deer in the forest. All places are a bit away from the villages and the usual hiking trails in areas that are harmless for nature and water protection. They can only be reached on foot and have up to six storage spaces, a fireplace with rustic seating and a simple toilet block. Not more. The trekkers must bring water and food. And take your rubbish home with you, that's the user policy that every guest must accept if they want to spend the night in the forest. What else should not be missing in your backpack, we have put together in our equipment   recommendations. Any questions? You can find answers to frequently asked questions here.",
-        "toilet": false,
+        "description": "From April up to and including October it is possible to camp in a camp site of the Palatinate Forest Nature Park with 2-3 people for 10 euros. All places are a bit away from the villages and the usual hiking trails in areas that are harmless for nature and water protection. These places can only be reached on foot and have up to six storage spaces, a fireplace with rustic seating and a simple toilet block. The trekkers must bring water and food and take their rubbish home.",
+        "toilet": true,
         "price": 10,
         "bookingRequired": true,
         "legal": true,
         "tents": {
-            "amount": "depends",
-            "type": "depends"
+            "amount": "",
+            "type": "depends on each location"
         },
         "accessibility": "on foot or by bike",
         "naturalPark": true,
@@ -906,68 +906,68 @@
             "maxNights": 1
         },
         "fireAllowed": true,
-        "googlemaps": ""
+        "googlemaps": "ChIJDx7HQQBHlkcR62IjvOCw53A"
     },
 
     "Kobach - Bayern Frankenwald": {
         "name": "Kobach - Bayern Frankenwald",
-        "website": "https://tportal.toubiz.de/frankenwald/camping/house/GER00020060881802459",
-        "contacts": "booking: https://tportal.toubiz.de/frankenwald/camping/house/GER00020060881802459#tp-anchor-description",
+        "website": "https://bit.ly/2Zy067o",
+        "contacts": "",
         "region": "Bayern",
-        "address": "District Kobach 96337 Ludwigsstadt",
+        "address": "F8G5+WQ Ludwigsstadt",
         "coordinates": {
-            "latitude": "https://tportal.toubiz.de/frankenwald/camping/house/GER00020060881802459#tp-anchor-description",
-            "longitude": 2
+            "latitude": "",
+            "longitude": ""
         },
         "pictures": {
-            "pic1": "https://tportal.toubiz.de/frankenwald/camping/house/GER00020060881802459",
-            "pic2": "",
-            "pic3": "",
+            "pic1": "https://lh5.googleusercontent.com/p/AF1QipOY9XB38hnnzRgiMIgAUIIKndkkBQdt_-BwCI-6=w408-h306-k-no",
+            "pic2": "https://cdn.tomas-travel.com/germany/repository/GER00020060881802459/TBX00020050000221441/GER00020061320547531_sized_800_0.jpg",
+            "pic3": "https://cdn.tomas-travel.com/germany/repository/GER00020060881802459/TBX00020050000221441/GER00020060918060901_sized_800_0.jpg",
             "pic4": ""
         },
-        "description": "Spend the night in the middle of nature - at the FRANKENWALD Kohbach trekking site. If you want to enjoy nature with all your senses and want to spend a night under the starry sky, then the FRANKENWALD Kobach trekking area is the right place for you. Away from the hiking and biking trails, the site is in the area of ​​the Bavarian State Forests and was built and equipped by them. A total of four tents have space here, wooden platforms are available for two of them (there are several eyelets for attaching the lines to the platforms!) There is also a fireplace with a lighter and firewood and an outdoor toilet (the key for the toilet is in the box). Arrival possible from 1:30 p.m., departure no later than 1:00 p.m.",
+        "description": "Away from the hiking and biking trails, the site is in the area of ​​the Bavarian State Forests. There is space for four tents here and wooden platforms are available for two of them. There is also a fireplace with a lighter and firewood and an outdoor toilet. Booking via the website is required and the expected price per tent is 15€ (money transfer required up to 3 days before arrival).",
         "toilet": true,
         "price": 15,
         "bookingRequired": true,
         "legal": true,
         "tents": {
-            "amount": "price per tent",
-            "type": "2-3 people"
+            "amount": 4,
+            "type": "with 2-3 people each"
         },
-        "accessibility": "on foot or by bike",
+        "accessibility": "on foot or by bike (arrival possible from 1:30 p.m., departure no later than 1:00 p.m.)",
         "naturalPark": true,
         "nights": {
             "maxNight": true,
             "maxNights": 1
         },
         "fireAllowed": true,
-        "googlemaps": ""
+        "googlemaps": "GhIJarx0kxg9SUAR30-Nl26eJkA"
     },
 
     "Rehwiese - Bayern Frankenwald": {
         "name": "Rehwiese - Bayern Frankenwald",
-        "website": "https://tportal.toubiz.de/frankenwald/camping/house/GER00020061089378249",
-        "contacts": "booking: https://tportal.toubiz.de/frankenwald/camping/house/GER00020061089378249",
+        "website": "https://bit.ly/3azzJEo",
+        "contacts": "",
         "region": "Bayern",
-        "address": "Rehwiese, Geroldsgrüner Forst 95179 Geroldsgrün",
+        "address": "8HC5+V5 Geroldsgrüner Forst",
         "coordinates": {
-            "latitude": "https://tportal.toubiz.de/frankenwald/camping/house/GER00020061089378249",
-            "longitude": 2
+            "latitude": "",
+            "longitude": ""
         },
         "pictures": {
-            "pic1": "https://tportal.toubiz.de/frankenwald/camping/house/GER00020061089378249",
-            "pic2": "",
-            "pic3": "",
-            "pic4": ""
+            "pic1": "https://cdn.tomas-travel.com/germany/repository/GER00020061089378249/TBX00020050000221441/GER00020061214910386_sized_800_0.jpg",
+            "pic2": "https://cdn.tomas-travel.com/germany/repository/GER00020061089378249/TBX00020050000221441/GER00020061139041610_sized_800_0.jpg",
+            "pic3": "https://cdn.tomas-travel.com/germany/repository/GER00020061089378249/TBX00020050000221441/GER00020061139034056_sized_800_0.jpg",
+            "pic4": "https://cdn.tomas-travel.com/germany/repository/GER00020061089378249/TBX00020050000221441/GER00020061139028769_sized_800_0.jpg"
         },
-        "description": "Spend the night in the middle of nature - on the FRANKENWALD Rehwiese trekking site. If you want to enjoy nature with all your senses and spend a night under the starry sky, the FRANKENWALD Rehwiese trekking site is the right place for you. Away from the hiking and biking trails, the site is in the area of ​​the Bavarian State Forests and was built and equipped by them. There is space for a total of four tents. There is also a fireplace with firewood and an outdoor toilet.",
+        "description": "Away from the hiking and biking trails, the site is in the area of ​​the Bavarian State Forests. There is space for a total of four tents. There is also a fireplace with firewood and an outdoor toilet. Booking via the website is required and the expected price per tent is 15€ (money transfer required up to 3 days before arrival).",
         "toilet": true,
         "price": 15,
         "bookingRequired": true,
         "legal": true,
         "tents": {
-            "amount": "price per tent",
-            "type": "2-3 people"
+            "amount": 4,
+            "type": "with 2-3 people each"
         },
         "accessibility": "on foot or by bike",
         "naturalPark": true,
@@ -976,33 +976,33 @@
             "maxNights": 1
         },
         "fireAllowed": true,
-        "googlemaps": ""
+        "googlemaps": "GhIJCtejcD0pSUARi2zn-6kdJ0A"
     },
 
     "Döbraberg - Bayern Frankenwald": {
         "name": "Döbraberg - Bayern Frankenwald",
-        "website": "https://tportal.toubiz.de/frankenwald/camping/house/GER00020061089369544",
-        "contacts": "booking: https://tportal.toubiz.de/frankenwald/camping/house/GER00020061089369544",
+        "website": "https://bit.ly/3pBA79q",
+        "contacts": "",
         "region": "Bayern",
-        "address": "Döbraberg 95131 Schwarzenbach am Wald",
+        "address": "7JGR+M4 Schwarzenbach am Wald",
         "coordinates": {
-            "latitude": "https://tportal.toubiz.de/frankenwald/camping/house/GER00020061089369544",
-            "longitude": 2
+            "latitude": "",
+            "longitude": ""
         },
         "pictures": {
-            "pic1": "https://tportal.toubiz.de/frankenwald/camping/house/GER00020061089369544",
-            "pic2": "",
-            "pic3": "",
+            "pic1": "https://cdn.tomas-travel.com/germany/repository/GER00020061089369544/TBX00020050000221441/GER00020061139045652_sized_800_0.jpg",
+            "pic2": "https://cdn.tomas-travel.com/germany/repository/GER00020061089369544/TBX00020050000221441/GER00020061139053086_sized_320_0.jpg",
+            "pic3": "https://cdn.tomas-travel.com/germany/repository/GER00020061089369544/TBX00020050000221441/GER00020061214908379_sized_320_0.jpg",
             "pic4": ""
         },
-        "description": "Spend the night in the middle of nature - on the FRANKENWALD Döbraberg trekking site. If you want to enjoy nature with all your senses and spend a night under the starry sky, the FRANKENWALD Döbraberg trekking site is the right place for you. Away from the hiking and biking trails, the site is in the area of ​​the Bavarian State Forests and was built and equipped by them. There is space for a total of four tents. There is also a fireplace with firewood and an outdoor toilet.",
+        "description": "Away from the hiking and biking trails, the site is in the area of ​​the Bavarian State Forests. There is space for a total of four tents. There is also a fireplace with firewood and an outdoor toilet. Booking via the website is required and the expected price per tent is 15€ (money transfer required up to 3 days before arrival).",
         "toilet": true,
         "price": 15,
         "bookingRequired": true,
         "legal": true,
         "tents": {
-            "amount": "price per tent",
-            "type": "2-3 people"
+            "amount": 4,
+            "type": "with 2-3 people each"
         },
         "accessibility": "on foot or by bike",
         "naturalPark": true,
@@ -1011,7 +1011,7 @@
             "maxNights": 1
         },
         "fireAllowed": true,
-        "googlemaps": ""
+        "googlemaps": "GhIJItv5fmojSUARpHA9CtdHJ0A"
     },
 
     "Spessart - Bayern": {
@@ -1019,25 +1019,25 @@
         "website": "https://www.trekking-bayern.de/buchungsanfrage.html",
         "contacts": "booking: https://www.trekking-bayern.de/buchungsanfrage.html",
         "region": "Bayern",
-        "address": "",
+        "address": "Spessart (you will receive the exact location after booking)",
         "coordinates": {
-            "latitude": "https://www.trekking-bayern.de/region/spessart/zeltplaetze.html",
-            "longitude": 2
+            "latitude": "",
+            "longitude": ""
         },
         "pictures": {
-            "pic1": "https://www.trekking-bayern.de/region/spessart/zeltplaetze.html",
-            "pic2": "",
-            "pic3": "",
-            "pic4": ""
+            "pic1": "https://www.trekking-bayern.de/fileadmin/user_upload/11-trekking-bayern/Spessart/Zeltplaetze/Glasrueck_neu.jpg",
+            "pic2": "https://www.trekking-bayern.de/fileadmin/user_upload/11-trekking-bayern/Spessart/Zeltplaetze/Zeltplatz_Glasrueck.jpg",
+            "pic3": "https://www.trekking-bayern.de/fileadmin/user_upload/20190702_125120_resized.jpg",
+            "pic4": "https://www.trekking-bayern.de/fileadmin/user_upload/20200526_154800_resized.jpg"
         },
-        "description": "The trekking sites may be used with a maximum of five tents (for 2-3 people each) and only with a valid booking confirmation. By submitting the form, you are making a non-binding inquiry to the Spessart Association. The Spessartbund will contact you as soon as possible to complete the booking with you. Please note: You will only receive the exact coordinates of our tent sites after we have received the amount. You will receive the invoice details in an email that we will send you after your booking request. If you have any questions about your booking or for further information, please contact the Spessartbund",
+        "description": "The sites may be used with a maximum of five tents (with 2-3 people each) and only with a valid booking confirmation with the Spessart Association via website. Please note you will only receive the exact coordinates of the tent sites (together with the invoice) after the booking.",
         "toilet": true,
-        "price": 15,
+        "price": 10,
         "bookingRequired": true,
         "legal": true,
         "tents": {
-            "amount": "price per tent",
-            "type": "2-3 people"
+            "amount": 5,
+            "type": "with 2-3 people each"
         },
         "accessibility": "on foot or by bike",
         "naturalPark": true,
@@ -1046,7 +1046,7 @@
             "maxNights": 1
         },
         "fireAllowed": true,
-        "googlemaps": ""
+        "googlemaps": "ChIJqX-Nm1fKokcRkDbQHiy3HRw"
     },
 
     "Steigerwald - Bayern": {
