@@ -389,25 +389,25 @@
         "website": "https://www.wildes-sh.de/uebernachtungsplaetze/husby/",
         "contacts": "",
         "region": "Schleswig-Holstein",
-        "address": "Main Street, 24975 Husby",
+        "address": "PHXM+RC Husby",
         "coordinates": {
             "latitude": 54.7496,
             "longitude": 9.5836
         },
         "pictures": {
             "pic1": "https://www.wildes-sh.de/fileadmin/user_upload/Shelter_Husby.jpg",
-            "pic2": "https://www.wildes-sh.de/fileadmin/PDFs/UEbernachtungsplaetze/Lageplan_Husby.pdf",
-            "pic3": "https://www.wildes-sh.de/fileadmin/PDFs/UEbernachtungsplaetze/Bilder-UE-PLatz_Husby.pdf",
+            "pic2": "https://lh5.googleusercontent.com/p/AF1QipOORAKE4CZxUXBqi7pdWN8cz-vgs58-NzK_xmB0=w408-h510-k-no",
+            "pic3": "",
             "pic4": ""
         },
-        "description": "The overnight place is provided by the Danish scouts from Husby (Angelbo Trop) and is located behind the playground in Markerup. To find the place to stay, turn left on the dirt road past the playground. The small wooded area opposite the settlement can be clearly seen on the map. The place is located on a pond around which a small trail leads. The site has a shelter as a covered overnight accommodation. This space can also be used without a tent. There are no toilets. There is a fire pit with seating that can be used under supervision. Please bring your own firewood for this. In the name of nature, we ask you to leave the dead wood in the forest.",
+        "description": "This place is provided by the Danish scouts from Husby. The site is located near a pond and has also a shelter as a covered overnight accommodation, so it can also be used without a tent. There are no toilets available and there is a fire place with seating that can be used carefully but with your own wood.",
         "toilet": false,
         "price": 0,
         "bookingRequired": false,
         "legal": true,
         "tents": {
             "amount": 2,
-            "type": "3 people each"
+            "type": "with 3 people each"
         },
         "accessibility": "on foot or by bike",
         "naturalPark": true,
@@ -415,7 +415,8 @@
             "maxNight": true,
             "maxNights": 1
         },
-        "fireAllowed": true
+        "fireAllowed": true,
+        "googlemaps": "GhIJbOf7qfFfS0AREFg5tMgqI0A"
     },
 
     "Kolonistenhof - Wildes": {
@@ -429,19 +430,19 @@
             "longitude": 2
         },
         "pictures": {
-            "pic1": "https://www.wildes-sh.de/fileadmin/user_upload/Kolonistenhof_Sternenzelt.jpg",
-            "pic2": "",
+            "pic1": "https://lh5.googleusercontent.com/p/AF1QipM6WzxtC0OWu20H9VR6HNL9h3bIabR-IJSUSqNO=w408-h306-k-no",
+            "pic2": "https://www.wildes-sh.de/fileadmin/user_upload/Kolonistenhof_Sternenzelt.jpg",
             "pic3": "",
             "pic4": ""
         },
-        "description": "On the edge of the Hüttener Mountains lies the Kolonistenhof on an area of ​​around 18 hectares. Here you will find hiking trails with sculptures, an animal enclosure with sheep, goats and chickens as well as an information building in which the Hüttener Berge region can be experienced up close. Nature lovers who would like to spend a night under the starry sky have the opportunity to spend the night here. The total area of ​​approx. 500 m² is located behind the baking house, the first building to the right of the entrance. Sanitary facilities are available. For details, please refer to the directions. Further information: http://www.kolonistenhof.de/de/startseite/ ",
-        "toilet": false,
+        "description": "This place is located at the edge of the Hüttener Berge, an nice area of ​​around 18 hectares with hiking trails. Nature lovers who would like to spend a night under the starry sky have the opportunity to spend the night here. The total camping area is of ​​approx. 500 m² and is located behind the baking house, the first building to the right of the entrance. Sanitary facilities are available.",
+        "toilet": true,
         "price": 0,
         "bookingRequired": false,
         "legal": true,
         "tents": {
             "amount": 2,
-            "type": "3 people each"
+            "type": "with 3 people each"
         },
         "accessibility": "on foot or by bike",
         "naturalPark": true,
@@ -449,7 +450,8 @@
             "maxNight": true,
             "maxNights": 1
         },
-        "fireAllowed": false
+        "fireAllowed": false,
+        "googlemaps": "ChIJH6YOuAins0cRkWqLGEB2zH8"
     },
 
     "Koppelheck - Wildes": {
@@ -457,33 +459,34 @@
         "website": "https://www.wildes-sh.de/uebernachtungsplaetze/koppelheck/",
         "contacts": "",
         "region": "Schleswig-Holstein",
-        "address": "",
+        "address": "QR3X+XG Niesgrau",
         "coordinates": {
             "latitude": 54.7549,
             "longitude": 9.8488
         },
         "pictures": {
             "pic1": "https://www.wildes-sh.de/fileadmin/user_upload/Foto_Koppelheck_voruebergehend.jpg",
-            "pic2": "https://www.wildes-sh.de/fileadmin/bilder/Karte/Koppelheck.jpg",
-            "pic3": "",
-            "pic4": ""
+            "pic2": "",
+            "pic3": "https://lh5.googleusercontent.com/p/AF1QipPLb6hm_uSRRl53jodsDVNxMRk4tYIyYgVmP5R2=w426-h240-k-no",
+            "pic4": "https://www.wildes-sh.de/fileadmin/bilder/Karte/Koppelheck.jpg"
         },
-        "description": "No access via north street !!! The place to stay is right on the Baltic Sea Cycle Route. You can get to the bike / hiking trail north via the beach car park in Ohrfeldhaff (this is also the name of the street) or east at Geltingmole (the street is called Hunhof). This overnight accommodation is provided by the Schleswig-Holstein Nature Conservation Foundation. It is a small area between two pastures, which is directly behind the dike. Those who move their dinner on the dike can enjoy the sea view. Nothing is known about the quality as a bathing area.",
+        "description": "This place, provided by the Schleswig-Holstein Nature Conservation Foundation, is right on the Baltic Sea Cycle Route. It is a small area between two pastures, directly behind the dike, from which it is possible to enjoy the sea view.",
         "toilet": false,
         "price": 0,
         "bookingRequired": false,
         "legal": true,
         "tents": {
             "amount": 2,
-            "type": "3 people each"
+            "type": "with 3 people each"
         },
-        "accessibility": "on foot or by bike",
+        "accessibility": "on foot or by bike (no access via the north street, you can get to the bike/hiking trail north via the beach car park in Ohrfeldhaff or east at Geltingmole)",
         "naturalPark": true,
         "nights": {
             "maxNight": true,
             "maxNights": 1
         },
-        "fireAllowed": false
+        "fireAllowed": false,
+        "googlemaps": "GhIJEoPAyqFgS0ARO99PjZeyI0A"
     },
 
     "Kosel - Wildes": {
@@ -491,25 +494,25 @@
         "website": "https://www.wildes-sh.de/uebernachtungsplaetze/kosel/",
         "contacts": "",
         "region": "Schleswig-Holstein",
-        "address": "",
+        "address": "GQ4C+MC Kosel",
         "coordinates": {
             "latitude": 54.506667,
             "longitude": 9.77111
         },
         "pictures": {
             "pic1": "https://www.wildes-sh.de/fileadmin/_processed_/csm_kosel_c4e5462ac2.jpg",
-            "pic2": "https://www.wildes-sh.de/fileadmin/PDFs/UEbernachtungsplaetze/Schlafplatz_MK.pdf",
+            "pic2": "https://lh5.googleusercontent.com/p/AF1QipPEwx3LdnNMgaxOuF9IT0mBJdBNKnw3Xe7rp1aH=w518-h240-k-no",
             "pic3": "",
             "pic4": ""
         },
-        "description": "This place is a little outside of Kosel, nestled between a pasture and a dog free run area on a hiking trail. In the vicinity there are pastures, young forests and a high forest. A meadow flows through the landscape and offers excellent conditions for observing animals such as deer, fallow deer and hares. With a bit of luck and calm, the eagle owl, black woodpecker and kingfisher can also be seen. In the village there is a village shop where you can stock up on essentials. An insider tip is the small swimming area at the Bültsee, right in the nature reserve. There is also a swimming area on the Schlei. These areas are kindly offered by Thiemo Florek from Kosel. It is not necessary to register for the overnight stay.",
+        "description": "This place is a little outside of Kosel, on a hiking trail near forests between a pasture and a dog free run area. The landscape is excellent for observing animals such as deer, fallow deer, hares, the eagle owl, black woodpecker and kingfisher. In the village there is a shop where you can stock up on essentials. There is a small swimming area at the Bültsee, right in the nature reserve, and another a swimming area on the Schlei. This place is kindly offered by Thiemo Florek from Kosel and it is not necessary to register for the overnight stay.",
         "toilet": false,
         "price": 0,
         "bookingRequired": false,
         "legal": true,
         "tents": {
             "amount": 2,
-            "type": "3 people each"
+            "type": "with 3 people each"
         },
         "accessibility": "on foot or by bike",
         "naturalPark": true,
@@ -517,7 +520,8 @@
             "maxNight": true,
             "maxNights": 1
         },
-        "fireAllowed": false
+        "fireAllowed": false,
+        "googlemaps": "GhIJYOXQIttAS0AREFg5tMiKI0A"
     },
 
     "Kuden - Wildes": {
@@ -525,67 +529,69 @@
         "website": "https://www.wildes-sh.de/uebernachtungsplaetze/kuden/",
         "contacts": "",
         "region": "Schleswig-Holstein",
-        "address": "",
+        "address": "X58X+PX Kuden",
         "coordinates": {
             "latitude": 53.9672,
             "longitude": 9.2001
         },
         "pictures": {
             "pic1": "https://www.wildes-sh.de/fileadmin/user_upload/UE-Platz_Kuden.jpg",
-            "pic2": "",
+            "pic2": "https://lh5.googleusercontent.com/p/AF1QipNAwzbKPFnQ8CRoSr9J4bEbcsD2Rn2HqH9lK-VU=w408-h408-k-no",
             "pic3": "",
             "pic4": ""
         },
-        "description": "This is a place to stay on the area of ​​the former waterworks offered by the municipality of Kuden, Ditmarschen district, in the Wild Schleswig-Holstein project. The area is lined with trees and fenced. The area can be entered from the street Am Wasserwerk via a gate (actuate the bolt). Registration is not required, the campsite can be freely chosen on the area. Sanitary rooms are not available. Grilling is not allowed.",
+        "description": "This place is on the area of ​​the former waterworks offered by the municipality of Kuden, as part of the Wild Schleswig-Holstein project. Registration is not required and the campsite can be freely chosen on the area. Sanitary rooms are not available.",
         "toilet": false,
         "price": 0,
         "bookingRequired": false,
         "legal": true,
         "tents": {
             "amount": 2,
-            "type": "3 people each"
+            "type": "with 3 people each"
         },
-        "accessibility": "on foot or by bike",
+        "accessibility": "on foot or by bike (the area can be entered from the street Am Wasserwerk via a gate)",
         "naturalPark": true,
         "nights": {
             "maxNight": true,
             "maxNights": 1
         },
-        "fireAllowed": false
+        "fireAllowed": false,
+        "googlemaps": "GhIJl24Sg8D7SkAR7Xw_NV5mIkA"
     },
 
     "Mönchneversdorf - Wildes": {
         "name": "Mönchneversdorf - Wildes",
         "website": "https://www.wildes-sh.de/uebernachtungsplaetze/moenchneversdorf/",
-        "contacts": "Dirk and Alexandra Schnoor; info@ferienhof-schnoor.de or by phone: 04528/846",
+        "contacts": "by email: info@ferienhof-schnoor.de or by phone: 04528/846 (Dirk and Alexandra Schnoor)",
         "region": "Schleswig-Holstein",
-        "address": "Ferienhof Schnoor, Kirchnücheler Weg 9, 23744 Mönchneversdorf",
+        "address": "6P8F+6F Schönwalde am Bungsberg",
         "coordinates": {
             "latitude": 54.215660,
             "longitude": 10.723597
         },
         "pictures": {
             "pic1": "https://www.wildes-sh.de/fileadmin/bilder/UE-Plaetze/Ferienhof_Schnoor.jpg",
-            "pic2": "http://www.ostsee-urlaub-schnoor.de/",
+            "pic2": "https://lh5.googleusercontent.com/p/AF1QipONZA5BMyW4SpINesw83tlFnFScbCvSCCDQJ5L2=w408-h544-k-no",
             "pic3": "",
             "pic4": ""
         },
-        "description": "The privately offered space is on the Schnoor holiday farm, directly below the Bungsberg, between Mönchneversdorf and Kirchmühlen. For larger groups, camping (with registration) is possible on our Bungsberg pasture. If the weather is bad, you can stay overnight on hay and straw in our horse stable. Lakes and ponds are in the area, the Bungsberg adventure is about 10 minutes 'walk from the farm and the surrounding forests are also about 10 minutes' walk away. The European hiking trail is in the immediate vicinity. Many different animals live on site: horses, ponies, a donkey, 2 pigs, 2 goats, Eddi the dog, chickens, Johannes the rooster, rabbits, guinea pigs and some cats. Our farm is also very suitable for scouts. Fishing is also possible in the area.",
+        "description": "This space is part of the Schnoor holiday farm, directly below Bungsberg, between Mönchneversdorf and Kirchmühlen. You can camp in the pasture and if the weather is bad, you can stay overnight on hay and straw in the horse stable. The place is next to the European hiking trail and near lakes, ponds and forests. Many different animals live on site: horses, ponies, a donkey, 2 pigs, 2 goats, Eddi the dog, chickens, Johannes the rooster, rabbits, guinea pigs and some cats. Fishing is also possible in the area. Prior registration is required.",
         "toilet": false,
         "price": 0,
         "bookingRequired": true,
         "legal": true,
         "tents": {
             "amount": 2,
-            "type": "3 people each"
+            "type": "with 3 people each"
         },
         "accessibility": "on foot or by bike",
-        "naturalPark": true,
+        "naturalPark": false,
         "nights": {
             "maxNight": true,
             "maxNights": 1
         },
-        "fireAllowed": false
+        "fireAllowed": false,
+        "googlemaps": "GhIJO99PjZcbS0ARSQwCK4dyJUA"
     },
 
     "Olendieksau - Wildes": {
@@ -593,33 +599,34 @@
         "website": "https://www.wildes-sh.de/uebernachtungsplaetze/olendieksau/",
         "contacts": "",
         "region": "Schleswig-Holstein",
-        "address": "",
+        "address": "Moorweg 2-6, 24631 Langwedel, Germany",
         "coordinates": {
             "latitude": 54.1961,
             "longitude": 9.9206
         },
         "pictures": {
             "pic1": "https://www.wildes-sh.de/fileadmin/user_upload/DSC06464.jpg",
-            "pic2": "https://www.wildes-sh.de/fileadmin/user_upload/Karte_UEbernachtung_Olendieksau.pdf",
+            "pic2": "https://lh5.googleusercontent.com/p/AF1QipPA0wlhtZhIMRCXkiBOUokA6s9Vpaihnd9M6dMB=w408-h306-k-no",
             "pic3": "",
             "pic4": ""
         },
-        "description": "This overnight place is offered by the Schleswig-Holstein Nature Conservation Foundation. The site is located in the Olendieksau foundation state (near Langwedel, Rendsburg-Eckernförde district) directly on a hiking trail with a view of the generous and extensive pastures of the Heck cattle and Konik wild horses. So that the imposing Heck cattle, whose appearance is reminiscent of the earlier aurochs, also stay in their pasture grounds, the fence carries a relatively strong current - please do not touch! There is a small wooden seating area on site. As a possible excursion destination, the Langwedel village museum is also not far from the place to stay. How to find the site: If you drive on the L298 from Langwedel in the direction of Nortorf, turn left into the Moorweg opposite the Waldheim on the right. Follow the moor path to the point indicated by the coordinates.",
+        "description": "This overnight place is offered by the Schleswig-Holstein Nature Conservation Foundation. The site is located directly on a hiking trail with a view of the pastures. There is a small wooden seating area on site. There is also a fence that carries a relatively strong current - please do not touch it! As a possible excursion destination, the Langwedel village museum is also not far from the place.",
         "toilet": false,
         "price": 0,
         "bookingRequired": false,
         "legal": true,
         "tents": {
             "amount": 2,
-            "type": "3 people each"
+            "type": "with 3 people each"
         },
-        "accessibility": "on foot or by bike",
+        "accessibility": "on foot or by bike (if you drive on the L298 from Langwedel in the direction of Nortorf, turn left into the Moorweg opposite the Waldheim on the right)",
         "naturalPark": true,
         "nights": {
             "maxNight": true,
             "maxNights": 1
         },
-        "fireAllowed": false
+        "fireAllowed": false,
+        "googlemaps": "EiNNb29yd2VnIDIsIDI0NjMxIExhbmd3ZWRlbCwgR2VybWFueSJQEk4KNAoyCWtxMfVXrbNHEYUqkTxer6PIGh4LEO7B7qEBGhQKEgmVwV9yTK2zRxHA-uYGZ4kkHAwQAioUChIJa3Ex9Vets0cRv0eAF7cwt-I"
     },
 
     "Rabel - Wildes": {
@@ -645,7 +652,7 @@
         "legal": true,
         "tents": {
             "amount": 2,
-            "type": "3 people each"
+            "type": "with 3 people each"
         },
         "accessibility": "on foot or by bike",
         "naturalPark": true,
@@ -653,7 +660,8 @@
             "maxNight": true,
             "maxNights": 1
         },
-        "fireAllowed": false
+        "fireAllowed": false,
+        "googlemaps": ""
     },
 
     "Schäferhaus - Wildes": {
@@ -679,7 +687,7 @@
         "legal": true,
         "tents": {
             "amount": 2,
-            "type": "3 people each"
+            "type": "with 3 people each"
         },
         "accessibility": "on foot or by bike",
         "naturalPark": true,
@@ -687,7 +695,8 @@
             "maxNight": true,
             "maxNights": 1
         },
-        "fireAllowed": false
+        "fireAllowed": false,
+        "googlemaps": ""
     },
 
     "Segeberger Heide - Wildes": {
@@ -713,7 +722,7 @@
         "legal": true,
         "tents": {
             "amount": 2,
-            "type": "3 people each"
+            "type": "with 3 people each"
         },
         "accessibility": "on foot or by bike",
         "naturalPark": true,
@@ -721,7 +730,8 @@
             "maxNight": true,
             "maxNights": 1
         },
-        "fireAllowed": false
+        "fireAllowed": false,
+        "googlemaps": ""
     },
 
     "Steinbergkirche - Wildes": {
@@ -747,7 +757,7 @@
         "legal": true,
         "tents": {
             "amount": 2,
-            "type": "3 people each"
+            "type": "with 3 people each"
         },
         "accessibility": "on foot or by bike",
         "naturalPark": true,
@@ -755,7 +765,8 @@
             "maxNight": true,
             "maxNights": 1
         },
-        "fireAllowed": false
+        "fireAllowed": false,
+        "googlemaps": ""
     },
 
     "St. Michaelisdonn - Wildes": {
@@ -781,7 +792,7 @@
         "legal": true,
         "tents": {
             "amount": 2,
-            "type": "3 people each"
+            "type": "with 3 people each"
         },
         "accessibility": "on foot or by bike",
         "naturalPark": true,
@@ -789,7 +800,8 @@
             "maxNight": true,
             "maxNights": 1
         },
-        "fireAllowed": false
+        "fireAllowed": false,
+        "googlemaps": ""
     },
 
     "Süderlügum - Wildes": {
@@ -815,7 +827,7 @@
         "legal": true,
         "tents": {
             "amount": 2,
-            "type": "3 people each"
+            "type": "with 3 people each"
         },
         "accessibility": "on foot or by bike",
         "naturalPark": true,
@@ -823,7 +835,8 @@
             "maxNight": true,
             "maxNights": 1
         },
-        "fireAllowed": false
+        "fireAllowed": false,
+        "googlemaps": ""
     },
 
     "Winderatter See - Wildes": {
@@ -849,7 +862,7 @@
         "legal": true,
         "tents": {
             "amount": 2,
-            "type": "3 people each"
+            "type": "with 3 people each"
         },
         "accessibility": "on foot or by bike",
         "naturalPark": true,
@@ -857,7 +870,8 @@
             "maxNight": true,
             "maxNights": 1
         },
-        "fireAllowed": false
+        "fireAllowed": false,
+        "googlemaps": ""
     },
 
     "Camping in the Palatinate Forest": {
@@ -891,7 +905,8 @@
             "maxNight": true,
             "maxNights": 1
         },
-        "fireAllowed": true
+        "fireAllowed": true,
+        "googlemaps": ""
     },
 
     "Kobach - Bayern Frankenwald": {
@@ -925,7 +940,8 @@
             "maxNight": true,
             "maxNights": 1
         },
-        "fireAllowed": true
+        "fireAllowed": true,
+        "googlemaps": ""
     },
 
     "Rehwiese - Bayern Frankenwald": {
@@ -959,7 +975,8 @@
             "maxNight": true,
             "maxNights": 1
         },
-        "fireAllowed": true
+        "fireAllowed": true,
+        "googlemaps": ""
     },
 
     "Döbraberg - Bayern Frankenwald": {
@@ -993,7 +1010,8 @@
             "maxNight": true,
             "maxNights": 1
         },
-        "fireAllowed": true
+        "fireAllowed": true,
+        "googlemaps": ""
     },
 
     "Spessart - Bayern": {
@@ -1027,7 +1045,8 @@
             "maxNight": true,
             "maxNights": 1
         },
-        "fireAllowed": true
+        "fireAllowed": true,
+        "googlemaps": ""
     },
 
     "Steigerwald - Bayern": {
@@ -1061,7 +1080,8 @@
             "maxNight": true,
             "maxNights": 1
         },
-        "fireAllowed": true
+        "fireAllowed": true,
+        "googlemaps": ""
     },
 
     "Grimbach - Black Forest": {
@@ -1095,7 +1115,8 @@
             "maxNight": true,
             "maxNights": 1
         },
-        "fireAllowed": true
+        "fireAllowed": true,
+        "googlemaps": ""
     },
 
     "Seibelseckle - Black Forest": {
@@ -1129,7 +1150,8 @@
             "maxNight": true,
             "maxNights": 1
         },
-        "fireAllowed": true
+        "fireAllowed": true,
+        "googlemaps": ""
     },
 
     "Strawberry Hole - Black Forest": {
@@ -1163,7 +1185,8 @@
             "maxNight": true,
             "maxNights": 1
         },
-        "fireAllowed": true
+        "fireAllowed": true,
+        "googlemaps": ""
     },
 
     "Bösellbach - Black Forest": {
@@ -1197,7 +1220,8 @@
             "maxNight": true,
             "maxNights": 1
         },
-        "fireAllowed": true
+        "fireAllowed": true,
+        "googlemaps": ""
     },
 
     "Gutellbach - Black Forest": {
@@ -1231,7 +1255,8 @@
             "maxNight": true,
             "maxNights": 1
         },
-        "fireAllowed": true
+        "fireAllowed": true,
+        "googlemaps": ""
     },
 
     "Kniebis - Black Forest": {
@@ -1265,7 +1290,8 @@
             "maxNight": true,
             "maxNights": 1
         },
-        "fireAllowed": true
+        "fireAllowed": true,
+        "googlemaps": ""
     },
 
     "Windberg - Black Forest": {
@@ -1299,7 +1325,8 @@
             "maxNight": true,
             "maxNights": 1
         },
-        "fireAllowed": true
+        "fireAllowed": true,
+        "googlemaps": ""
     },
 
     "Quarry - Black Forest": {
@@ -1333,7 +1360,8 @@
             "maxNight": true,
             "maxNights": 1
         },
-        "fireAllowed": true
+        "fireAllowed": true,
+        "googlemaps": ""
     },
 
     "Felsenhalde - Black Forest": {
@@ -1367,7 +1395,8 @@
             "maxNight": true,
             "maxNights": 1
         },
-        "fireAllowed": true
+        "fireAllowed": true,
+        "googlemaps": ""
     }
            
 }
