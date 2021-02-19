@@ -632,9 +632,9 @@
     "Rabel - Wildes": {
         "name": "Rabel - Wildes",
         "website": "https://www.wildes-sh.de/uebernachtungsplaetze/rabel/",
-        "contacts": "Email: antjedetlefsenrabel@gmail.com  Tel .: 0160 263 50 49",
+        "contacts": "antjedetlefsenrabel@gmail.com (email) 0160 263 50 49 (phone)",
         "region": "Schleswig-Holstein",
-        "address": "",
+        "address": "Bürgermeister-Lass-Weg 9, 24376 Rabel",
         "coordinates": {
             "latitude": 54.694944,
             "longitude": 9.948778
@@ -645,7 +645,7 @@
             "pic3": "",
             "pic4": ""
         },
-        "description": "This private place to stay is in the small village of Rabel between the Schlei and the Baltic Sea - very close to Kappeln. It is 3 km to the Schlei, 7 km to the Baltic Sea and 10 km to the Geltinger Birk foundation. A hiking trail through the Feldmark, past Gut Buckhagen, leads to this wonderful place to stay. Deer, hedgehogs, foxes and squirrels are at home here. Marten and bats also feel at home here. Feathered friends from sparrows and cranes to eagles and eagle owls delight the ornithologist's heart. Not far away is the Barefoot Park and the Massholm / Oehe nature adventure center. The sleeping space is offered on private land in your own garden and requires prior registration with the owners! There is a separate toilet and shower.",
+        "description": "This is a private place in the small village of Rabel between the Schlei and the Baltic Sea, reachable via a hiking trail through the Feldmark. A prior registration with the owners is required to sleep here. A separate toilet and shower are available. Many animals are at home here: deer, hedgehogs, foxes, squirrels, marten, bats, sparrows, cranes, eagles and eagle owls. Not far away there is the Barefoot Park and the Massholm / Oehe nature adventure center.",
         "toilet": true,
         "price": 0,
         "bookingRequired": true,
@@ -655,13 +655,13 @@
             "type": "with 3 people each"
         },
         "accessibility": "on foot or by bike",
-        "naturalPark": true,
+        "naturalPark": false,
         "nights": {
             "maxNight": true,
             "maxNights": 1
         },
         "fireAllowed": false,
-        "googlemaps": ""
+        "googlemaps": "ChIJGxHFR-UYs0cRRebvraiEqx0"
     },
 
     "Schäferhaus - Wildes": {
@@ -669,18 +669,18 @@
         "website": "https://www.wildes-sh.de/uebernachtungsplaetze/schaeferhaus/",
         "contacts": "",
         "region": "Schleswig-Holstein",
-        "address": "",
+        "address": "Bundeswehr Peiler 500, 24983 Handewitt",
         "coordinates": {
             "latitude": 54.7934,
             "longitude": 9.3503
         },
         "pictures": {
             "pic1": "https://www.wildes-sh.de/fileadmin/user_upload/UEbernachtungsplatz_Schaeferhaus_800x600.jpg",
-            "pic2": "https://www.wildes-sh.de/fileadmin/user_upload/Karte_Anfahrt_UEbernachtung_Schaeferhaus.pdf",
-            "pic3": "https://www.wildes-sh.de/fileadmin/user_upload/Karte_UEbernachtung_Schaeferhaus.pdf",
+            "pic2": "https://lh5.googleusercontent.com/p/AF1QipNMmRDz1OCcIeegtj_gPfMpECpXO3LwDFAWzIAG=w408-h544-k-no",
+            "pic3": "",
             "pic4": ""
         },
-        "description": "This overnight place is offered by the Schleswig-Holstein Nature Conservation Foundation. The site is located in the Schäferhaus foundation state (Schleswig-Flensburg district), a former military training area. At this overnight place, the tent can be pitched near the sculpture next to the famous Ochsenweg, a historic country road. You can't miss the place to stay because of the wooden sculpture standing there, which depicts two symbolic ox horns.",
+        "description": "This overnight place is offered by the Schleswig-Holstein Nature Conservation Foundation. The site is located in the Schäferhaus foundation state, a former military training area. Tents can be pitched near the sculpture next to the famous Ochsenweg, a historic country road.",
         "toilet": true,
         "price": 0,
         "bookingRequired": false,
@@ -696,7 +696,7 @@
             "maxNights": 1
         },
         "fireAllowed": false,
-        "googlemaps": ""
+        "googlemaps": "ChIJMYzyfXZds0cRGnLQCvzLjGc"
     },
 
     "Segeberger Heide - Wildes": {
@@ -704,18 +704,18 @@
         "website": "https://www.wildes-sh.de/uebernachtungsplaetze/segeberger-heide/",
         "contacts": "",
         "region": "Schleswig-Holstein",
-        "address": "",
+        "address": "W3MP+5G Buchholz Forstgutsbezirk",
         "coordinates": {
             "latitude": 53.9325,
             "longitude": 10.0861
         },
         "pictures": {
             "pic1": "https://www.wildes-sh.de/fileadmin/_processed_/csm_Foto_SegebergerHeide_2014_StephanMense_2f69e9b031.jpg",
-            "pic2": "https://www.wildes-sh.de/fileadmin/PDFs/Anfahrskizze_Segeberger_Heide.pdf",
-            "pic3": "https://www.wildes-sh.de/fileadmin/PDFs/Luftbild_UEbernplz_Segeberger_Heide.pdf",
+            "pic2": "https://lh5.googleusercontent.com/p/AF1QipNfKAj3PAdJcchLtXtxciMucf1OBLKFh0gTHvjk=w408-h306-k-no",
+            "pic3": "",
             "pic4": ""
         },
-        "description": "The Schleswig-Holstein State Forests are offering this overnight accommodation in the forest as part of the Wild Schleswig-Holstein project. In the season, a “Dixi toilet” and a garbage container are set up at the forest playground. Barbecuing is allowed at this overnight place.",
+        "description": "The Schleswig-Holstein State Forests are offering this overnight accommodation in the forest as part of the Wild Schleswig-Holstein project. In the season, a “Dixi toilet” and a garbage container are set up at the forest playground. Barbecuing is allowed.",
         "toilet": true,
         "price": 0,
         "bookingRequired": false,
@@ -730,16 +730,16 @@
             "maxNight": true,
             "maxNights": 1
         },
-        "fireAllowed": false,
-        "googlemaps": ""
+        "fireAllowed": true,
+        "googlemaps": "GhIJItv5fmr3SkAR1XjpJjEsJEA"
     },
 
     "Steinbergkirche - Wildes": {
         "name": "Steinbergkirche - Wildes",
         "website": "https://www.wildes-sh.de/uebernachtungsplaetze/steinbergkirche/",
-        "contacts": "Registration is mandatory via our e-mail address: hdbrix@t-online.de",
+        "contacts": "hdbrix@t-online.de (registration via email is mandatory)",
         "region": "Schleswig-Holstein",
-        "address": "",
+        "address": "PPVW+5P Steinbergkirche",
         "coordinates": {
             "latitude": 54.742908,
             "longitude": 9.746801
@@ -750,7 +750,7 @@
             "pic3": "",
             "pic4": ""
         },
-        "description": "Our no longer managed farm is located in the Westerholm district of the Steinbergkirche community. The Baltic Sea and the Baltic Sea Cycle Route are approx. 7 km away. The campground is located on a meadow behind the garden. By arrangement, it is possible to use an outdoor kitchen equipped with the essentials. This also applies to a toilet and shower facility in the main house. Registration is mandatory via our e-mail address: hdbrix@t-online.de",
+        "description": "This place is in a private and no longer managed farm, approx. 7 km away from the Baltic Sea and the Baltic Sea Cycle Route. The campground is located on a meadow behind the garden. By arrangement, it is possible to use an outdoor kitchen equipped with the essentials, a toilet and shower. Registration via email is mandatory.",
         "toilet": true,
         "price": 0,
         "bookingRequired": true,
@@ -760,13 +760,13 @@
             "type": "with 3 people each"
         },
         "accessibility": "on foot or by bike",
-        "naturalPark": true,
+        "naturalPark": false,
         "nights": {
             "maxNight": true,
             "maxNights": 1
         },
         "fireAllowed": false,
-        "googlemaps": ""
+        "googlemaps": "GhIJarx0kxhfS0AR7Xw_NV5-I0A"
     },
 
     "St. Michaelisdonn - Wildes": {
@@ -774,7 +774,7 @@
         "website": "https://www.wildes-sh.de/uebernachtungsplaetze/st-michaelisdonn/",
         "contacts": "",
         "region": "Schleswig-Holstein",
-        "address": "",
+        "address": "X4CP+JM Sankt Michaelisdonn",
         "coordinates": {
             "latitude": 53.9716,
             "longitude": 9.1367
@@ -783,9 +783,9 @@
             "pic1": "https://www.wildes-sh.de/fileadmin/_processed_/csm_2016_05_12_Zeltplatz_St._Michaelisdonn_006_65499e8a06.jpg",
             "pic2": "https://www.wildes-sh.de/fileadmin/_processed_/csm_2016_05_12_Zeltplatz_St._Michaelisdonn_010_00c7bcb4a6.jpg",
             "pic3": "https://www.wildes-sh.de/fileadmin/_processed_/csm_2016_05_12_Zeltplatz_St._Michaelisdonn_002_2cfdf8faf6.jpg",
-            "pic4": ""
+            "pic4": "https://lh5.googleusercontent.com/p/AF1QipOiKpbh8_fnu_gJkM02aQNs-dSJ6J2sVOg366IC=w426-h240-k-no"
         },
-        "description": "This overnight place of the Nature Conservation Foundation is located in a small forest in the municipality of St. Michaelisdonn (Dithmarschen). It offers a view of the Kleve nature reserve with the so-called Spiekerberg. The Spiekerberg is an impressive witness of the times - it is the former edge of the North Sea (Kleve = cliff). When the heather is in bloom, this mountain is particularly beautiful to look at in the middle of the rather flat landscape. There are hiking trails through the nature reserve. At the overnight place there is mainly one thing: nature. There are no seats, rubbish bins, water or sanitary facilities. The overnight place is in the FFH area, fire is not permitted.",
+        "description": "This place of the Nature Conservation Foundation is located in a small forest in the municipality of St. Michaelisdonn. It offers a view of the Kleve nature reserve with the so-called Spiekerberg, the former edge of the North Sea (Kleve = cliff). There are hiking trails through the natural reserve. There are no seats, rubbish bins, water or sanitary facilities and fire is not allowed.",
         "toilet": false,
         "price": 0,
         "bookingRequired": false,
@@ -801,13 +801,13 @@
             "maxNights": 1
         },
         "fireAllowed": false,
-        "googlemaps": ""
+        "googlemaps": "GhIJj8L1KFz8SkARQ4ts5_tFIkA"
     },
 
     "Süderlügum - Wildes": {
         "name": "Süderlügum - Wildes",
         "website": "https://www.wildes-sh.de/uebernachtungsplaetze/suederluegum/",
-        "contacts": "",
+        "contacts": "VX63+38 Süderlügum",
         "region": "Schleswig-Holstein",
         "address": "",
         "coordinates": {
@@ -816,11 +816,11 @@
         },
         "pictures": {
             "pic1": "https://www.wildes-sh.de/fileadmin/user_upload/Foto_JWHSuederluegum_2014_StephanMense.JPG",
-            "pic2": "https://www.wildes-sh.de/fileadmin/user_upload/Karte_UEbernachtung_Suederluegum.pdf",
+            "pic2": "https://lh5.googleusercontent.com/p/AF1QipMYttxp9vieVVjd5FHkmlq1C4uhTorXBCr9Ees_=w408-h544-k-no",
             "pic3": "",
             "pic4": ""
         },
-        "description": "This is a place to stay at the Süderlügum youth forest home offered by the state forests in the Wild Schleswig-Holstein project. The square is located southwest of the JWH building, approx. 150 m away by a small pond. The site is open to the public.",
+        "description": "This place is in the Süderlügum youth forest, offered by the state forests in the Wild Schleswig-Holstein project. The field is located southwest of the JWH building, approx. 150 m away by a small pond. The site is open to the public.",
         "toilet": false,
         "price": 0,
         "bookingRequired": false,
@@ -836,7 +836,7 @@
             "maxNights": 1
         },
         "fireAllowed": false,
-        "googlemaps": ""
+        "googlemaps": "GhIJyHa-nxpuS0ARarx0kxjoIUA"
     },
 
     "Winderatter See - Wildes": {
