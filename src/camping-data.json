@@ -1051,28 +1051,28 @@
 
     "Steigerwald - Bayern": {
         "name": "Steigerwald - Bayern",
-        "website": "https://trekkingerlebnis.de/",
-        "contacts": "booking: https://trekkingerlebnis.de/plaetzeundbuchung/ ",
+        "website": "https://trekkingerlebnis.de/plaetzeundbuchung/",
+        "contacts": "",
         "region": "Bayern",
-        "address": "",
+        "address": "Steigerwald (the exact address depends on the camping location chosen)",
         "coordinates": {
-            "latitude": "https://trekkingerlebnis.de/",
-            "longitude": 2
+            "latitude": "",
+            "longitude": ""
         },
         "pictures": {
-            "pic1": "https://trekkingerlebnis.de/",
-            "pic2": "",
-            "pic3": "",
+            "pic1": "https://s3.amazonaws.com/planyo/36936_123887_221383_R.jpg",
+            "pic2": "https://s3.amazonaws.com/planyo/36936_123889_221386_R.jpg",
+            "pic3": "https://s3.amazonaws.com/planyo/36936_123888_221381_R.jpg",
             "pic4": ""
         },
-        "description": "Get out of everyday life and into adventure - exciting tours of discovery lead you through the Steigerwald Nature Park! (Flyer) A fireplace, toilet and storage space are available on ten trekking sites . You can find all trekking sites with the Steigerwald Trekking Experience app . The routes are not signposted on site. Equipped with hiking boots and a tent, you're ready to go!",
+        "description": "These places are in the Steigerwald Nature Park. A fireplace, toilet and storage space are available on each of the ten sites. You can find all trekking sites on the website. Booking is required and the expected price is 4.80€ per person.",
         "toilet": true,
         "price": 4.80,
         "bookingRequired": true,
         "legal": true,
         "tents": {
-            "amount": "price per person per night",
-            "type": "depends"
+            "amount": 10,
+            "type": ""
         },
         "accessibility": "on foot or by bike",
         "naturalPark": true,
@@ -1081,105 +1081,105 @@
             "maxNights": 1
         },
         "fireAllowed": true,
-        "googlemaps": ""
+        "googlemaps": "GhIJO99PjZfPSEARiUFg5dCGJEA"
     },
 
     "Grimbach - Black Forest": {
         "name": "Grimbach - Black Forest",
-        "website": "https://www.trekking-schwarzwald.de/regionen/nordschwarzwald/camp_grimbach",
-        "contacts": "E-Mail: contact [at] trekking-schwarzwald.de  https://naturparkschwarzwald.de/aktiv_unterwegs/trekking/?i=s  The trekking camps can be booked from March 15, 2021, from around 8 a.m., for the next trekking season from May 1 to October 31, 2021.  https://www.trekking-schwarzwald.de/ Closest rescue point: Plättig. Coordinates: N 48 ° 40.203 ' E 8 ° 13.901'  When making the emergency call, please also mention the place name “Trekking-Camp Grimbach”.",
+        "website": "https://bit.ly/3pzSKe3",
+        "contacts": "contact@trekking-schwarzwald.de (email)",
         "region": "Baden-Württemberg",
-        "address": "",
+        "address": "M6CJ+2M Bühl",
         "coordinates": {
-            "latitude": "https://www.trekking-schwarzwald.de/regionen/nordschwarzwald/camp_grimbach",
-            "longitude": 2
+            "latitude": "",
+            "longitude": ""
         },
         "pictures": {
-            "pic1": "https://www.trekking-schwarzwald.de/regionen/nordschwarzwald/camp_grimbach",
-            "pic2": "",
+            "pic1": "https://www.trekking-schwarzwald.de/cmsFiles/r296_data.jfif",
+            "pic2": "https://www.trekking-schwarzwald.de/cmsFiles/thumbi296_data.JPG",
             "pic3": "",
             "pic4": ""
         },
-        "description": "The Grimbach Trekking Camp is located in the Baden-Baden city forest in a beautiful beech forest. In the immediate vicinity is a small stream and a meadow. It is located between the Geroldsauer waterfall and the Plättig near the national park. Height: 670 m  Closest stops: Malschbach bus stop: bus line 204, from / to Baden-Baden  Bus stop Bühlerhöhe / Plättig: bus line 245 from / to Baden-Baden (line 245 does not run on Mondays) Bus route 263 from / to Bühl There is a small stream directly at the camp, which sometimes carries very little water or dries out completely in dry summers. To the next water source, follow the road 120 m north and then turn right into Rückegasse. Follow Rückegasse 300 m uphill to the next road, turn right, walk 40 m uphill and then turn left into the road. Follow this road for another 200 m to the first sharp left bend. Here there are water chambers with overflows and a stream. Please note that the springs in the Black Forest are not regularly checked for their drinking water quality. The drinking water quality cannot therefore be guaranteed. Please boil the water from springs as a precaution. ",
+        "description": "The Grimbach Camp is located in the Baden-Baden city forest. There are small streams near the site but please note that the springs in the Black Forest are not regularly checked for their drinking water quality. So, it is recommended to boil the water as a precaution. Toilets are available but bring toilet paper. Booking is required and the expected price is 10€ per tent. It is allowed to camp from May 1st to October 31.",
         "toilet": true,
-        "price": 0,
-        "bookingRequired": false,
+        "price": 10,
+        "bookingRequired": true,
         "legal": true,
         "tents": {
-            "amount": "boh",
-            "type": "depends"
+            "amount": 3,
+            "type": "for 2-3 people"
         },
-        "accessibility": "The trekking camps are away from the villages and can only be reached on foot. As a rule, you won't find anything in the vicinity - except wild nature. To ensure that nothing goes wrong with this adventure and that the trekking tour is a safe pleasure, you should find out about possible storm warnings in advance. ",
+        "accessibility": "the trekking camps are away from the villages at a height of 670m and can only be reached on foot (closest bus stops: Malschbach - Bühlerhöhe/Plättig)",
         "naturalPark": true,
         "nights": {
             "maxNight": true,
             "maxNights": 1
         },
         "fireAllowed": true,
-        "googlemaps": ""
+        "googlemaps": "GhIJVOOlm8RVSEARtMh2vp92IEA"
     },
 
     "Seibelseckle - Black Forest": {
         "name": "Seibelseckle - Black Forest",
-        "website": "https://www.trekking-schwarzwald.de/regionen/nordschwarzwald/camp_seibelseckle",
-        "contacts": "E-Mail: contact [at] trekking-schwarzwald.de  https://naturparkschwarzwald.de/aktiv_unterwegs/trekking/?i=s  The trekking camps can be booked from March 15, 2021, from around 8 a.m., for the next trekking season from May 1 to October 31, 2021.  https://www.trekking-schwarzwald.de/ Closest rescue point: Plättig. Coordinates: N 48 ° 40.203 ' E 8 ° 13.901'  When making the emergency call, please also mention the place name “Trekking-Camp Grimbach”.",
+        "website": "https://bit.ly/3pBXdwT",
+        "contacts": "contact@trekking-schwarzwald.de (email)",
         "region": "Baden-Württemberg",
-        "address": "The Seibelseckle trekking camp is located on the northern slope of the Kesselbach valley east of the Seibelseckle. Height: 863 m  Closest stop: Seibelseckle bus stop: Bus route 7125 from / to Oppenau (on weekends) Bus route 7125 from / to Ottenhöden (Mon-Fri) Bus route 12 from / to Freudenstadt (on weekends bus route F2) Mummelsee bus stop: Bus route 7123 from / to Achern",
+        "address": "H6W9+C2 Seebach",
         "coordinates": {
-            "latitude": "https://www.trekking-schwarzwald.de/regionen/nordschwarzwald/camp_seibelseckle",
-            "longitude": 2
+            "latitude": "",
+            "longitude": ""
         },
         "pictures": {
-            "pic1": "https://www.trekking-schwarzwald.de/regionen/nordschwarzwald/camp_seibelseckle",
+            "pic1": "https://www.trekking-schwarzwald.de/cmsFiles/i320_data.jpg",
             "pic2": "",
             "pic3": "",
             "pic4": ""
         },
-        "description": "A pooled spring with a sandstone well is located on the Seibelseckle behind the rest hut. Please note that the springs in the Black Forest are not regularly checked for their drinking water quality. The drinking water quality cannot therefore be guaranteed. Please boil the water from springs as a precaution",
+        "description": "The Seibelseckle camp is located on the northern slope of the Kesselbach valley east of the Seibelseckle. A pooled spring with a sandstone is located on the Seibelseckle behind the rest hut. Please note that the springs in the Black Forest are not regularly checked for their drinking water quality. The drinking water quality cannot therefore be guaranteed. Please boil the water from springs as a precaution. Toilets are available but bring toilet paper. Booking is required and the expected price is 10€ per tent. It is allowed to camp from May 1st to October 31.",
         "toilet": true,
-        "price": 0,
-        "bookingRequired": false,
+        "price": 10,
+        "bookingRequired": true,
         "legal": true,
         "tents": {
-            "amount": "boh",
-            "type": "depends"
+            "amount": 3,
+            "type": "for 2-3 people"
         },
-        "accessibility": "The trekking camps are away from the villages and can only be reached on foot. As a rule, you won't find anything in the vicinity - except wild nature. To ensure that nothing goes wrong with this adventure and that the trekking tour is a safe pleasure, you should find out about possible storm warnings in advance.",
+        "accessibility": "the trekking camps are away from the villages at a height of 863m and can only be reached on foot (closest bus stops: Seibelseckle - Mummelsee)",
         "naturalPark": true,
         "nights": {
             "maxNight": true,
             "maxNights": 1
         },
         "fireAllowed": true,
-        "googlemaps": ""
+        "googlemaps": "GhIJne-nxktMSEARCKwcWmRvIEA"
     },
 
     "Strawberry Hole - Black Forest": {
         "name": "Strawberry Hole - Black Forest",
-        "website": "https://www.trekking-schwarzwald.de/regionen/nordschwarzwald/camp_erdbeerloch",
-        "contacts": "The Erdbeerloch trekking camp is located near the Erdbeerlochwiese east of Allerheiligen. Closest stops: Schliffkopf bus stop: bus line 12 from / to Freudenstadt (on weekends bus line F2) Allerheiligen bus stop: Bus route 7125 from Oppenau (only on weekends!)",
+        "website": "https://bit.ly/37wDjx7",
+        "contacts": "",
         "region": "Baden-Württemberg",
-        "address": "The Seibelseckle trekking camp is located on the northern slope of the Kesselbach valley east of the Seibelseckle. Height: 863 m  Closest stop: Seibelseckle bus stop: Bus route 7125 from / to Oppenau (on weekends) Bus route 7125 from / to Ottenhöden (Mon-Fri) Bus route 12 from / to Freudenstadt (on weekends bus route F2) Mummelsee bus stop: Bus route 7123 from / to Achern",
+        "address": "",
         "coordinates": {
-            "latitude": "https://www.trekking-schwarzwald.de/regionen/nordschwarzwald/camp_erdbeerloch",
-            "longitude": 2
+            "latitude": "",
+            "longitude": ""
         },
         "pictures": {
-            "pic1": "https://www.trekking-schwarzwald.de/regionen/nordschwarzwald/camp_erdbeerloch",
+            "pic1": "",
             "pic2": "",
             "pic3": "",
             "pic4": ""
         },
-        "description": "A small stream crosses the camp. Please note that the springs in the Black Forest are not regularly checked for their drinking water quality. The drinking water quality cannot therefore be guaranteed. Please boil the water from springs as a precaution",
+        "description": "",
         "toilet": true,
-        "price": 0,
-        "bookingRequired": false,
+        "price": 10,
+        "bookingRequired": true,
         "legal": true,
         "tents": {
-            "amount": "boh",
-            "type": "depends"
+            "amount": 3,
+            "type": "for 2-3 people"
         },
-        "accessibility": "The trekking camps are away from the villages and can only be reached on foot. As a rule, you won't find anything in the vicinity - except wild nature. To ensure that nothing goes wrong with this adventure and that the trekking tour is a safe pleasure, you should find out about possible storm warnings in advance.",
+        "accessibility": "",
         "naturalPark": true,
         "nights": {
             "maxNight": true,
