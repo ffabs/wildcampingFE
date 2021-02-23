@@ -75,8 +75,7 @@ class Filter extends Component {
         return (
             <div>
                 <div onClick={this.showFilters} className="filter-button">
-                    <div>Filters</div>
-                    <div>{filterNumber} Selected</div>
+                    <div>{filterNumber + " filters selected"}</div>
                 </div>
                 <div className={this.state.filterSectionCSS}>
                     <div className="filter-checkbox">

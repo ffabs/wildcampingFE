@@ -1,16 +1,30 @@
 .filter-button {
-    color: white;
+    background-color: white;
     cursor: pointer;
     font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    height: 46px;
+    width: 280px;
+    font-size: 20px;
     line-height: 25px;
+    cursor: pointer;
+    box-shadow: 0px 2px 4px black;
+    border-radius: 10px;
 }
 
 .filter-section {
     position: absolute;
-    width: 250px;
-    height: 250px;
-    background-color: #282c34;
-    color: white;
+    top: 75px;
+    right: 210px;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    color: #282c34;
     font-size: 20px;
     line-height: 25px;
     box-shadow: 0px 2px 4px black;
@@ -18,16 +32,58 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    border-radius: 10px;
 }
 
 .filter-checkbox {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 15px;
 }
 
 .done-button {
     margin-top: 10px;
     cursor: pointer;
-    border: 1px solid white;
-    padding: 5px;
+    border: 2px solid #282c34;
+    text-align: center;
+    border-radius: 10px;
+    padding: 7px;
+    font-weight: 500;
+    font-size: 24px;
+    cursor: pointer;
 }
+
+@media only screen and (max-width: 1320px) {
+
+    .filter-section {
+        right: 130px;
+    }
+
+}
+
+@media only screen and (max-width: 1050px) {
+
+    .filter-section {
+        right: 90px;
+    } 
+
+}
+
+@media only screen and (max-width: 750px) {
+
+    .filter-button {
+        margin: 10px 0px 20px 0px;
+    }
+
+    .filter-section {
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+        width: 250px;
+    } 
+
+}
+
+

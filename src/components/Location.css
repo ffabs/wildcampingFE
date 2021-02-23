@@ -5,4 +5,12 @@
     line-height: 25px;
     cursor: pointer;
     box-shadow: 0px 2px 4px black;
+    -moz-appearance:none; /* Firefox */
+    -webkit-appearance:none; /* Safari and Chrome */
+    border-radius: 10px;
+}
+select{
+    text-align-last: right;
+    padding-right: 40px;
+    direction: rtl;
 }
