@@ -20,6 +20,7 @@ class CampingPreview extends Component {
     let legal = Data[this.props.campingId]["legal"];
 
     return (
+      <Link style={{ textDecoration: 'none', color: '#282c34' }} to={"/camping?name="+name}>
       <div className="camping-preview">
           <img src={image} className="camping-preview-image" alt="wild-camping" />
           <div className="camping-preview-text">
@@ -50,11 +51,12 @@ class CampingPreview extends Component {
                   <Icon icon="legal" details="no"/>
                 }
               </div>
-              <Link to={"/camping?name="+name}>
+              {/* <Link to={"/camping?name="+name}> */}
                 <div className="camping-preview-button">Details</div>
-              </Link>
+              {/* </Link> */}
           </div>
       </div>
+      </Link>
     );
   }
 }
