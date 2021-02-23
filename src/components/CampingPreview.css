@@ -60,7 +60,7 @@
 @media only screen and (max-width: 750px) {
 
     .camping-preview {
-        width: 90%;
+        width: 500px;
     }
 
 }
@@ -68,13 +68,13 @@
 @media only screen and (max-width: 550px) {
 
     .camping-preview {
-        width: 100%;
-        margin: 10px 0px;
-        padding: 0px;
+        width: 420px;
+        margin: 10px 5px;
+        /* padding: 0px;
         border: 1px solid #282c34;
         border-left: 0px;
         border-right: 0px;
-        border-radius: 0px;
+        border-radius: 0px; */
     }
     .camping-preview-image {
         border-radius: 0px;
@@ -98,6 +98,10 @@
 
 @media only screen and (max-width: 450px) {
 
+    .camping-preview {
+        width: 345px;
+    }
+
     .camping-preview-title {
         font-size: 15px;
         line-height: 15px;
@@ -116,6 +120,10 @@
 }
 
 @media only screen and (max-width: 370px) {
+
+    .camping-preview {
+        width: 300px;
+    }
 
     .camping-preview-title {
         font-size: 13px;

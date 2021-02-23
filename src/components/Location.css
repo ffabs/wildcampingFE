@@ -1,6 +1,6 @@
 .select-input {
     height: 46px;
-    width: 280px;
+    width: 310px;
     font-size: 20px;
     line-height: 25px;
     cursor: pointer;
@@ -10,7 +10,5 @@
     border-radius: 10px;
 }
 select{
-    text-align-last: right;
-    padding-right: 40px;
-    direction: rtl;
+    text-align-last: center;
 }
