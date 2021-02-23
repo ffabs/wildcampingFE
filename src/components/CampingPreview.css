@@ -11,6 +11,7 @@
         width: 50%;
         margin: 0px 20px 0px 0px;
         border-radius: 4px;
+        object-fit: cover;
     }
 
     .camping-preview-text {
