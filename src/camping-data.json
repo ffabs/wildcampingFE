@@ -1157,20 +1157,20 @@
     "Strawberry Hole - Black Forest": {
         "name": "Strawberry Hole - Black Forest",
         "website": "https://bit.ly/37wDjx7",
-        "contacts": "",
+        "contacts": "contact@trekking-schwarzwald.de (email)",
         "region": "Baden-Württemberg",
-        "address": "",
+        "address": "G5JX+MV Oppenau",
         "coordinates": {
             "latitude": "",
             "longitude": ""
         },
         "pictures": {
-            "pic1": "",
-            "pic2": "",
+            "pic1": "https://www.trekking-schwarzwald.de/cmsFiles/r312_data.jpg",
+            "pic2": "https://www.trekking-schwarzwald.de/cmsFiles/thumbi312_data.jpg",
             "pic3": "",
             "pic4": ""
         },
-        "description": "",
+        "description": "The Erdbeerloch camp is located near the Erdbeerlochwiese east of Allerheiligen. A small stream crosses the camp. Please boil the water from springs before drinking it as a precaution. Toilets are available but bring toilet paper. Booking is required and the expected price is 10€ per tent. It is allowed to camp from May 1st to October 31.",
         "toilet": true,
         "price": 10,
         "bookingRequired": true,
@@ -1179,224 +1179,224 @@
             "amount": 3,
             "type": "for 2-3 people"
         },
-        "accessibility": "",
+        "accessibility": "the trekking camps are away from the villages and can only be reached on foot (closest bus stops: Schliffkopf - Allerheiligen)",
         "naturalPark": true,
         "nights": {
             "maxNight": true,
             "maxNights": 1
         },
         "fireAllowed": true,
-        "googlemaps": ""
+        "googlemaps": "GhIJkxgEVg5ESEARCtejcD1mIEA"
     },
 
     "Bösellbach - Black Forest": {
         "name": "Bösellbach - Black Forest",
-        "website": "https://www.trekking-schwarzwald.de/regionen/nordschwarzwald/camp_boesellbach",
-        "contacts": "The Erdbeerloch trekking camp is located near the Erdbeerlochwiese east of Allerheiligen. Closest stops: Schliffkopf bus stop: bus line 12 from / to Freudenstadt (on weekends bus line F2) Allerheiligen bus stop: Bus route 7125 from Oppenau (only on weekends!)",
+        "website": "https://bit.ly/3pKRO6A",
+        "contacts": "contact@trekking-schwarzwald.de (email)",
         "region": "Baden-Württemberg",
-        "address": "Camp Bösellbach is located in the forest near the Bösellbachhütte. Height: 766 m Closest stops: Refuge bus stop: bus line 12 from / to Freudenstadt (on weekends bus line F2) Alexanderschanze bus stop: bus line 12 from / to Freudenstadt (on weekends bus line F2)",
+        "address": "F7R9+JC Baiersbronn",
         "coordinates": {
-            "latitude": "https://www.trekking-schwarzwald.de/regionen/nordschwarzwald/camp_boesellbach",
-            "longitude": 2
+            "latitude": "",
+            "longitude": ""
         },
         "pictures": {
-            "pic1": "https://www.trekking-schwarzwald.de/regionen/nordschwarzwald/camp_boesellbach",
-            "pic2": "",
+            "pic1": "https://www.trekking-schwarzwald.de/cmsFiles/thumbi315_data.jpg",
+            "pic2": "https://lh5.googleusercontent.com/p/AF1QipMvUcOL48aU_pRBvNkZLliy04-5Jc6ptqe_xUsi=w408-h306-k-no",
             "pic3": "",
             "pic4": ""
         },
-        "description": "The Bösellbach flows directly below the camp. Please note that the springs in the Black Forest are not regularly checked for their drinking water quality. The drinking water quality cannot therefore be guaranteed. Please boil the water from springs as a precaution.",
+        "description": "The camp is located in the forest near the Bösellbachhütte. The Bösellbach flows directly below the camp. The drinking water quality cannot therefore be guaranteed so please boil the water from springs as a precaution. Toilets are available but bring toilet paper. Booking is required and the expected price is 10€ per tent. It is allowed to camp from May 1st to October 31.",
         "toilet": true,
-        "price": 0,
-        "bookingRequired": false,
+        "price": 10,
+        "bookingRequired": true,
         "legal": true,
         "tents": {
-            "amount": "boh",
-            "type": "depends"
+            "amount": 3,
+            "type": "for 2-3 people"
         },
-        "accessibility": "The trekking camps are away from the villages and can only be reached on foot. As a rule, you won't find anything in the vicinity - except wild nature. To ensure that nothing goes wrong with this adventure and that the trekking tour is a safe pleasure, you should find out about possible storm warnings in advance.",
+        "accessibility": "the trekking camps are away from the villages at a height of 766m and can only be reached on foot (closest bus stops: Refuge - Alexanderschanze)",
         "naturalPark": true,
         "nights": {
             "maxNight": true,
             "maxNights": 1
         },
         "fireAllowed": true,
-        "googlemaps": ""
+        "googlemaps": "GhIJUrgehes-SEARL90kBoGJIEA"
     },
 
     "Gutellbach - Black Forest": {
         "name": "Gutellbach - Black Forest",
-        "website": "https://www.trekking-schwarzwald.de/regionen/nordschwarzwald/camp_gutellbach",
-        "contacts": "The Erdbeerloch trekking camp is located near the Erdbeerlochwiese east of Allerheiligen. Closest stops: Schliffkopf bus stop: bus line 12 from / to Freudenstadt (on weekends bus line F2) Allerheiligen bus stop: Bus route 7125 from Oppenau (only on weekends!)",
+        "website": "https://bit.ly/37HzvJw",
+        "contacts": "contact@trekking-schwarzwald.de (email)",
         "region": "Baden-Württemberg",
-        "address": "The Gutellbach Trekking Camp is located in a side valley south of Mitteltal. It is surrounded by two streams in a small depression in the forest. Height: 640 m Closest stop: Bus stop Mitteltal, Lamm: bus route 21 from / to Baiersbronn (on weekends bus route F11) Refuge bus stop: bus line 12 from / to Freudenstadt (on weekends bus line F2)",
+        "address": "G838+PR Baiersbronn",
         "coordinates": {
-            "latitude": "https://www.trekking-schwarzwald.de/regionen/nordschwarzwald/camp_gutellbach",
-            "longitude": 2
+            "latitude": "",
+            "longitude": ""
         },
         "pictures": {
-            "pic1": "https://www.trekking-schwarzwald.de/regionen/nordschwarzwald/camp_gutellbach",
-            "pic2": "",
+            "pic1": "https://www.trekking-schwarzwald.de/cmsFiles/r321_data.JPG",
+            "pic2": "https://www.trekking-schwarzwald.de/cmsFiles/thumbi321_data.JPG",
             "pic3": "",
             "pic4": ""
         },
-        "description": "A pooled spring with a sandstone well is about 300 m away. Please note that the springs in the Black Forest are not regularly checked for their drinking water quality. The drinking water quality cannot therefore be guaranteed. Please boil the water from springs as a precaution. At a distance of about 600 m there is a forest hut with a barbecue area. This hut can be very busy, especially on weekends.",
+        "description": "The camp is located in a side valley south of Mitteltal. It is surrounded by two streams in a small depression in the forest. Please note that the springs in the Black Forest are not regularly checked for their drinking water quality. The drinking water quality cannot therefore be guaranteed. Please boil the water from springs as a precaution. Toilets are available but bring toilet paper. At a distance of about 600m there is a forest hut with a barbecue area. Booking is required and the expected price is 10€ per tent. It is allowed to camp from May 1st to October 31.",
         "toilet": true,
-        "price": 0,
-        "bookingRequired": false,
+        "price": 10,
+        "bookingRequired": true,
         "legal": true,
         "tents": {
-            "amount": "boh",
-            "type": "depends"
+            "amount": 3,
+            "type": "for 2-3 people"
         },
-        "accessibility": "The trekking camps are away from the villages and can only be reached on foot. As a rule, you won't find anything in the vicinity - except wild nature. To ensure that nothing goes wrong with this adventure and that the trekking tour is a safe pleasure, you should find out about possible storm warnings in advance.",
+        "accessibility": "the trekking camps are away from the villages at a height of 640m and can only be reached on foot (closest bus stops: Mitteltal, Lamm - Refuge)",
         "naturalPark": true,
         "nights": {
             "maxNight": true,
             "maxNights": 1
         },
         "fireAllowed": true,
-        "googlemaps": ""
+        "googlemaps": "GhIJZDvfT41ASEARdZMYBFaiIEA"
     },
 
     "Kniebis - Black Forest": {
         "name": "Kniebis - Black Forest",
-        "website": "https://www.trekking-schwarzwald.de/regionen/nordschwarzwald/camp_kniebis",
-        "contacts": "The Erdbeerloch trekking camp is located near the Erdbeerlochwiese east of Allerheiligen. Closest stops: Schliffkopf bus stop: bus line 12 from / to Freudenstadt (on weekends bus line F2) Allerheiligen bus stop: Bus route 7125 from Oppenau (only on weekends!)",
+        "website": "https://bit.ly/2ZHTZNO",
+        "contacts": "contact@trekking-schwarzwald.de (email)",
         "region": "Baden-Württemberg",
-        "address": "The Kniebis Trekking Camp is located in the Forbachtal, below the B 28 in the immediate vicinity of the Forbach. Height: 817 m Closest bus stop: Kniebis Waldschwimmbad: bus line 12 from / to Freudenstadt (on weekends bus line F2)",
+        "address": "F888+V4 Freudenstadt",
         "coordinates": {
-            "latitude": "https://www.trekking-schwarzwald.de/regionen/nordschwarzwald/camp_kniebis",
-            "longitude": 2
+            "latitude": "",
+            "longitude": ""
         },
         "pictures": {
-            "pic1": "https://www.trekking-schwarzwald.de/regionen/nordschwarzwald/camp_kniebis",
-            "pic2": "",
+            "pic1": "https://www.trekking-schwarzwald.de/cmsFiles/thumbi322_data.JPG",
+            "pic2": "https://www.trekking-schwarzwald.de/cmsFiles/r322_data.JPG",
             "pic3": "",
             "pic4": ""
         },
-        "description": "The Forbach flows in the immediate vicinity of the camp. Please note that the springs in the Black Forest are not regularly checked for their drinking water quality. The drinking water quality cannot therefore be guaranteed. Please boil the water from springs as a precaution. The Kniebishütte, about 3.5 km away, is open until 7 p.m. and offers snacks and hot meals. The Avia petrol station in Kniebis with shop and bistro is open until 10 p.m. and is 1.8 km from the camp. There is a small shop at the Langenwaldsee campsite (4 km downstream). (Other refreshment stops in Kniebis: Café Günter, Waldhorn, Kniebishöhe, Hotel Waldblick, Hotel Schwarzwald).",
+        "description": "The camp is located in the Forbachtal, below the B28 in the immediate vicinity of the Forbach. The Forbach flows in the immediate vicinity of the camp. Please note that the springs in the Black Forest are not regularly checked for their drinking water quality. The drinking water quality cannot therefore be guaranteed. Please boil the water from springs as a precaution. Toilets are available but bring toilet paper. Booking is required and the expected price is 10€ per tent. It is allowed to camp from May 1st to October 31.",
         "toilet": true,
-        "price": 0,
-        "bookingRequired": false,
+        "price": 10,
+        "bookingRequired": true,
         "legal": true,
         "tents": {
-            "amount": "boh",
-            "type": "depends"
+            "amount": 3,
+            "type": "for 2-3 people"
         },
-        "accessibility": "The trekking camps are away from the villages and can only be reached on foot. As a rule, you won't find anything in the vicinity - except wild nature. To ensure that nothing goes wrong with this adventure and that the trekking tour is a safe pleasure, you should find out about possible storm warnings in advance.",
+        "accessibility": "the trekking camps are away from the villages at a height of 817m and can only be reached on foot (closest bus stops: Kniebis Waldschwimmbad)",
         "naturalPark": true,
         "nights": {
             "maxNight": true,
             "maxNights": 1
         },
         "fireAllowed": true,
-        "googlemaps": ""
+        "googlemaps": "GhIJzMzMzMw7SEARPQrXo3ChIEA"
     },
 
     "Windberg - Black Forest": {
         "name": "Windberg - Black Forest",
-        "website": "https://www.trekking-schwarzwald.de/regionen/suedschwarzwald/camps/camp_blasien_windberg",
-        "contacts": "The Erdbeerloch trekking camp is located near the Erdbeerlochwiese east of Allerheiligen. Closest stops: Schliffkopf bus stop: bus line 12 from / to Freudenstadt (on weekends bus line F2) Allerheiligen bus stop: Bus route 7125 from Oppenau (only on weekends!)",
+        "website": "https://bit.ly/2MfxQTQ",
+        "contacts": "contact@trekking-schwarzwald.de (email)",
         "region": "Baden-Württemberg",
-        "address": "The Trekking Camp Windberg is located north of the Windberg waterfall in St. Blasien. You will receive the so-called last mile by email after booking. It contains the exact GPS coordinates. Height: 810 m above sea level NN Bus stop St. Blasien Albtalstraße: Bus route 7319 from / to St. Blasien bus station",
+        "address": "St. Blasien (you will receive the exact GPS coordinates by email after booking)",
         "coordinates": {
-            "latitude": "https://www.trekking-schwarzwald.de/regionen/suedschwarzwald/camps/camp_blasien_windberg",
-            "longitude": 2
+            "latitude": "",
+            "longitude": ""
         },
         "pictures": {
-            "pic1": "https://www.trekking-schwarzwald.de/regionen/suedschwarzwald/camps/camp_blasien_windberg",
+            "pic1": "https://www.trekking-schwarzwald.de/cmsFiles/thumbi420_data.jpg",
             "pic2": "",
             "pic3": "",
             "pic4": ""
         },
-        "description": "A pooled spring with a wooden well is located directly on the square. Please make sure that no food remains in the fountain trough when washing the dishes. The Windbergbach also flows in the immediate vicinity of the camp. Water can be fetched there. Please note that the springs in the Black Forest are not regularly checked for their drinking water quality. The drinking water quality cannot therefore be guaranteed. As a precaution, please boil the water from wells, springs and streams. Sources can dry up in drought. Make a fire: there is firewood. Firing is only permitted in the stone fireplace provided for this purpose. Please only use your camping stove directly on the attached fireplace. There is an old feeding hut (closed) on the site. If necessary, you can hang wet clothes under the roof overhang. Restaurants, shops and the absolutely worth seeing Blasius Cathedral in St. Blasien (approx. 2 km, 30 minutes) The rustic Windberghof is within sight (1.4 km, 20 minutes). Goat cheese and sausage from the farm. At the Windberghof, two large herd guard dogs, which you can hear at night, guard the goats and cattle. Don't worry, the dogs will stay with the herd. ",
+        "description": "The camp is located north of the Windberg waterfall in St. Blasien (the exact location will be shared after the booking). A fountain and the Windbergbach spring are in the immediate vicinity of the camp. Please note that the springs in the Black Forest are not regularly checked for their drinking water quality. The drinking water quality cannot therefore be guaranteed. Please boil the water from springs as a precaution. Toilets are available but bring toilet paper. Booking is required and the expected price is 10€ per tent. It is allowed to camp from May 1st to October 31.",
         "toilet": true,
-        "price": 0,
-        "bookingRequired": false,
+        "price": 10,
+        "bookingRequired": true,
         "legal": true,
         "tents": {
-            "amount": "boh",
-            "type": "depends"
+            "amount": 3,
+            "type": "for 2-3 people"
         },
-        "accessibility": "It is not possible or allowed to drive to the trekking camps. If you would like to travel by car to a suitable starting point for the start of your hike or overnight stay in our camps, please park your car on onepublic Parking lot and walk the last meters to the camp behind you.",
+        "accessibility": "the trekking camps are away from the villages at a height of 810m and can only be reached on foot (closest bus stops: St. Blasien Albtalstraße)",
         "naturalPark": true,
         "nights": {
             "maxNight": true,
             "maxNights": 1
         },
         "fireAllowed": true,
-        "googlemaps": ""
+        "googlemaps": "ChIJ_fJPNjdYkEcRsHjfpbdrHwQ"
     },
 
     "Quarry - Black Forest": {
         "name": "Quarry - Black Forest",
-        "website": "https://www.trekking-schwarzwald.de/regionen/suedschwarzwald/camps/camp_menzenschwand",
-        "contacts": "The Erdbeerloch trekking camp is located near the Erdbeerlochwiese east of Allerheiligen. Closest stops: Schliffkopf bus stop: bus line 12 from / to Freudenstadt (on weekends bus line F2) Allerheiligen bus stop: Bus route 7125 from Oppenau (only on weekends!)",
+        "website": "https://bit.ly/2ZE1OEh",
+        "contacts": "contact@trekking-schwarzwald.de (email)",
         "region": "Baden-Württemberg",
-        "address": "The Steinbruch Trekking Camp is idyllically located in a small forest near the Schleifbach in Menzenschwand-Vorderdorf. You will receive the so-called last mile by email after booking. It contains the exact GPS coordinates. Height: 876 m above sea level NN Closest stop: Menzenschwand Vorderdorf bus stop: Bus route 7321 from / to St. Blasien bus station",
+        "address": "Southern Black Forest Nature Park (you will receive the exact GPS coordinates by email after booking)",
         "coordinates": {
-            "latitude": "https://www.trekking-schwarzwald.de/regionen/suedschwarzwald/camps/camp_menzenschwand",
-            "longitude": 2
+            "latitude": "",
+            "longitude": ""
         },
         "pictures": {
-            "pic1": "https://www.trekking-schwarzwald.de/regionen/suedschwarzwald/camps/camp_menzenschwand",
-            "pic2": "",
-            "pic3": "",
+            "pic1": "https://lh5.googleusercontent.com/p/AF1QipMHSbX4PYFpnlVhS5qt-k-07GXFKM6XmHrszH7c=w408-h306-k-no",
+            "pic2": "https://www.trekking-schwarzwald.de/cmsFiles/r422_data.jpg",
+            "pic3": "https://www.trekking-schwarzwald.de/cmsFiles/thumbi422_data.jpg",
             "pic4": ""
         },
-        "description": "The Schleifbach is located directly at the camp with direct access. Please wash at least 50 m from the stream. Please also note that the springs in the Black Forest are not regularly checked for their drinking water quality. The drinking water quality cannot therefore be guaranteed. As a precaution, please boil the water from springs and streams. Sources can dry up in drought. Make a fire: there is firewood. Firing is only permitted in the stone fireplace provided for this purpose. Please only use your camping stove directly on the attached fireplace. Restaurants and bakery in Menzenschwand (approx. 1 km, 15 minutes)",
+        "description": "The camp is located in a small forest near the Schleifbach in Menzenschwand-Vorderdorf (the exact location will be shared after the booking). The Schleifbach is located directly at the camp with direct access. Please note that the springs in the Black Forest are not regularly checked for their drinking water quality. The drinking water quality cannot therefore be guaranteed. Please boil the water from springs as a precaution. Toilets are available but bring toilet paper. There is firewood to make a fire but it is only permitted in the stone fireplace onsite. Booking is required and the expected price is 10€ per tent. It is allowed to camp from May 1st to October 31.",
         "toilet": true,
-        "price": 0,
-        "bookingRequired": false,
+        "price": 10,
+        "bookingRequired": true,
         "legal": true,
         "tents": {
-            "amount": "boh",
-            "type": "depends"
+            "amount": 3,
+            "type": "for 2-3 people"
         },
-        "accessibility": "It is not possible or allowed to drive to the trekking camps. If you would like to travel by car to a suitable starting point for the start of your hike or overnight stay in our camps, please park your car on onepublic Parking lot and walk the last meters to the camp behind you.",
+        "accessibility": "the trekking camps are away from the villages at a height of 876m and can only be reached on foot (closest bus stops: Menzenschwand Vorderdorf)",
         "naturalPark": true,
         "nights": {
             "maxNight": true,
             "maxNights": 1
         },
         "fireAllowed": true,
-        "googlemaps": ""
+        "googlemaps": "GhIJhxbZzvfuR0ARDAIrhxYVIEA"
     },
 
     "Felsenhalde - Black Forest": {
         "name": "Felsenhalde - Black Forest",
-        "website": "https://www.trekking-schwarzwald.de/regionen/suedschwarzwald/camps/camp_felsenhalde",
-        "contacts": "The Erdbeerloch trekking camp is located near the Erdbeerlochwiese east of Allerheiligen. Closest stops: Schliffkopf bus stop: bus line 12 from / to Freudenstadt (on weekends bus line F2) Allerheiligen bus stop: Bus route 7125 from Oppenau (only on weekends!)",
+        "website": "https://bit.ly/3bzRsKS",
+        "contacts": "contact@trekking-schwarzwald.de (email)",
         "region": "Baden-Württemberg",
-        "address": "The “Felsenhalde” trekking camp is located south of Dachsberg-Urberg. You will receive the so-called last mile by email after booking. It contains the exact GPS coordinates. Height: 905 m above sea level NN Closest stop: Urberg bus stop: Bus route 7324 from / to St. Blasien bus station",
+        "address": "south of Dachsberg-Urberg (you will receive the exact GPS coordinates by email after booking)",
         "coordinates": {
-            "latitude": "https://www.trekking-schwarzwald.de/regionen/suedschwarzwald/camps/camp_felsenhalde",
-            "longitude": 2
+            "latitude": "",
+            "longitude": ""
         },
         "pictures": {
-            "pic1": "https://www.trekking-schwarzwald.de/regionen/suedschwarzwald/camps/camp_felsenhalde",
-            "pic2": "",
+            "pic1": "https://www.trekking-schwarzwald.de/cmsFiles/r424_data.jpg",
+            "pic2": "https://www.trekking-schwarzwald.de/cmsFiles/thumbi424_data.jpg",
             "pic3": "",
             "pic4": ""
         },
-        "description": "At the Goldenhof there is a fountain that is suitable for fetching water. Please note that the springs in the Black Forest are not regularly checked for their drinking water quality. The drinking water quality cannot therefore be guaranteed. Please boil the water from springs as a precaution. Make a fire: there is firewood. Firing is only permitted in the stone fireplace provided for this purpose. Please only use your camping stove directly on the attached fireplace. At the nearby Goldenhof you can buy milk on request and, depending on the season, possibly products from our own farm. At the camp there is also a small hut on stands, which can be used as a shelter if the caretaker is asked to do so in extremely bad weather. On the Albsteig in the Goldenhof area you can visit the four stations of the Zeidler path (wild beekeeping):  www.goldenhof.de",
+        "description": "The camp is located is located south of Dachsberg-Urberg (the exact location will be shared after the booking). There is a fountain that is suitable for fetching water. Please note that the springs in the Black Forest are not regularly checked for their drinking water quality. The drinking water quality cannot therefore be guaranteed. Please boil the water from springs as a precaution. Toilets are available but bring toilet paper. There is firewood to make a fire but it is only permitted in the stone fireplace onsite. At the camp there is also a small hut, which can be used as a shelter in case of very bad weather. Booking is required and the expected price is 10€ per tent. It is allowed to camp from May 1st to October 31.",
         "toilet": true,
-        "price": 0,
-        "bookingRequired": false,
+        "price": 10,
+        "bookingRequired": true,
         "legal": true,
         "tents": {
-            "amount": "boh",
-            "type": "depends"
+            "amount": 3,
+            "type": "for 2-3 people"
         },
-        "accessibility": "It is not possible or allowed to drive to the trekking camps. If you would like to travel by car to a suitable starting point for the start of your hike or overnight stay in our camps, please park your car on onepublic Parking lot and walk the last meters to the camp behind you.",
+        "accessibility": "the trekking camps are away from the villages at a height of 905m and can only be reached on foot (closest bus stops: Urberg)",
         "naturalPark": true,
         "nights": {
             "maxNight": true,
             "maxNights": 1
         },
         "fireAllowed": true,
-        "googlemaps": ""
+        "googlemaps": "ChIJGQIS4gxZkEcR1cBNlQS3t5k"
     }
            
 }
