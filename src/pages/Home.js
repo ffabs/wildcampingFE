@@ -3,8 +3,14 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import {Link} from 'react-router-dom';
 import './Home.css';
-import CookieConsent from "react-cookie-consent";
+import CookieConsent, { getCookieConsentValue } from "react-cookie-consent";
 import ReactGA from 'react-ga';
+
+let consent = getCookieConsentValue();
+if (consent === "true") {
+    ReactGA.initialize('UA-190450937-1');
+    ReactGA.pageview('/home');
+} 
 
 function Home() {
   return ( 
@@ -37,14 +43,14 @@ function Home() {
             onAccept={() => {
                 // alert("Accept was triggered by clicking the Accept button");
                 // this.props.GAcookiesOn()
-                ReactGA.initialize('G-HPZ5J1ZC5D');
-                ReactGA.pageview('/');
-                console.log("accepted")
+                ReactGA.initialize('UA-190450937-1');
+                ReactGA.pageview('/home');
             }}
-            onDecline={() => {
-                console.log("not accepted")
-            }}
-        >This website uses Google Analytics cookies to enhance the user experience.</CookieConsent>
+            // onDecline={() => {
+            //     console.log("not accepted")
+            // }}
+            >This website uses Google Analytics cookies to enhance the user experience.
+        </CookieConsent>
         <Footer />
     </div>  
   );

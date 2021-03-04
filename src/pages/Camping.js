@@ -6,7 +6,8 @@ import './Camping.css';
 import {useLocation} from "react-router-dom";
 import Data from '../camping-data.json';
 import {Redirect} from 'react-router-dom';
-import CookieConsent from "react-cookie-consent";
+import CookieConsent, { getCookieConsentValue } from "react-cookie-consent";
+import ReactGA from 'react-ga';
 
 export default function Camping() {
 
@@ -41,6 +42,12 @@ export default function Camping() {
   let nights = Data[campingId]["nights"]["maxNights"];
   let googlemaps = Data[campingId]["googlemaps"];
 
+  let consent = getCookieConsentValue();
+  if (consent === "true") {
+      ReactGA.initialize('UA-190450937-1');
+      ReactGA.pageview('/camping');
+      ReactGA.pageview(name);
+  }
     return ( 
       <div>
         <Header />
@@ -121,7 +128,20 @@ export default function Camping() {
               />
             </div>
         </div>
-        <CookieConsent enableDeclineButton buttonStyle={{ background: "#00695c", color: "white", fontWeight: "bold" }}>This website uses Google Analytics cookies to enhance the user experience.</CookieConsent>
+        <CookieConsent 
+            enableDeclineButton 
+            buttonStyle={{ background: "#00695c", color: "white", fontWeight: "bold" }}
+            onAccept={() => {
+                // alert("Accept was triggered by clicking the Accept button");
+                // this.props.GAcookiesOn()
+                ReactGA.pageview('/camping');
+                ReactGA.pageview(name);
+            }}
+            // onDecline={() => {
+            //     console.log("not accepted")
+            // }}
+            >This website uses Google Analytics cookies to enhance the user experience.
+        </CookieConsent>
         <Footer />
       </div>  
     );

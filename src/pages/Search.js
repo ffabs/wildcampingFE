@@ -7,7 +7,14 @@ import Location from '../components/Location';
 import Filters from '../components/Filters';
 import Pagination from '../components/Pagination';
 import logo from '../images/logo.png';
-import CookieConsent from "react-cookie-consent";
+import CookieConsent, { getCookieConsentValue } from "react-cookie-consent";
+import ReactGA from 'react-ga';
+
+let consent = getCookieConsentValue();
+if (consent === "true") {
+    ReactGA.initialize('UA-190450937-1');
+    ReactGA.pageview('/search');
+} 
 
 class Search extends Component {
   
@@ -60,7 +67,20 @@ class Search extends Component {
                 {...this.props}
               />
             </div>
-            <CookieConsent enableDeclineButton buttonStyle={{ background: "#00695c", color: "white", fontWeight: "bold" }}>This website uses Google Analytics cookies to enhance the user experience.</CookieConsent>
+            <CookieConsent 
+              enableDeclineButton 
+              buttonStyle={{ background: "#00695c", color: "white", fontWeight: "bold" }}
+              onAccept={() => {
+                  // alert("Accept was triggered by clicking the Accept button");
+                  // this.props.GAcookiesOn()
+                  ReactGA.initialize('UA-190450937-1');
+                  ReactGA.pageview('/search');
+              }}
+              // onDecline={() => {
+              //     console.log("not accepted")
+              // }}
+              >This website uses Google Analytics cookies to enhance the user experience.
+            </CookieConsent>
             <Footer />
         </div>  
       );
