@@ -27,7 +27,8 @@ class Signup extends Component {
   }
 
   signup = event => {
-    fetch('http://localhost:8080/auth/signup', {
+    fetch('https://wildcamping-be.herokuapp.com/auth/signup', {
+    // fetch('http://localhost:8080/auth/signup', {
       method: 'PUT',
       body: JSON.stringify({
         "username": "Fabs",
