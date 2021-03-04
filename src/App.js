@@ -9,6 +9,7 @@ import Camping from './pages/Camping';
 import './App.css';
 import {HashRouter, Switch, Route, Redirect} from 'react-router-dom';
 import ScrollToTop from 'react-router-scroll-top';
+import ReactGA from 'react-ga';
 
 class App extends Component {
   constructor (props) {
@@ -144,6 +145,12 @@ class App extends Component {
     
   }
 
+  GAcookiesOn() {
+    ReactGA.initialize('UA-2336046006');
+    ReactGA.pageview('/');
+    console.log("fireed")
+  }
+
   render() {
 
     return (
@@ -151,7 +158,9 @@ class App extends Component {
         <ScrollToTop>
           <Switch>
             <Route exact={true} path='/' render={() => (
-              <Home />
+              <Home 
+                GAcookiesOn={this.GAcookiesOn}
+              />
             )}/>
             <Route exact={true} path='/search' render={() => (
               <Search

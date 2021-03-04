@@ -3,6 +3,8 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import {Link} from 'react-router-dom';
 import './Home.css';
+import CookieConsent from "react-cookie-consent";
+import ReactGA from 'react-ga';
 
 function Home() {
   return ( 
@@ -29,6 +31,20 @@ function Home() {
             In other cases, they are free and in some other cases not even a booking is required.</div>
             <div className="home-paragraph">Are you interested in having an wild experience in the Nature worry free? <Link to="/search"> <u>Search</u> </Link> now for available places!</div>
         </div>
+        <CookieConsent 
+            enableDeclineButton 
+            buttonStyle={{ background: "#00695c", color: "white", fontWeight: "bold" }}
+            onAccept={() => {
+                // alert("Accept was triggered by clicking the Accept button");
+                // this.props.GAcookiesOn()
+                ReactGA.initialize('G-HPZ5J1ZC5D');
+                ReactGA.pageview('/');
+                console.log("accepted")
+            }}
+            onDecline={() => {
+                console.log("not accepted")
+            }}
+        >This website uses Google Analytics cookies to enhance the user experience.</CookieConsent>
         <Footer />
     </div>  
   );

@@ -6,6 +6,7 @@ import './Camping.css';
 import {useLocation} from "react-router-dom";
 import Data from '../camping-data.json';
 import {Redirect} from 'react-router-dom';
+import CookieConsent from "react-cookie-consent";
 
 export default function Camping() {
 
@@ -120,6 +121,7 @@ export default function Camping() {
               />
             </div>
         </div>
+        <CookieConsent enableDeclineButton buttonStyle={{ background: "#00695c", color: "white", fontWeight: "bold" }}>This website uses Google Analytics cookies to enhance the user experience.</CookieConsent>
         <Footer />
       </div>  
     );

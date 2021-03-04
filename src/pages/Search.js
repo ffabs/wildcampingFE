@@ -7,6 +7,7 @@ import Location from '../components/Location';
 import Filters from '../components/Filters';
 import Pagination from '../components/Pagination';
 import logo from '../images/logo.png';
+import CookieConsent from "react-cookie-consent";
 
 class Search extends Component {
   
@@ -59,6 +60,7 @@ class Search extends Component {
                 {...this.props}
               />
             </div>
+            <CookieConsent enableDeclineButton buttonStyle={{ background: "#00695c", color: "white", fontWeight: "bold" }}>This website uses Google Analytics cookies to enhance the user experience.</CookieConsent>
             <Footer />
         </div>  
       );
