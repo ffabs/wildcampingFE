@@ -6,6 +6,7 @@ import LoadAllCommonData from './functions/LoadAllCommonData';
 import Home from './pages/Home';
 import Search from './pages/Search';
 import Camping from './pages/Camping';
+import Signup from './pages/Signup';
 import './App.css';
 import {HashRouter, Switch, Route, Redirect} from 'react-router-dom';
 import ScrollToTop from 'react-router-scroll-top';
@@ -177,6 +178,9 @@ class App extends Component {
             )}/>
             <Route exact={true} path='/camping' render={() => (
               <Camping />
+            )}/>
+            <Route exact={true} path='/signup' render={() => (
+              <Signup />
             )}/>
             <Route render={() => (
               <Redirect to="/" />
