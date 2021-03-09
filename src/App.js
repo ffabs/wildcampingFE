@@ -7,6 +7,7 @@ import Home from './pages/Home';
 import Search from './pages/Search';
 import Camping from './pages/Camping';
 import Signup from './pages/Signup';
+import Login from './pages/Login';
 import './App.css';
 import {HashRouter, Switch, Route, Redirect} from 'react-router-dom';
 import ScrollToTop from 'react-router-scroll-top';
@@ -181,6 +182,9 @@ class App extends Component {
             )}/>
             <Route exact={true} path='/signup' render={() => (
               <Signup />
+            )}/>
+            <Route exact={true} path='/login' render={() => (
+              <Login />
             )}/>
             <Route render={() => (
               <Redirect to="/" />
