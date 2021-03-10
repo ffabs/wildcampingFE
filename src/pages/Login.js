@@ -35,8 +35,8 @@ class Login extends Component {
   }
 
   login = event => {
-    // fetch('https://wildcamping-be.herokuapp.com/auth/signup', {
-    fetch('http://localhost:8080/auth/login', {
+    fetch('https://wildcamping-be.herokuapp.com/auth/signup', {
+    // fetch('http://localhost:8080/auth/login', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'

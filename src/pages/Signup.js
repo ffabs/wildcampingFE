@@ -3,6 +3,8 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import CookieConsent, { getCookieConsentValue } from "react-cookie-consent";
 import ReactGA from 'react-ga';
+import {Link} from 'react-router-dom';
+import '../App.css';
 
 let consent = getCookieConsentValue();
 if (consent === "true") {
@@ -18,6 +20,7 @@ class Signup extends Component {
       username: '',
       email: '',
       password: '',
+      newsletter: false,
         // location: this.props.currentLocation,
         // filterSectionCSS: "hide",
         // booking: this.props.booking,
@@ -27,6 +30,18 @@ class Signup extends Component {
         // naturalPark: this.props.naturalPark,
         // legal: this.props.legal
     };
+  }
+
+  updateNewsletter = event => {
+    if (this.state.newsletter) {
+        this.setState({
+          newsletter: false
+        });
+    } else {
+        this.setState({
+          newsletter: true
+        });
+    }
   }
 
   handleUsername = event => {
@@ -60,7 +75,8 @@ class Signup extends Component {
       body: JSON.stringify({
         "username": this.state.username,
 	      "email": this.state.email,
-        "password": this.state.password
+        "password": this.state.password,
+        "newsletter": this.state.newsletter
       })
     })
     .then(res => res.json())
@@ -73,23 +89,41 @@ class Signup extends Component {
       return ( 
         <div>
             <Header />
-            <input
-              type="text" 
-              name="username"
-              onChange={this.handleUsername}
-            />
-            <input
-              type="text" 
-              name="email"
-              onChange={this.handleEmail}
-            />
-            <input
-              type="password" 
-              name="password"
-              onChange={this.handlePassword}
-            />
-            <div onClick={this.signup}>
-              <div>signup</div>
+            <div className="auth">
+              <div>
+                Sign Up to WildPeg!
+              </div>
+              <hr></hr>
+              <div><input
+                  type="text" 
+                  name="username"
+                  placeholder="Username"
+                  onChange={this.handleUsername}
+                /></div>
+              <div><input
+                type="text" 
+                name="email"
+                placeholder="Email"
+                onChange={this.handleEmail}
+              /></div>
+              <div><input
+                type="password" 
+                name="password"
+                placeholder="Password"
+                onChange={this.handlePassword}
+              /></div>
+              <div className="signup-checkbox">
+                  <div>
+                    <input type="checkbox" onChange={this.updateNewsletter}/>
+                  </div>
+                  <div>Yes! I want to get the most out of WildPeg by receiving emails with updates, personal recommendations and wild camping tips!</div>
+              </div>
+              <div onClick={this.signup} className="auth-button">
+                <div>Sign Up</div>
+              </div>
+              <div>By signing up, you agree to our Terms of Use and Privacy Policy.</div>
+              <hr></hr>
+              <div>Already have an account? <Link to="/login">Log In</Link></div>
             </div>
             <CookieConsent 
               enableDeclineButton 
