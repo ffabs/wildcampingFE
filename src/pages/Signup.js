@@ -5,6 +5,7 @@ import CookieConsent, { getCookieConsentValue } from "react-cookie-consent";
 import ReactGA from 'react-ga';
 import {Link} from 'react-router-dom';
 import '../App.css';
+import './Signup.css';
 
 let consent = getCookieConsentValue();
 if (consent === "true") {
@@ -121,7 +122,15 @@ class Signup extends Component {
               <div onClick={this.signup} className="auth-button">
                 <div>Sign Up</div>
               </div>
-              <div>By signing up, you agree to our Terms of Use and Privacy Policy.</div>
+              <div>By signing up, you agree to our 
+                <a href="https://www.websitepolicies.com/policies/edit/abeC33i2?type=tos&policy=basic&qa=y" target="_blank" rel="noopener noreferrer" className="policy-signup">
+                  Terms of Use
+                </a> 
+                and
+                <a href="https://www.websitepolicies.com/policies/edit/hM52IadN?type=privacy&policy=basic&qa=y" target="_blank" rel="noopener noreferrer" className="policy-signup">
+                  Privacy Policy
+                </a>.
+              </div>
               <hr></hr>
               <div>Already have an account? <Link to="/login">Log In</Link></div>
             </div>
