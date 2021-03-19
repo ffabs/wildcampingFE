@@ -1,3 +1,91 @@
+.signup-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0px;
+}
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 315px;
+}
+.signup-calltoaction {
+    margin: 0px 0px 30px 0px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.hr {
+    background-color: rgb(170, 170, 170);
+    width: 100%;
+    padding: 0.5px 8px;
+    margin-bottom: 30px;
+}
+
+.input-field {
+    padding: 13px 8px;
+    margin-bottom: 10px;
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid;
+    font-size: 18px;
+}
+
+.signup-checkbox {
+    width: 100%;
+}
+
+  .signup-checkbox {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    margin: 5px 0px;
+  }
+
+  .signup-checkbox-box {
+      cursor: pointer;
+  }
+
+  .auth-button {
+    background-color: #00695c;
+    color: white;
+    padding: 13px 8px;
+    font-weight: bold;
+    width: 100%;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+.policies-signup {
+    margin: 30px 0px 20px 0px;
+    font-size: 13px;
+}
 .policy-signup {
     margin: 0px 5px;
+}
+
+@media only screen and (max-width: 375px) {
+    .signup-form {
+        width: 280px;
+    }
+    .signup-checkbox {
+        font-size: 14px;
+    }
+    .policies-signup {
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width: 333px) {
+    .signup-form {
+        width: 250px;
+    }
+    .signup-checkbox {
+        font-size: 13px;
+    }
+    .policies-signup {
+        font-size: 10px;
+    }
 }

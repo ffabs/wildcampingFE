@@ -90,49 +90,60 @@ class Signup extends Component {
       return ( 
         <div>
             <Header />
-            <div className="auth">
-              <div>
-                Sign Up to WildPeg!
-              </div>
-              <hr></hr>
-              <div><input
-                  type="text" 
-                  name="username"
-                  placeholder="Username"
-                  onChange={this.handleUsername}
-                /></div>
-              <div><input
-                type="text" 
-                name="email"
-                placeholder="Email"
-                onChange={this.handleEmail}
-              /></div>
-              <div><input
-                type="password" 
-                name="password"
-                placeholder="Password"
-                onChange={this.handlePassword}
-              /></div>
-              <div className="signup-checkbox">
-                  <div>
-                    <input type="checkbox" onChange={this.updateNewsletter}/>
-                  </div>
-                  <div>Yes! I want to get the most out of WildPeg by receiving emails with updates, personal recommendations and wild camping tips!</div>
-              </div>
-              <div onClick={this.signup} className="auth-button">
-                <div>Sign Up</div>
-              </div>
-              <div>By signing up, you agree to our 
-                <a href="https://www.websitepolicies.com/policies/edit/abeC33i2?type=tos&policy=basic&qa=y" target="_blank" rel="noopener noreferrer" className="policy-signup">
-                  Terms of Use
-                </a> 
-                and
-                <a href="https://www.websitepolicies.com/policies/edit/hM52IadN?type=privacy&policy=basic&qa=y" target="_blank" rel="noopener noreferrer" className="policy-signup">
-                  Privacy Policy
-                </a>.
-              </div>
-              <hr></hr>
-              <div>Already have an account? <Link to="/login">Log In</Link></div>
+            <div className="signup-page">
+              <div className="signup-form">
+                <div className="signup-calltoaction">
+                  Sign Up to WildPeg!
+                </div>
+                <div className="hr"></div>
+                {/* <div> */}
+                  <input
+                    type="text" 
+                    name="username"
+                    placeholder="Username"
+                    onChange={this.handleUsername}
+                    className="input-field"
+                  />
+                {/* </div> */}
+                {/* <div> */}
+                  <input
+                    type="text" 
+                    name="email"
+                    placeholder="Email"
+                    onChange={this.handleEmail}
+                    className="input-field"
+                  />
+                {/* </div> */}
+                {/* <div> */}
+                  <input
+                    type="password" 
+                    name="password"
+                    placeholder="Password"
+                    onChange={this.handlePassword}
+                    className="input-field"
+                  />
+                {/* </div> */}
+                <div className="signup-checkbox">
+                    <div>
+                      <input className="signup-checkbox-box" type="checkbox" onChange={this.updateNewsletter}/>
+                    </div>
+                    <div>Yes! I want to signup to the newsletter!</div>
+                </div>
+                <div onClick={this.signup} className="auth-button">
+                  <div>Sign Up</div>
+                </div>
+                <div className="policies-signup">By signing up, you agree to our 
+                  <a href="https://www.websitepolicies.com/policies/view/abeC33i2" target="_blank" rel="noopener noreferrer" className="policy-signup">
+                    Terms
+                  </a> 
+                  and
+                  <a href="https://www.websitepolicies.com/policies/view/hM52IadN" target="_blank" rel="noopener noreferrer" className="policy-signup">
+                    Privacy
+                  </a>
+                </div>
+                <div className="hr"></div>
+                </div>
+                <div>Already have an account? <Link to="/login">Log In</Link></div>
             </div>
             <CookieConsent 
               enableDeclineButton 
