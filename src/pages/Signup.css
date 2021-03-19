@@ -1,3 +1,14 @@
+.error-message {
+    font-size: 20px;
+    text-align: center;
+    color: red;
+    font-weight: 600;
+    margin-top: 50px;
+}
+.error-field {
+    background-color: rgb(255, 108, 108);
+}
+
 .signup-page {
     display: flex;
     flex-direction: column;

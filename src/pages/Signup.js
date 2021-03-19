@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import {Redirect} from 'react-router-dom';
 import CookieConsent, { getCookieConsentValue } from "react-cookie-consent";
 import ReactGA from 'react-ga';
 import {Link} from 'react-router-dom';
@@ -13,6 +14,14 @@ if (consent === "true") {
     ReactGA.pageview('/signup');
 } 
 
+let signupAPI;
+
+if (window.location.href.includes("localhost")) {
+  signupAPI = "http://localhost:8080/auth/signup";
+} else {
+  signupAPI = "https://wildcamping-be.herokuapp.com/auth/signup";
+}
+
 class Signup extends Component {
 
   constructor (props) {
@@ -22,14 +31,11 @@ class Signup extends Component {
       email: '',
       password: '',
       newsletter: false,
-        // location: this.props.currentLocation,
-        // filterSectionCSS: "hide",
-        // booking: this.props.booking,
-        // free: this.props.free,
-        // fire: this.props.fire,
-        // toilet: this.props.toilet,
-        // naturalPark: this.props.naturalPark,
-        // legal: this.props.legal
+      validationMsg: '',
+      CSSusername: '',
+      CSSemail: '',
+      CSSpassword: '',
+      signupSuccess: '',
     };
   }
 
@@ -48,6 +54,7 @@ class Signup extends Component {
   handleUsername = event => {
     const username = event.target.value.toLowerCase();
     this.setState({
+      CSSusername: '',
       username: username
     });
   }
@@ -55,6 +62,7 @@ class Signup extends Component {
   handleEmail = event => {
     const email = event.target.value.toLowerCase();
     this.setState({
+      CSSemail: '',
       email: email
     });
   }
@@ -62,13 +70,13 @@ class Signup extends Component {
   handlePassword = event => {
     const password = event.target.value;
     this.setState({
+      CSSpassword: '',
       password: password
     });
   }
 
   signup = event => {
-    fetch('https://wildcamping-be.herokuapp.com/auth/signup', {
-    // fetch('http://localhost:8080/auth/signup', {
+    fetch(signupAPI, {
       method: 'PUT',
       headers: {
         'Content-Type': 'application/json'
@@ -80,49 +88,77 @@ class Signup extends Component {
         "newsletter": this.state.newsletter
       })
     })
-    .then(res => res.json())
-    .then(resData => console.log(resData))
+    // .then(res => {
+    //   if (res.status !== 200 && res.status !== 201) {
+    //     res.json();
+    //     throw new Error('Creating a user failed!');
+    //   }
+    //   else {
+    //     return this.setState({
+    //       signupSuccess: true
+    //     });
+    //   }
+    // })
+    .then(res => {
+      if (res.status === 200 || res.status === 201) {
+        return this.setState({
+          signupSuccess: true
+        });
+      }
+      return res.json();
+    })
+    .then(resData =>  {
+      console.log(resData);
+      if(resData.data) {
+        this.setState({
+          validationMsg: resData.data[0].msg,
+          ['CSS'+resData.data[0].param]: 'error-field'
+        });
+      }
+    })
     .catch(err => console.log(err));
   }
   
   render() {
+      if(this.state.signupSuccess === true){
+          return (
+              <Redirect to="/login" />
+          ) 
+      } else {
   
       return ( 
         <div>
             <Header />
+            {this.state.validationMsg &&
+              <div className="error-message">{this.state.validationMsg}</div>
+            }
             <div className="signup-page">
               <div className="signup-form">
                 <div className="signup-calltoaction">
                   Sign Up to WildPeg!
                 </div>
                 <div className="hr"></div>
-                {/* <div> */}
-                  <input
-                    type="text" 
-                    name="username"
-                    placeholder="Username"
-                    onChange={this.handleUsername}
-                    className="input-field"
-                  />
-                {/* </div> */}
-                {/* <div> */}
-                  <input
-                    type="text" 
-                    name="email"
-                    placeholder="Email"
-                    onChange={this.handleEmail}
-                    className="input-field"
-                  />
-                {/* </div> */}
-                {/* <div> */}
-                  <input
-                    type="password" 
-                    name="password"
-                    placeholder="Password"
-                    onChange={this.handlePassword}
-                    className="input-field"
-                  />
-                {/* </div> */}
+                <input
+                  type="text" 
+                  name="username"
+                  placeholder="Username"
+                  onChange={this.handleUsername}
+                  className={"input-field "+this.state.CSSusername}
+                />
+                <input
+                  type="text" 
+                  name="email"
+                  placeholder="Email"
+                  onChange={this.handleEmail}
+                  className={"input-field "+this.state.CSSemail}
+                />
+                <input
+                  type="password" 
+                  name="password"
+                  placeholder="Password"
+                  onChange={this.handlePassword}
+                  className={"input-field "+this.state.CSSpassword}
+                />
                 <div className="signup-checkbox">
                     <div>
                       <input className="signup-checkbox-box" type="checkbox" onChange={this.updateNewsletter}/>
@@ -163,6 +199,7 @@ class Signup extends Component {
         </div>  
       );
 
+      }
   };
 }
 
