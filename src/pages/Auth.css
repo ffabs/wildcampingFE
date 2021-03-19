@@ -77,6 +77,13 @@
     margin: 0px 5px;
 }
 
+.link-auth {
+    font-weight: 700;
+}
+.margin-top {
+    margin-top: 40px;
+}
+
 @media only screen and (max-width: 375px) {
     .signup-form {
         width: 280px;

@@ -6,7 +6,7 @@ import CookieConsent, { getCookieConsentValue } from "react-cookie-consent";
 import ReactGA from 'react-ga';
 import {Link} from 'react-router-dom';
 import '../App.css';
-import './Signup.css';
+import './Auth.css';
 
 let consent = getCookieConsentValue();
 if (consent === "true") {
@@ -15,7 +15,6 @@ if (consent === "true") {
 } 
 
 let signupAPI;
-
 if (window.location.href.includes("localhost")) {
   signupAPI = "http://localhost:8080/auth/signup";
 } else {
@@ -179,7 +178,7 @@ class Signup extends Component {
                 </div>
                 <div className="hr"></div>
                 </div>
-                <div>Already have an account? <Link to="/login">Log In</Link></div>
+                <div>Already have an account? <Link to="/login" className="link-auth">Log In</Link></div>
             </div>
             <CookieConsent 
               enableDeclineButton 

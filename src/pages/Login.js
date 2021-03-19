@@ -3,12 +3,22 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import CookieConsent, { getCookieConsentValue } from "react-cookie-consent";
 import ReactGA from 'react-ga';
+import '../App.css';
+import './Auth.css';
+import {Link} from 'react-router-dom';
 
 let consent = getCookieConsentValue();
 if (consent === "true") {
     ReactGA.initialize('UA-190450937-1');
     ReactGA.pageview('/signin');
 } 
+
+let loginAPI;
+if (window.location.href.includes("localhost")) {
+  loginAPI = "http://localhost:8080/auth/login";
+} else {
+  loginAPI = "https://wildcamping-be.herokuapp.com/auth/login";
+}
 
 class Login extends Component {
 
@@ -35,8 +45,7 @@ class Login extends Component {
   }
 
   login = event => {
-    fetch('https://wildcamping-be.herokuapp.com/auth/login', {
-    // fetch('http://localhost:8080/auth/login', {
+    fetch(loginAPI, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
@@ -56,18 +65,31 @@ class Login extends Component {
       return ( 
         <div>
             <Header />
-            <input
-              type="text" 
-              name="email"
-              onChange={this.handleEmail}
-            />
-            <input
-              type="password" 
-              name="password"
-              onChange={this.handlePassword}
-            />
-            <div onClick={this.login}>
-              <div>signin</div>
+            <div className="signup-page">
+              <div className="signup-form"> 
+                <div className="signup-calltoaction">
+                  Log In to your WildPeg account!
+                </div>
+                <div className="hr"></div>
+                <input
+                  type="text" 
+                  name="email"
+                  placeholder="Email"
+                  onChange={this.handleEmail}
+                  className="input-field"
+                />
+                <input
+                  type="password" 
+                  name="password"
+                  placeholder="Password"
+                  onChange={this.handlePassword}
+                  className="input-field"
+                />
+                <div onClick={this.login} className="auth-button">
+                  <div>Log In</div>
+                </div>
+              </div>
+                <div className="margin-top">Don't have an account? <Link to="/signup" className="link-auth">Sign up</Link></div>
             </div>
             <CookieConsent 
               enableDeclineButton 
