@@ -21,6 +21,7 @@
         .header-link {
             padding: 20px;
             font-size: 20px;
+            cursor: pointer;
         }
 
 .hamburger, .mobile {

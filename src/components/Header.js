@@ -46,12 +46,19 @@ class Header extends Component {
               <Link to="/search"> 
                   <div className={searchPage+" header-text header-link"}>Search wildcamps</div>
               </Link>
-              <Link to="/login"> 
-                  <div className={loginPage+" header-text header-link"}>Log in</div>
-              </Link>
-              <Link to="/signup"> 
-                  <div className={signupPage+" header-text header-link"}>Sign up</div>
-              </Link>
+                {!this.props.token &&
+                    <Link to="/login"> 
+                        <div className={loginPage+" header-text header-link"}>Log in</div>
+                    </Link>
+                }
+                {!this.props.token &&
+                    <Link to="/signup"> 
+                        <div className={signupPage+" header-text header-link"}>Sign up</div>
+                    </Link>
+                }
+                {this.props.token &&
+                    <button onClick={this.props.logoutHandler} className="header-text header-link">Log out</button>
+                }
           </div>
           <div className="hamburger">
               <HamburgerMenu

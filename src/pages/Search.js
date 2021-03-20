@@ -23,7 +23,7 @@ class Search extends Component {
     if(!this.props.camping1){
       return (
           <div>
-              <Header />
+              <Header page="Search" {...this.props}/>
               <div className="search-filtering">
                 <Location {...this.props}/>
                 <Filters {...this.props}/>
@@ -39,7 +39,7 @@ class Search extends Component {
   
       return ( 
         <div>
-            <Header page="Search"/>
+            <Header page="Search" {...this.props}/>
             <div className="search-filtering">
               <Location {...this.props}/>
               <Filters {...this.props}/>

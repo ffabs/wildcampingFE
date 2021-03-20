@@ -16,6 +16,11 @@ class App extends Component {
   constructor (props) {
     super(props);   
     this.state = {
+        isAuth: false,
+        token: null,
+        userId: null,
+        validationMsg: '',
+
         location: "All locations",
         booking: 0,
         free: 0,
@@ -34,6 +39,92 @@ class App extends Component {
         currentCampingIds: ""
     };
     this.filterUpdated = this.filterUpdated.bind(this);
+    this.loginHandler = this.loginHandler.bind(this);
+  }
+
+  componentDidMount() {
+    const token = localStorage.getItem('token');
+    const expiryDate = localStorage.getItem('expiryDate');
+    if (!token || !expiryDate) {
+      return;
+    }
+    if (new Date(expiryDate) <= new Date()) {
+      this.logoutHandler();
+      return;
+    }
+    const userId = localStorage.getItem('userId');
+    const remainingMilliseconds =
+      new Date(expiryDate).getTime() - new Date().getTime();
+    this.setState({ isAuth: true, token: token, userId: userId });
+    this.setAutoLogout(remainingMilliseconds);
+  }
+
+  logoutHandler = () => {
+    this.setState({ isAuth: false, token: null });
+    localStorage.removeItem('token');
+    localStorage.removeItem('expiryDate');
+    localStorage.removeItem('userId');
+  };
+
+  setAutoLogout = milliseconds => {
+    setTimeout(() => {
+      this.logoutHandler();
+    }, milliseconds);
+  };
+  
+  loginHandler(email, password){
+    let loginAPI;
+    if (window.location.href.includes("localhost")) {
+      loginAPI = "http://localhost:8080/auth/login";
+    } else {
+      loginAPI = "https://wildcamping-be.herokuapp.com/auth/login";
+    }
+    fetch(loginAPI, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+	      "email": email,
+        "password": password
+      })
+    })
+    .then(res => {
+      if (res.status !== 200 && res.status !== 201) {
+        return res
+                .json()
+                .then(resData =>  {
+                  if(resData.message) {
+                    this.setState({
+                      validationMsg: resData.message
+                    });
+                  }
+                });
+      }
+      else {
+        return res
+                .json()
+                .then(resData => {
+                  this.setState({
+                    isAuth: true,
+                    token: resData.token,
+                    // authLoading: false,
+                    userId: resData.userId,
+                    validationMsg: ''
+                  });
+                  localStorage.setItem('token', resData.token);
+                  localStorage.setItem('userId', resData.userId);
+                  const remainingMilliseconds = 60 * 60 * 1000;
+                  const expiryDate = new Date(
+                    new Date().getTime() + remainingMilliseconds
+                  );
+                  localStorage.setItem('expiryDate', expiryDate.toISOString());
+                  this.setAutoLogout(remainingMilliseconds);
+                })
+      }
+        
+    })
+    .catch(err => console.log(err));
   }
   
   handleNewLocation = event => {
@@ -153,10 +244,16 @@ class App extends Component {
         <ScrollToTop>
           <Switch>
             <Route exact={true} path='/' render={() => (
-              <Home />
+              <Home 
+                token={this.state.token}
+                logoutHandler={this.logoutHandler}
+              />
             )}/>
             <Route exact={true} path='/search' render={() => (
               <Search
+                token={this.state.token}
+                logoutHandler={this.logoutHandler}
+
                 handleNewLocation={this.handleNewLocation}
                 updatePage={this.updatePage}
                 filterUpdated={this.filterUpdated}
@@ -178,13 +275,20 @@ class App extends Component {
               />
             )}/>
             <Route exact={true} path='/camping' render={() => (
-              <Camping />
+              <Camping 
+                token={this.state.token}
+                logoutHandler={this.logoutHandler}
+              />
             )}/>
             <Route exact={true} path='/signup' render={() => (
               <Signup />
             )}/>
             <Route exact={true} path='/login' render={() => (
-              <Login />
+              <Login 
+                loginHandler={this.loginHandler} 
+                validationMsg={this.state.validationMsg}
+                token={this.state.token}
+              />
             )}/>
             <Route render={() => (
               <Redirect to="/" />

@@ -50,7 +50,7 @@ export default function Camping() {
   }
     return ( 
       <div>
-        <Header />
+        <Header {...this.props}/>
         <div className="camping-page">
           <div className="camping-title">{name}</div>
           <div className="camping-intro-section">

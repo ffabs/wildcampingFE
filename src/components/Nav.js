@@ -37,12 +37,19 @@ class Nav extends Component {
                 <Link to="/search"> 
                   <div className={searchPage+" nav"}>Search wildcamps</div>
                 </Link>
-                <Link to="/login"> 
-                    <div className={loginPage+" nav"}>Log in</div>
-                </Link>
-                <Link to="/signup"> 
-                    <div className={signupPage+" nav"}>Sign up</div>
-                </Link>
+                {!this.props.token &&
+                  <Link to="/login"> 
+                      <div className={loginPage+" nav"}>Log in</div>
+                  </Link>
+                }
+                {!this.props.token &&
+                  <Link to="/signup"> 
+                      <div className={signupPage+" nav"}>Sign up</div>
+                  </Link>
+                }
+                {this.props.token &&
+                    <button onClick={this.props.logoutHandler} className="nav">Log out</button>
+                }
               </div>
         </div>
   

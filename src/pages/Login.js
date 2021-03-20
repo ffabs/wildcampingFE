@@ -14,13 +14,6 @@ if (consent === "true") {
     ReactGA.pageview('/signin');
 } 
 
-let loginAPI;
-if (window.location.href.includes("localhost")) {
-  loginAPI = "http://localhost:8080/auth/login";
-} else {
-  loginAPI = "https://wildcamping-be.herokuapp.com/auth/login";
-}
-
 class Login extends Component {
 
   constructor (props) {
@@ -28,8 +21,8 @@ class Login extends Component {
     this.state = {
       email: '',
       password: '',
-      validationMsg: '',
-      loginSuccess: '',
+      // validationMsg: '',
+      // loginSuccess: '',
     };
   }
 
@@ -48,37 +41,14 @@ class Login extends Component {
   }
 
   login = event => {
-    fetch(loginAPI, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify({
-	      "email": this.state.email,
-        "password": this.state.password
-      })
-    })
-    .then(res => {
-      if (res.status === 200 || res.status === 201) {
-        return this.setState({
-          loginSuccess: true
-        });
-      }
-      return res
-        .json()
-        .then(resData =>  {
-          if(resData.message) {
-            this.setState({
-              validationMsg: resData.message
-            });
-          }
-        });
-    })
-    .catch(err => console.log(err));
+    this.props.loginHandler(
+      this.state.email,
+      this.state.password
+    )
   }
   
   render() {
-      if(this.state.loginSuccess === true){
+    if(this.props.token){
         return (
             <Redirect to="/search" />
         ) 
@@ -87,9 +57,10 @@ class Login extends Component {
       return ( 
         <div>
             <Header page="Login"/>
-            {this.state.validationMsg &&
+            {this.props.validationMsg &&
               <div className="error-message">{this.state.validationMsg}</div>
             }
+            <div className="error-message">{this.props.validationMsg}</div>
             <div className="signup-page">
               <div className="signup-form"> 
                 <div className="signup-calltoaction">

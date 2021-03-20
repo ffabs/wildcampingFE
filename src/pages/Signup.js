@@ -111,7 +111,7 @@ class Signup extends Component {
   render() {
       if(this.state.signupSuccess === true){
           return (
-              <Redirect to="/login" />
+              <Redirect to="/login"/>
           ) 
       } else {
   
