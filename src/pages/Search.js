@@ -39,7 +39,7 @@ class Search extends Component {
   
       return ( 
         <div>
-            <Header />
+            <Header page="Search"/>
             <div className="search-filtering">
               <Location {...this.props}/>
               <Filters {...this.props}/>

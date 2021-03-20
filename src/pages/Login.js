@@ -3,6 +3,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import CookieConsent, { getCookieConsentValue } from "react-cookie-consent";
 import ReactGA from 'react-ga';
+import {Redirect} from 'react-router-dom';
 import '../App.css';
 import './Auth.css';
 import {Link} from 'react-router-dom';
@@ -26,7 +27,9 @@ class Login extends Component {
     super(props);   
     this.state = {
       email: '',
-      password: ''
+      password: '',
+      validationMsg: '',
+      loginSuccess: '',
     };
   }
 
@@ -55,16 +58,38 @@ class Login extends Component {
         "password": this.state.password
       })
     })
-    .then(res => res.json())
-    .then(resData => console.log(resData))
+    .then(res => {
+      if (res.status === 200 || res.status === 201) {
+        return this.setState({
+          loginSuccess: true
+        });
+      }
+      return res
+        .json()
+        .then(resData =>  {
+          if(resData.message) {
+            this.setState({
+              validationMsg: resData.message
+            });
+          }
+        });
+    })
     .catch(err => console.log(err));
   }
   
   render() {
+      if(this.state.loginSuccess === true){
+        return (
+            <Redirect to="/search" />
+        ) 
+    } else {
   
       return ( 
         <div>
-            <Header />
+            <Header page="Login"/>
+            {this.state.validationMsg &&
+              <div className="error-message">{this.state.validationMsg}</div>
+            }
             <div className="signup-page">
               <div className="signup-form"> 
                 <div className="signup-calltoaction">
@@ -108,7 +133,7 @@ class Login extends Component {
             <Footer />
         </div>  
       );
-
+    }
   };
 }
 

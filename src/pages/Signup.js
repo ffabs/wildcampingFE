@@ -87,33 +87,23 @@ class Signup extends Component {
         "newsletter": this.state.newsletter
       })
     })
-    // .then(res => {
-    //   if (res.status !== 200 && res.status !== 201) {
-    //     res.json();
-    //     throw new Error('Creating a user failed!');
-    //   }
-    //   else {
-    //     return this.setState({
-    //       signupSuccess: true
-    //     });
-    //   }
-    // })
     .then(res => {
       if (res.status === 200 || res.status === 201) {
         return this.setState({
           signupSuccess: true
         });
       }
-      return res.json();
-    })
-    .then(resData =>  {
-      console.log(resData);
-      if(resData.data) {
-        this.setState({
-          validationMsg: resData.data[0].msg,
-          ['CSS'+resData.data[0].param]: 'error-field'
-        });
-      }
+      return res
+        .json()
+        .then(resData =>  {
+          console.log(resData);
+          if(resData.data) {
+            this.setState({
+              validationMsg: resData.data[0].msg,
+              ['CSS'+resData.data[0].param]: 'error-field'
+            });
+          }
+        })
     })
     .catch(err => console.log(err));
   }
@@ -127,7 +117,7 @@ class Signup extends Component {
   
       return ( 
         <div>
-            <Header />
+            <Header page="Signup"/>
             {this.state.validationMsg &&
               <div className="error-message">{this.state.validationMsg}</div>
             }

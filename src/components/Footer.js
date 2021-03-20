@@ -10,7 +10,13 @@ function Footer() {
             <div className="footer-element"> Homepage</div>
         </Link>
         <Link to="/search">
-            <div className="footer-element"> Searchpage</div>
+            <div className="footer-element"> Search wildcamps</div>
+        </Link>
+        <Link to="/login"> 
+            <div className="footer-element">Log in</div>
+        </Link>
+        <Link to="/signup"> 
+            <div className="footer-element">Sign up</div>
         </Link>
         {/* <div className="footer-element"> Privacy policy </div> */}
         <div className="footer has-text-centered">

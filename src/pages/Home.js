@@ -15,7 +15,7 @@ if (consent === "true") {
 function Home() {
   return ( 
     <div>
-        <Header /> 
+        <Header page="Home"/> 
         <div className="home-background">
             <div className="home-background-text">
                 <p>Find the best <b>wild camping</b> experiences in the German deep Nature</p>
