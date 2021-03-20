@@ -3,26 +3,23 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import CookieConsent, { getCookieConsentValue } from "react-cookie-consent";
 import ReactGA from 'react-ga';
+import {Link} from 'react-router-dom';
 import {Redirect} from 'react-router-dom';
 import '../App.css';
 import './Auth.css';
-import {Link} from 'react-router-dom';
 
 let consent = getCookieConsentValue();
 if (consent === "true") {
     ReactGA.initialize('UA-190450937-1');
-    ReactGA.pageview('/signin');
+    ReactGA.pageview('/reset');
 } 
 
-class Login extends Component {
+class Reset extends Component {
 
   constructor (props) {
     super(props);   
     this.state = {
-      email: '',
-      password: '',
-      // validationMsg: '',
-      // loginSuccess: '',
+      email: ''
     };
   }
 
@@ -33,30 +30,22 @@ class Login extends Component {
     });
   }
 
-  handlePassword = event => {
-    const password = event.target.value;
-    this.setState({
-      password: password
-    });
-  }
-
-  login = event => {
-    this.props.loginHandler(
-      this.state.email,
-      this.state.password
+  reset = event => {
+    this.props.resetHandler(
+      this.state.email
     )
   }
   
   render() {
-    if(this.props.token){
-        return (
-            <Redirect to="/search" />
-        ) 
-    } else {
+    // if(this.props.token){
+    //     return (
+    //         <Redirect to="/search" />
+    //     ) 
+    // } else {
   
       return ( 
         <div>
-            <Header page="Login"/>
+            <Header />
             {this.props.validationMsg &&
               <div className="error-message">{this.state.validationMsg}</div>
             }
@@ -64,7 +53,7 @@ class Login extends Component {
             <div className="signup-page">
               <div className="signup-form"> 
                 <div className="signup-calltoaction">
-                  Log In to your WildPeg account!
+                  Forgot Password
                 </div>
                 <div className="hr"></div>
                 <input
@@ -74,40 +63,26 @@ class Login extends Component {
                   onChange={this.handleEmail}
                   className="input-field"
                 />
-                <input
-                  type="password" 
-                  name="password"
-                  placeholder="Password"
-                  onChange={this.handlePassword}
-                  className="input-field"
-                />
-                <div onClick={this.login} className="auth-button">
-                  <div>Log In</div>
+                <div onClick={this.reset} className="auth-button">
+                  <div>Reset Password</div>
                 </div>
               </div>
-                <div className="small-margin-top">or <Link to="/reset">Forgot Password</Link></div>
-             
-                <div className="margin-top">Don't have an account? <Link to="/signup" className="link-auth">Sign up</Link></div>
+                <div className="small-margin-top reset">or <Link to="/login">Log In</Link></div>
             </div>
             <CookieConsent 
               enableDeclineButton 
               buttonStyle={{ background: "#00695c", color: "white", fontWeight: "bold" }}
               onAccept={() => {
-                  // alert("Accept was triggered by clicking the Accept button");
-                  // this.props.GAcookiesOn()
                   ReactGA.initialize('UA-190450937-1');
-                  ReactGA.pageview('/login');
+                  ReactGA.pageview('/reset');
               }}
-              // onDecline={() => {
-              //     console.log("not accepted")
-              // }}
               >This website uses Google Analytics cookies to enhance the user experience.
             </CookieConsent>
             <Footer />
         </div>  
       );
-    }
+    // }
   };
 }
 
-export default Login;
+export default Reset;

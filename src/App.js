@@ -8,6 +8,7 @@ import Search from './pages/Search';
 import Camping from './pages/Camping';
 import Signup from './pages/Signup';
 import Login from './pages/Login';
+import Reset from './pages/Reset';
 import './App.css';
 import {HashRouter, Switch, Route, Redirect} from 'react-router-dom';
 import ScrollToTop from 'react-router-scroll-top';
@@ -40,6 +41,7 @@ class App extends Component {
     };
     this.filterUpdated = this.filterUpdated.bind(this);
     this.loginHandler = this.loginHandler.bind(this);
+    this.resetHandler = this.resetHandler.bind(this);
   }
 
   componentDidMount() {
@@ -123,6 +125,42 @@ class App extends Component {
                 })
       }
         
+    })
+    .catch(err => console.log(err));
+  }
+
+  resetHandler(email){
+    console.log(email);
+    let loginAPI;
+    if (window.location.href.includes("localhost")) {
+      loginAPI = "http://localhost:8080/auth/reset";
+    } else {
+      loginAPI = "https://wildcamping-be.herokuapp.com/auth/reset";
+    }
+    fetch(loginAPI, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+	      "email": email
+      })
+    })
+    .then(res => {
+      if (res.status !== 200 && res.status !== 201) {
+        return res
+                .json()
+                .then(resData =>  {
+                  if(resData.message) {
+                    this.setState({
+                      validationMsg: resData.message
+                    });
+                  }
+                });
+      }
+      else {
+        return res
+      } 
     })
     .catch(err => console.log(err));
   }
@@ -288,6 +326,13 @@ class App extends Component {
                 loginHandler={this.loginHandler} 
                 validationMsg={this.state.validationMsg}
                 token={this.state.token}
+              />
+            )}/>
+            <Route exact={true} path='/reset' render={() => (
+              <Reset 
+                resetHandler={this.resetHandler} 
+                validationMsg={this.state.validationMsg}
+                // token={this.state.token}
               />
             )}/>
             <Route render={() => (

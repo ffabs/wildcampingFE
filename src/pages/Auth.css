@@ -83,8 +83,15 @@
 .link-auth {
     font-weight: 700;
 }
+.small-margin-top {
+    margin-top: 20px;
+    font-size: 15px;
+}
 .margin-top {
     margin-top: 40px;
+}
+.reset {
+    margin-bottom: 100px;
 }
 
 @media only screen and (max-width: 375px) {
