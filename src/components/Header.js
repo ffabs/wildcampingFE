@@ -33,6 +33,11 @@ class Header extends Component {
         case "Signup":
             signupPage += ' current';
         break;
+        case "Camping":
+            searchPage = '';
+            loginPage = '';
+            signupPage= '';
+        break;
         default:
             searchPage = '';
             loginPage = '';
