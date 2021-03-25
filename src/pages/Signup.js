@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import {Redirect} from 'react-router-dom';
 import CookieConsent, { getCookieConsentValue } from "react-cookie-consent";
 import ReactGA from 'react-ga';
 import {Link} from 'react-router-dom';
@@ -89,6 +88,7 @@ class Signup extends Component {
     })
     .then(res => {
       if (res.status === 200 || res.status === 201) {
+        this.props.signupHandler();
         return this.setState({
           signupSuccess: true
         });
@@ -109,19 +109,22 @@ class Signup extends Component {
   }
   
   render() {
-      if(this.state.signupSuccess === true){
-          return (
-              <Redirect to="/login"/>
-          ) 
-      } else {
   
       return ( 
         <div>
             <Header page="Signup"/>
-            {this.state.validationMsg &&
+            {this.state.validationMsg && !this.state.signupSuccess &&
               <div className="error-message">{this.state.validationMsg}</div>
             }
-            <div className="signup-page">
+            {this.state.signupSuccess && 
+            <div className="feedback-div">
+              {/* <img src={email} className="email-image" alt="email"/> */}
+              <div className="feedback-message">Account created successfully!</div>
+              <div className="feedback-message"><Link to="/login" className="link-auth">Log In</Link> to proceed.</div>
+            </div>
+            }
+            {!this.state.signupSuccess && 
+              <div className="signup-page">
               <div className="signup-form">
                 <div className="signup-calltoaction">
                   Sign Up to WildPeg!
@@ -170,6 +173,7 @@ class Signup extends Component {
                 </div>
                 <div>Already have an account? <Link to="/login" className="link-auth">Log In</Link></div>
             </div>
+            }
             <CookieConsent 
               enableDeclineButton 
               buttonStyle={{ background: "#00695c", color: "white", fontWeight: "bold" }}
@@ -187,8 +191,6 @@ class Signup extends Component {
             <Footer />
         </div>  
       );
-
-      }
   };
 }
 

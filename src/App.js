@@ -9,6 +9,7 @@ import Camping from './pages/Camping';
 import Signup from './pages/Signup';
 import Login from './pages/Login';
 import Reset from './pages/Reset';
+import NewPass from './pages/NewPass';
 import './App.css';
 import {HashRouter, Switch, Route, Redirect} from 'react-router-dom';
 import ScrollToTop from 'react-router-scroll-top';
@@ -21,6 +22,8 @@ class App extends Component {
         token: null,
         userId: null,
         validationMsg: '',
+        resetLinkSent: false,
+        passwordUpdated: false,
 
         location: "All locations",
         booking: 0,
@@ -42,6 +45,7 @@ class App extends Component {
     this.filterUpdated = this.filterUpdated.bind(this);
     this.loginHandler = this.loginHandler.bind(this);
     this.resetHandler = this.resetHandler.bind(this);
+    this.updatePasswordHandler = this.updatePasswordHandler.bind(this);
   }
 
   componentDidMount() {
@@ -73,6 +77,12 @@ class App extends Component {
       this.logoutHandler();
     }, milliseconds);
   };
+
+  signupHandler = event => {
+    this.setState({
+      validationMsg: ''
+    });
+  }
   
   loginHandler(email, password){
     let loginAPI;
@@ -130,7 +140,6 @@ class App extends Component {
   }
 
   resetHandler(email){
-    console.log(email);
     let loginAPI;
     if (window.location.href.includes("localhost")) {
       loginAPI = "http://localhost:8080/auth/reset";
@@ -159,11 +168,59 @@ class App extends Component {
                 });
       }
       else {
-        return res
+        return this.setState({
+                validationMsg: '',
+                resetLinkSent: true
+              });
       } 
     })
     .catch(err => console.log(err));
   }
+
+  updatePasswordHandler(password) {
+    let loginAPI;
+    if (window.location.href.includes("localhost")) {
+      loginAPI = "http://localhost:8080/auth/updatepass";
+    } else {
+      loginAPI = "https://wildcamping-be.herokuapp.com/auth/updatepass";
+    }
+    let resetToken = window.location.href.split('?resetToken=')[1];
+    fetch(loginAPI, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+	      "password": password,
+        "resetToken": resetToken
+      })
+    })
+    .then(res => {
+      if (res.status !== 200 && res.status !== 201) {
+        return res
+                .json()
+                .then(resData =>  {
+                  if(resData.message) {
+                    this.setState({
+                      validationMsg: resData.message
+                    });
+                  }
+                });
+      }
+      else {
+        return this.setState({
+          validationMsg: '',
+          passwordUpdated: true
+        });
+      } 
+    })
+    .catch(err => console.log(err));
+  }
+
+
+
+
+
   
   handleNewLocation = event => {
     let newLocation = event.target.value;
@@ -319,7 +376,9 @@ class App extends Component {
               />
             )}/>
             <Route exact={true} path='/signup' render={() => (
-              <Signup />
+              <Signup 
+                signupHandler={this.signupHandler}
+              />
             )}/>
             <Route exact={true} path='/login' render={() => (
               <Login 
@@ -332,7 +391,14 @@ class App extends Component {
               <Reset 
                 resetHandler={this.resetHandler} 
                 validationMsg={this.state.validationMsg}
-                // token={this.state.token}
+                resetLinkSent={this.state.resetLinkSent}
+              />
+            )}/>
+            <Route exact={true} path='/newpass' render={() => (
+              <NewPass 
+                updatePasswordHandler={this.updatePasswordHandler}
+                validationMsg={this.state.validationMsg}
+                passwordUpdated={this.state.passwordUpdated}
               />
             )}/>
             <Route render={() => (

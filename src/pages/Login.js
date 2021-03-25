@@ -57,7 +57,7 @@ class Login extends Component {
       return ( 
         <div>
             <Header page="Login"/>
-            {this.props.validationMsg &&
+            {this.props.validationMsg && 
               <div className="error-message">{this.state.validationMsg}</div>
             }
             <div className="error-message">{this.props.validationMsg}</div>

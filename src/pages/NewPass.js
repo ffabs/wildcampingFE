@@ -4,74 +4,77 @@ import Footer from '../components/Footer';
 import CookieConsent, { getCookieConsentValue } from "react-cookie-consent";
 import ReactGA from 'react-ga';
 import {Link} from 'react-router-dom';
-import email from '../images/email.png';
 import '../App.css';
 import './Auth.css';
 
 let consent = getCookieConsentValue();
 if (consent === "true") {
     ReactGA.initialize('UA-190450937-1');
-    ReactGA.pageview('/reset');
+    ReactGA.pageview('/newpass');
 } 
 
-class Reset extends Component {
+class NewPass extends Component {
 
   constructor (props) {
     super(props);   
     this.state = {
-      email: ''
+      password: ''
     };
   }
 
-  handleEmail = event => {
-    const email = event.target.value.toLowerCase();
+  handlePassword = event => {
+    const password = event.target.value;
     this.setState({
-      email: email
+      password: password
     });
   }
 
-  reset = event => {
-    this.props.resetHandler(
-      this.state.email
+  updatePassword = event => {
+    this.props.updatePasswordHandler(
+      this.state.password
     )
   }
   
-  render() {  
+  render() {
+    // if(this.props.token){
+    //     return (
+    //         <Redirect to="/search" />
+    //     ) 
+    // } else {
+  
       return ( 
         <div>
-            <Header />
-            {this.props.resetLinkSent &&
+            <Header page="Login"/>
+            {this.props.passwordUpdated &&
             <div className="feedback-div">
-              <img src={email} className="email-image" alt="email"/>
-              <div className="feedback-message">Please check your email, the link to reset the password was just sent.</div>
+                {/* <img src={email} className="email-image" alt="email"/> */}
+                <div className="feedback-message">Password updated successfully!</div>
+                <div className="feedback-message"><Link to="/login" className="link-auth">Log In</Link> to proceed.</div>
             </div>
             }
             {this.props.validationMsg &&
               <div className="error-message">{this.state.validationMsg}</div>
             }
-            
-            {!this.props.resetLinkSent &&
+            {!this.props.passwordUpdated &&
             <div> 
-
             <div className="error-message">{this.props.validationMsg}</div>
             <div className="signup-page">
               <div className="signup-form"> 
                 <div className="signup-calltoaction">
-                  Forgot Password
+                    Update your Wildpeg password
                 </div>
                 <div className="hr"></div>
                 <input
-                  type="text" 
-                  name="email"
-                  placeholder="Email"
-                  onChange={this.handleEmail}
+                  type="password" 
+                  name="password"
+                  placeholder="Password"
+                  onChange={this.handlePassword}
                   className="input-field"
                 />
-                <div onClick={this.reset} className="auth-button">
-                  <div>Reset Password</div>
+                <div onClick={this.updatePassword} className="auth-button">
+                  <div>Update Password</div>
                 </div>
               </div>
-                <div className="small-margin-top reset">or <Link to="/login">Log In</Link></div>
             </div>
             </div>
             }
@@ -79,15 +82,21 @@ class Reset extends Component {
               enableDeclineButton 
               buttonStyle={{ background: "#00695c", color: "white", fontWeight: "bold" }}
               onAccept={() => {
+                  // alert("Accept was triggered by clicking the Accept button");
+                  // this.props.GAcookiesOn()
                   ReactGA.initialize('UA-190450937-1');
-                  ReactGA.pageview('/reset');
+                  ReactGA.pageview('/newpass');
               }}
+              // onDecline={() => {
+              //     console.log("not accepted")
+              // }}
               >This website uses Google Analytics cookies to enhance the user experience.
             </CookieConsent>
             <Footer />
         </div>  
       );
+    // }
   };
 }
 
-export default Reset;
+export default NewPass;
